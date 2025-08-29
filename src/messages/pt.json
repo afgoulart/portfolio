@@ -154,7 +154,7 @@
         "CSS"
       ]
     },
-    "b2w_Frontend": {
+    "b2w_frontend": {
       "title": "Frontend Developer Pleno",
       "company": "B2W Digital",
       "period": "Agosto 2014 - Setembro 2017",
@@ -167,6 +167,19 @@
         "jQuery",
         "HTML",
         "CSS"
+      ]
+    },
+    "rrd_intern": {
+      "title": "Desenvolvedor Web Estagiário",
+      "company": "RR Donnelley",
+      "period": "Janeiro 2013 - Julho 2014",
+      "description": "Auxiliei no desenvolvimento e manutenção de aplicações web internas usando ASP.NET e C#. Adquiri experiência prática em tecnologias web e colaborei com desenvolvedores seniores para aprimorar minhas habilidades.",
+      "technologies": [
+        "ASP.NET",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "AngularJS"
       ]
     }
   },

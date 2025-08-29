@@ -140,6 +140,32 @@
         "HTML",
         "CSS"
       ]
+    },
+    "b2w_frontend": {
+      "title": "Front-end Developer Junior",
+      "company": "B2W Digital",
+      "period": "August 2014 - July 2017",
+      "description": "Worked on the Submarino Project using JAVA, HTML, CSS, JavaScript, and jQuery. Later, joined a team to create a new application using React and NodeJS.",
+      "technologies": [
+        "Java",
+        "JavaScript",
+        "jQuery",
+        "HTML",
+        "CSS"
+      ]
+    },
+    "rrd_intern": {
+      "title": "Web Development Intern",
+      "company": "RR Donnelley",
+      "period": "January 2013 - July 2014",
+      "description": "Assisted in the development and maintenance of internal web applications using ASP.NET and C#. Gained practical experience in web technologies and collaborated with senior developers to enhance my skills.",
+      "technologies": [
+        "ASP.NET",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "AngularJS"
+      ]
     }
   },
   "projectsList": [

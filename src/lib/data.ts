@@ -1,56 +1,7 @@
-import { Experience, Skill, Project, ContactInfo } from '@/types';
+import {  Skill, Project, ContactInfo } from '@/types';
 
-export const experiences: Experience[] = [
-  {
-    title: "Especialista Fullstack Engineer | AWS Architect",
-    company: "Skopia (EclipseWork/NScreen)",
-    period: "Dezembro 2024 - presente",
-    description: "Faço parte de uma consultoria, alocado no cliente Aviva Incasa Residencial clube, onde proponho ideias e crio soluções para melhorar o site de reservas para o clube residencial da empresa. Manutenção e sustentação nos projetos de front e back relacionados ao Cliente.",
-    technologies: ["React", "Node.js", "AWS", "TypeScript", "Vue.js"]
-  },
-  {
-    title: "Senior Frontend Engineer",
-    company: "Calindra",
-    period: "Julho 2024 - Novembro 2024",
-    description: "Atuei como parte de uma consultoria, alocado no cliente Tania Bulhões, onde propus ideias e criei soluções para melhorar o site de e-commerce da empresa. Colaborei diretamente com o cliente para entender suas necessidades e entregar soluções técnicas impactantes para otimizar a experiência do usuário e o desempenho do site.",
-    technologies: ["React", "Vue.js", "TypeScript", "E-commerce", "UX/UI"]
-  },
-  {
-    title: "Senior Frontend Engineer",
-    company: "Desygner",
-    period: "Dezembro 2023 - Maio 2024",
-    description: "Desenvolvi interfaces modernas e responsivas usando React, Vue, Node.js, TypeScript, Styled-components, Storybook e Nx. Melhorei continuamente o código e criei componentes reutilizáveis, colaborando com designers e gerentes de produto para transformar conceitos em soluções funcionais.",
-    technologies: ["React", "Vue.js", "Node.js", "TypeScript", "Styled-components", "Storybook", "Nx"]
-  },
-  {
-    title: "Staff Software Engineer",
-    company: "Stone",
-    period: "Julho 2023 - Dezembro 2023",
-    description: "Desenvolvi interfaces modernas e responsivas usando Vue.js, Next.js, React e Tailwind CSS.",
-    technologies: ["Vue.js", "Next.js", "React", "Tailwind CSS"]
-  },
-  {
-    title: "Tech Lead",
-    company: "Mosaico",
-    period: "Janeiro 2022 - Janeiro 2023",
-    description: "Liderei a equipe responsável pelo desenvolvimento de sistemas de autenticação e áreas logadas. Promovi melhorias nos processos e funcionalidades por meio da colaboração interdepartamental. Fui referência técnica para duas equipes, oferecendo suporte e orientação para aprimorar as habilidades técnicas dos desenvolvedores.",
-    technologies: ["React", "Node.js", "TypeScript", "Autenticação", "Liderança Técnica"]
-  },
-  {
-    title: "Full Stack Engineer",
-    company: "Mosaico",
-    period: "Agosto 2019 - Janeiro 2022",
-    description: "Participei da reengenharia do sistema de checkout do marketplace usando Next.js e React. Desenvolvi um painel financeiro para relatórios de lojas, utilizando NodeJS + Express em TypeScript para a API e React para o front-end.",
-    technologies: ["Next.js", "React", "Node.js", "Express", "TypeScript"]
-  },
-  {
-    title: "Tech Lead / Full Stack Developer Senior",
-    company: "B2W Digital",
-    period: "Outubro 2017 - Julho 2019",
-    description: "Assumi à liderança técnica de três projetos, Spacey (CMS para publicações do marketing) e gerenciador de promoções. Trabalhei no projeto Submarino usando JAVA, HTML, CSS, JavaScript e jQuery.",
-    technologies: ["React", "Node.js", "Java", "JavaScript", "jQuery", "HTML", "CSS"]
-  }
-];
+
+
 
 export const skills: Skill[] = [
   { name: "React.js", level: 95, category: 'frontend' },

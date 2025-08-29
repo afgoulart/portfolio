@@ -3,12 +3,23 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useTranslations } from "@/lib/i18n-context";
+
 import Card from "@/components/ui/Card";
-import { experiences } from "@/lib/data";
 
 export default function About() {
   const t = useTranslations("about");
   const tExperiences = useTranslations("experiences");
+  const experiences = [
+    "skopia",
+    "calindra",
+    "desygner",
+    "stone",
+    "mosaico_tech_lead",
+    "mosaico_fullstack",
+    "b2w_tech_lead",
+    "b2w_frontend",
+    "rrd_intern",
+  ];
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
@@ -55,9 +66,8 @@ export default function About() {
 
         <div>
           <h3 className="text-3xl font-bold text-center mb-12 text-white">{t("experience")}</h3>
-
           <div className="space-y-8">
-            {experiences.map((_: unknown, index: number) => (
+            {experiences.map((company: unknown, index: number) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 50 }}
@@ -67,16 +77,16 @@ export default function About() {
                 <Card>
                   <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
                     <div>
-                      <h4 className="text-xl font-semibold text-white mb-1">{tExperiences(`${index}.title`)}</h4>
-                      <p className="text-blue-400 font-medium">{tExperiences(`${index}.company`)}</p>
+                      <h4 className="text-xl font-semibold text-white mb-1">{tExperiences(`${company}.title`)}</h4>
+                      <p className="text-blue-400 font-medium">{tExperiences(`${company}.company`)}</p>
                     </div>
-                    <span className="text-gray-400 text-sm md:text-base">{tExperiences(`${index}.period`)}</span>
+                    <span className="text-gray-400 text-sm md:text-base">{tExperiences(`${company}.period`)}</span>
                   </div>
 
-                  <p className="text-gray-300 mb-4 leading-relaxed">{tExperiences(`${index}.description`)}</p>
+                  <p className="text-gray-300 mb-4 leading-relaxed">{tExperiences(`${company}.description`)}</p>
 
                   <div className="flex flex-wrap gap-2">
-                    {tExperiences.raw(`${index}.technologies`).map((tech: string, techIndex: number) => (
+                    {tExperiences.raw(`${company}.technologies`).map((tech: string, techIndex: number) => (
                       <span
                         key={techIndex}
                         className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30"
