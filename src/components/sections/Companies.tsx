@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useLocale } from "@/lib/i18n-context";
+import Image from "next/image";
 
 const companies = [
   {
@@ -106,7 +107,7 @@ export default function Companies() {
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 hover:bg-white/10 hover:border-white/20 transition-all duration-300 h-full flex flex-col">
                 {/* Logo */}
                 <div className="w-full h-20 mb-4 flex items-center justify-center bg-white/40 rounded-lg group-hover:bg-white/20 transition-all duration-300 p-4">
-                  <img
+                  <Image
                     src={company.logo}
                     alt={`${company.name} logo`}
                     className="max-w-full max-h-full object-contain opacity-80 group-hover:opacity-100 transition-opacity duration-300"
