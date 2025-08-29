@@ -5,47 +5,49 @@ import { useInView } from "react-intersection-observer";
 import { useLocale } from "@/lib/i18n-context";
 import Image from "next/image";
 
+const basePath = process.env.NODE_ENV === "production" ? "/portfolio" : "";
+
 const companies = [
   {
     name: "Skopia Digital",
     description: "EclipseWorks • NScreen",
     projects: "Aviva • Incasa • Banco Master",
-    logo: "/companies/skopia.svg",
+    logo: `${basePath}/companies/skopia.svg`,
     website: "https://skopiadigital.com.br",
   },
   {
     name: "Calindra",
     description: "Consultoria em Tecnologia",
     projects: "Tânia Bulhões",
-    logo: "/companies/calindra.svg",
+    logo: `${basePath}/companies/calindra.svg`,
     website: "https://calindra.com",
   },
   {
     name: "Desygner",
     description: "Design Platform",
     projects: "Global Design Solutions",
-    logo: "/companies/desygner.svg",
+    logo: `${basePath}/companies/desygner.svg`,
     website: "https://desygner.com",
   },
   {
     name: "Stone",
     description: "Fintech • Payments",
     projects: "Ton • Stone Banking",
-    logo: "/companies/stone.svg",
+    logo: `${basePath}/companies/stone.svg`,
     website: "https://stone.co",
   },
   {
     name: "Mosaico",
     description: "Marketplace Platform",
-    projects: "E-commerce • Authentication",
-    logo: "/companies/mosaico.png",
+    projects: "Zoom • Buscapé • E-commerce • Marketplace • Banco Pan • BTG Pactual",
+    logo: `${basePath}/companies/mosaico.png`,
     website: "https://mosaico.com",
   },
   {
     name: "B2W Digital (Americanas S.A.)",
     description: "E-commerce Conglomerate",
     projects: "Submarino • Americanas • Shoptime • Soubarato",
-    logo: "/companies/americanas_sa.png",
+    logo: `${basePath}/companies/americanas_sa.png`,
     website: "https://ri.americanas.io",
   },
 ];
@@ -110,6 +112,8 @@ export default function Companies() {
                   <Image
                     src={company.logo}
                     alt={`${company.name} logo`}
+                    width={120}
+                    height={60}
                     className="max-w-full max-h-full object-contain opacity-80 group-hover:opacity-100 transition-opacity duration-300"
                   />
                 </div>

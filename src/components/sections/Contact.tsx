@@ -1,47 +1,47 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-import { useTranslations } from '@/lib/i18n-context';
-import { useState } from 'react';
-import Card from '@/components/ui/Card';
-import Button from '@/components/ui/Button';
-import { contactInfo } from '@/lib/data';
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useTranslations } from "@/lib/i18n-context";
+import { useState } from "react";
+import Card from "@/components/ui/Card";
+import Button from "@/components/ui/Button";
+import { contactInfo } from "@/lib/data";
 
 export default function Contact() {
-  const t = useTranslations('contact');
+  const t = useTranslations("contact");
   const [ref, inView] = useInView({
     triggerOnce: true,
-    threshold: 0.1
+    threshold: 0.1,
   });
 
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
+    name: "",
+    email: "",
+    message: "",
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  const [submitStatus, setSubmitStatus] = useState<"idle" | "success" | "error">("idle");
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     // Simulate form submission
     setTimeout(() => {
-      setSubmitStatus('success');
+      setSubmitStatus("success");
       setIsSubmitting(false);
-      setFormData({ name: '', email: '', message: '' });
-      
-      setTimeout(() => setSubmitStatus('idle'), 3000);
+      setFormData({ name: "", email: "", message: "" });
+
+      setTimeout(() => setSubmitStatus("idle"), 3000);
     }, 1000);
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     }));
   };
 
@@ -54,19 +54,17 @@ export default function Contact() {
         transition={{ duration: 0.8 }}
       >
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-          {t('title')}
+          {t("title")}
         </h2>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
+        <div className="grid  gap-12 items-start">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <h3 className="text-2xl font-semibold mb-6 text-white">{t('subtitle')}</h3>
-            <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-              {t('description')}
-            </p>
+            <h3 className="text-2xl font-semibold mb-6 text-white">{t("subtitle")}</h3>
+            <p className="text-gray-300 text-lg mb-8 leading-relaxed">{t("description")}</p>
 
             <div className="space-y-4">
               <motion.a
@@ -141,7 +139,7 @@ export default function Contact() {
             </div>
           </motion.div>
 
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
             transition={{ duration: 0.8, delay: 0.4 }}
@@ -226,7 +224,7 @@ export default function Contact() {
                 )}
               </form>
             </Card>
-          </motion.div>
+          </motion.div> */}
         </div>
       </motion.div>
     </section>
