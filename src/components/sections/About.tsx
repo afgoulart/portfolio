@@ -57,7 +57,7 @@ export default function About() {
           <h3 className="text-3xl font-bold text-center mb-12 text-white">{t("experience")}</h3>
 
           <div className="space-y-8">
-            {experiences.map((_: any, index: number) => (
+            {experiences.map((_: unknown, index: number) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 50 }}
