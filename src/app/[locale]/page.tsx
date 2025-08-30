@@ -6,6 +6,7 @@ import Companies from "@/components/sections/Companies";
 import Certifications from "@/components/sections/Certifications";
 import Contact from "@/components/sections/Contact";
 import Navbar from "@/components/ui/Navbar";
+import AnalyticsProvider from "@/components/analytics/AnalyticsProvider";
 
 export function generateStaticParams() {
   return [{ locale: "en" }, { locale: "pt" }];
@@ -13,7 +14,7 @@ export function generateStaticParams() {
 
 export default function Home() {
   return (
-    <>
+    <AnalyticsProvider>
       <Navbar />
       <main className="overflow-x-hidden">
         <Hero />
@@ -24,6 +25,6 @@ export default function Home() {
         <Certifications />
         <Contact />
       </main>
-    </>
+    </AnalyticsProvider>
   );
 }
