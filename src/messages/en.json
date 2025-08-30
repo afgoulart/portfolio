@@ -46,6 +46,14 @@
     "success": "Message sent successfully!",
     "error": "Error sending message. Please try again."
   },
+  "certifications": {
+    "title": "Certifications",
+    "description": "Certifications and courses that validate my technical expertise and commitment to continuous learning.",
+    "totalCerts": "Certifications",
+    "cloudFocus": "Specialization",
+    "latestYear": "Most Recent",
+    "viewCertificate": "View Certificate"
+  },
   "experiences": {
     "skopia": {
       "title": "Fullstack Specialist Engineer | AWS Architect",
@@ -185,5 +193,77 @@
       "title": "CMS Spacey - B2W Digital",
       "description": "Content management system for marketing publications and promotions manager."
     }
-  ]
+  ],
+  "certificationsList": {
+    "aws_cloud_practitioner": {
+      "title": "AWS Certified Cloud Practitioner",
+      "instituicao": "Amazon Web Services (AWS)",
+      "data": "August 2025",
+      "descricao": "AWS foundational certification that validates knowledge about cloud concepts, AWS services, security, and architecture. Credential: 933a2d2e-ebd4-447b-9053-dbe33b094099",
+      "link": "https://www.credly.com/badges/933a2d2e-ebd4-447b-9053-dbe33b094099"
+    },
+    "javascript_intermediate": {
+      "title": "JavaScript Intermediate Certificate",
+      "instituicao": "HackerRank",
+      "data": "July 2025",
+      "descricao": "Intermediate JavaScript certification validating knowledge in advanced programming concepts and web development. Credential: cebe10e21cd6",
+      "link": "https://www.hackerrank.com/certificates/cebe10e21cd6"
+    },
+    "sql_advanced": {
+      "title": "SQL (Advanced) Certificate",
+      "instituicao": "HackerRank",
+      "data": "July 2025",
+      "descricao": "Advanced SQL certification demonstrating expertise in complex queries, database optimization, and data analysis. Credential: 98a3110ebdc8",
+      "link": "https://www.hackerrank.com/certificates/98a3110ebdc8"
+    },
+    "software_engineer": {
+      "title": "Software Engineer Certificate",
+      "instituicao": "HackerRank",
+      "data": "July 2025",
+      "descricao": "Software Engineering certification validating competencies in software development and computer engineering. Credential: 8f85af9249f3",
+      "link": "https://www.hackerrank.com/certificates/8f85af9249f3"
+    },
+    "frontend_react": {
+      "title": "Frontend Developer (React) Certificate",
+      "instituicao": "HackerRank",
+      "data": "November 2024",
+      "descricao": "Specialized frontend development certification with React and TypeScript, validating skills in creating modern interfaces. Credential: 311e83c79289",
+      "link": "https://www.hackerrank.com/certificates/311e83c79289"
+    },
+    "ef_set_english": {
+      "title": "EF SET Certificate 40/100 (A2 Elementary)",
+      "instituicao": "EF SET",
+      "data": "May 2024",
+      "descricao": "Official English proficiency certification demonstrating A2 Elementary level in comprehension and communication.",
+      "link": "https://www.efset.org/cert/"
+    },
+    "architecting_aws": {
+      "title": "Architecting on AWS",
+      "instituicao": "Amazon Web Services (AWS)",
+      "data": "October 2022",
+      "descricao": "Official AWS course on cloud solutions architecture, covering distributed systems design and best practices. Credential: EjOywvZlM0OKqiPmflMfoQ2",
+      "link": "https://www.credly.com/badges/EjOywvZlM0OKqiPmflMfoQ2"
+    },
+    "angularjs_coursera": {
+      "title": "Front-End JavaScript Frameworks: AngularJS",
+      "instituicao": "Coursera",
+      "data": "August 2017",
+      "descricao": "Frontend development certification with AngularJS, covering Single Page Applications concepts and JavaScript frameworks. Credential: DLAM5TYS4SLH",
+      "link": "https://www.coursera.org/verify/DLAM5TYS4SLH"
+    },
+    "html_css_js_coursera": {
+      "title": "HTML, CSS and JavaScript",
+      "instituicao": "Coursera",
+      "data": "August 2017",
+      "descricao": "Fundamental web technologies certification, covering HTML5, CSS3, and JavaScript for frontend development. Credential: LDG97SGZTGYA",
+      "link": "https://www.coursera.org/verify/LDG97SGZTGYA"
+    },
+    "nodejs_coursera": {
+      "title": "Server-side Development with NodeJS",
+      "instituicao": "Coursera",
+      "data": "August 2017",
+      "descricao": "Backend development certification with Node.js, including REST APIs, authentication, and database integration. Credential: TTYWKBJKYX86",
+      "link": "https://www.coursera.org/verify/TTYWKBJKYX86"
+    }
+  }
 }
