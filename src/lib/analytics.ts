@@ -22,10 +22,13 @@ export const trackEvent = (
   }
 };
 
+// Google Analytics ID - same as component
+const GA_MEASUREMENT_ID = 'G-BMNNNCFNNV';
+
 // Track page views (useful for SPA navigation)
 export const trackPageView = (url: string, title: string) => {
   if (typeof window !== 'undefined' && window.gtag) {
-    window.gtag('config', process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID, {
+    window.gtag('config', GA_MEASUREMENT_ID, {
       page_title: title,
       page_location: url,
     });
