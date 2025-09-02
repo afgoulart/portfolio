@@ -38,23 +38,26 @@ src/
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm or yarn
 
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/yourusername/my-portfolio.git
 cd my-portfolio
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Start the development server:
+
 ```bash
 npm run dev
 ```
@@ -68,10 +71,12 @@ This project is configured for automatic deployment to GitHub Pages using GitHub
 ### Setup Instructions
 
 1. **Repository Settings**:
+
    - Go to your repository Settings > Pages
    - Source: "GitHub Actions"
 
 2. **Update Configuration**:
+
    - Update the `basePath` and `assetPrefix` in `next.config.ts` to match your repository name
    - Update the repository URL in the GitHub Actions workflow
 
@@ -86,6 +91,7 @@ The site will be available at: `https://yourusername.github.io/repository-name`
 ### Personal Information
 
 Update your personal information in:
+
 - `src/lib/data.ts` - Portfolio data (experiences, skills, projects, contact)
 - `src/messages/` - Translation files for both languages
 
@@ -113,6 +119,7 @@ Update your personal information in:
 ## 🌍 Internationalization
 
 The site supports:
+
 - **Portuguese (PT-BR)**: Default language
 - **English**: Alternative language
 

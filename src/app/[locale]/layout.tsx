@@ -1,21 +1,18 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import { I18nProvider } from '@/lib/i18n-context';
-import "../globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "My Portfolio",
   description: "Full Stack Developer Portfolio",
+  alternates: {
+    types: {
+      'application/rss+xml': [
+        { url: '/rss.xml', title: 'RSS Feed (PT)' },
+        { url: '/rss-pt.xml', title: 'RSS Feed (Português)' },
+        { url: '/rss-en.xml', title: 'RSS Feed (English)' }
+      ]
+    }
+  }
 };
 
 async function getMessages(locale: string) {
@@ -37,14 +34,8 @@ export default async function RootLayout({
   const messages = await getMessages(locale);
 
   return (
-    <html lang={locale}>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-900 text-white`}
-      >
-        <I18nProvider locale={locale} messages={messages}>
-          {children}
-        </I18nProvider>
-      </body>
-    </html>
+    <I18nProvider locale={locale} messages={messages}>
+      {children}
+    </I18nProvider>
   );
 }

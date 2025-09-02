@@ -2,12 +2,16 @@
 
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import { useState } from "react";
-import { LanguageSwitcher } from '@/components/molecules';
+import { usePathname } from "next/navigation";
+import Link from "next/link";
+import { LanguageSwitcher } from "@/components/molecules";
 
 export default function Navbar() {
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
   const { scrollY } = useScroll();
+  const pathname = usePathname();
+  const locale = pathname.split("/")[1] || "pt";
 
   useMotionValueEvent(scrollY, "change", (latest) => {
     if (latest > lastScrollY && latest > 100) {
@@ -19,17 +23,27 @@ export default function Navbar() {
   });
 
   const navItems = [
-    { href: "#about", label: "Sobre" },
-    { href: "#skills", label: "Habilidades" },
-    { href: "#projects", label: "Projetos" },
-    { href: "#companies", label: "Empresas" },
-    // { href: '#contact', label: 'Contato' }
+    { href: "#about", label: locale === "pt" ? "Sobre" : "About" },
+    { href: "#skills", label: locale === "pt" ? "Habilidades" : "Skills" },
+    { href: "#projects", label: locale === "pt" ? "Projetos" : "Projects" },
+    { href: "#companies", label: locale === "pt" ? "Empresas" : "Companies" },
+    { href: "#contact", label: locale === "pt" ? "Contato" : "Contact" },
   ];
 
+  // Always show navigation menu on all pages
+  const isOnHomePage = pathname === `/${locale}` || pathname === "/";
+  const blogLabel = locale === "pt" ? "Blog" : "Blog";
+
   const scrollToSection = (href: string) => {
-    const element = document.querySelector(href);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+    if (isOnHomePage) {
+      // If we're on homepage, scroll to section
+      const element = document.querySelector(href);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    } else {
+      // If we're not on homepage, navigate to homepage with hash
+      window.location.href = `/${locale}${href}`;
     }
   };
 
@@ -63,6 +77,19 @@ export default function Navbar() {
                 {item.label}
               </motion.button>
             ))}
+
+            {/* Vertical separator */}
+            <div className="h-6 w-px bg-white/20"></div>
+
+            <Link href={`/${locale}/blog`}>
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="text-gray-300 hover:text-white transition-colors duration-300 font-medium"
+              >
+                {blogLabel}
+              </motion.div>
+            </Link>
             <LanguageSwitcher />
           </div>
 

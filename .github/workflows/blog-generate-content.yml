@@ -1,0 +1,66 @@
+name: Tech Blog Content Generator
+
+on:
+  schedule:
+    # Executa todo dia às 09:00 UTC (06:00 Brasília)
+    - cron: "0 9 * * *"
+  workflow_dispatch: # Permite execução manual
+    inputs:
+      topic:
+        description: "Tópico específico (opcional)"
+        required: false
+        type: string
+
+env:
+  ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+jobs:
+  generate-content:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: |
+          npm init -y
+          npm install @anthropic-ai/sdk cheerio fs-extra gray-matter feed
+
+      - name: Generate blog content
+        run: node .github/scripts/generate-content.js
+        env:
+          ANTHROPIC_API_KEY: ${{ env.ANTHROPIC_API_KEY }}
+          CUSTOM_TOPIC: ${{ github.event.inputs.topic }}
+
+      - name: Generate RSS feeds
+        run: node .github/scripts/generate-rss.js
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🤖 Auto-generated blog content - $(date +'%Y-%m-%d %H:%M')"
+            git push
+          fi
+
+      - name: Deploy to GitHub Pages (opcional)
+        if: github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
