@@ -10,9 +10,23 @@
         <language>pt-BR</language>
         <copyright>Todos os direitos reservados 2025, André Filipe Goulart</copyright>
         <item>
+            <title><![CDATA[React e JavaScript: O Guia Completo para Dominar a Dupla Mais Poderosa do Desenvolvimento Web]]></title>
+            <link>https://afgoulart.github.io/portfolio/pt/blog/2025-09-02-react-e-javascript</link>
+            <guid>https://afgoulart.github.io/portfolio/pt/blog/2025-09-02-react-e-javascript</guid>
+            <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Descubra como React e JavaScript trabalham juntos para criar aplicações web modernas e eficientes. Aprenda conceitos, veja exemplos práticos e domine essa combinação essencial.]]></description>
+            <content:encoded><![CDATA[Descubra como React e JavaScript trabalham juntos para criar aplicações web modernas e eficientes. Aprenda conceitos, veja exemplos práticos e domine essa combinação essencial.]]></content:encoded>
+            <author>afgoulart.rj@gmail.com (André Goulart)</author>
+            <category>React</category>
+            <category>JavaScript</category>
+            <category>Frontend</category>
+            <category>Desenvolvimento Web</category>
+            <category>Frameworks</category>
+        </item>
+        <item>
             <title><![CDATA[Design Patterns: O Guia Completo para Revolucionar seu Desenvolvimento de Software]]></title>
             <link>https://afgoulart.github.io/portfolio/pt/blog/2025-09-02-design-patterns-o-guia-completo-para-revolucionar-seu-desenvolvimento-de-software</link>
-            <guid isPermaLink="false">https://afgoulart.github.io/portfolio/pt/blog/2025-09-02-design-patterns-o-guia-completo-para-revolucionar-seu-desenvolvimento-de-software</guid>
+            <guid>https://afgoulart.github.io/portfolio/pt/blog/2025-09-02-design-patterns-o-guia-completo-para-revolucionar-seu-desenvolvimento-de-software</guid>
             <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Descubra como os Design Patterns podem transformar seu código em soluções elegantes, reutilizáveis e fáceis de manter. Um guia completo com exemplos práticos e casos de uso reais.]]></description>
             <content:encoded><![CDATA[Descubra como os Design Patterns podem transformar seu código em soluções elegantes, reutilizáveis e fáceis de manter. Um guia completo com exemplos práticos e casos de uso reais.]]></content:encoded>
@@ -26,7 +40,7 @@
         <item>
             <title><![CDATA[Claude Code: Revolucionando o Desenvolvimento com IA - Guia Completo dos AI Assistants]]></title>
             <link>https://afgoulart.github.io/portfolio/pt/blog/2025-09-02-claude-code-e-ai-assistants</link>
-            <guid isPermaLink="false">https://afgoulart.github.io/portfolio/pt/blog/2025-09-02-claude-code-e-ai-assistants</guid>
+            <guid>https://afgoulart.github.io/portfolio/pt/blog/2025-09-02-claude-code-e-ai-assistants</guid>
             <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Descubra como Claude Code e outros AI Assistants estão transformando a programação moderna, oferecendo soluções inteligentes para desenvolvedores de todos os níveis.]]></description>
             <content:encoded><![CDATA[Descubra como Claude Code e outros AI Assistants estão transformando a programação moderna, oferecendo soluções inteligentes para desenvolvedores de todos os níveis.]]></content:encoded>
@@ -40,7 +54,7 @@
         <item>
             <title><![CDATA[Big Data e Analytics: Como Transformar Dados em Vantagem Competitiva em 2024]]></title>
             <link>https://afgoulart.github.io/portfolio/pt/blog/2025-09-02-big-data-e-analytics-como-transformar-dados-em-vantagem-competitiva-em-2024</link>
-            <guid isPermaLink="false">https://afgoulart.github.io/portfolio/pt/blog/2025-09-02-big-data-e-analytics-como-transformar-dados-em-vantagem-competitiva-em-2024</guid>
+            <guid>https://afgoulart.github.io/portfolio/pt/blog/2025-09-02-big-data-e-analytics-como-transformar-dados-em-vantagem-competitiva-em-2024</guid>
             <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Descubra como Big Data e Analytics estão revolucionando os negócios, transformando milhões de dados em insights valiosos para tomada de decisões estratégicas.]]></description>
             <content:encoded><![CDATA[Descubra como Big Data e Analytics estão revolucionando os negócios, transformando milhões de dados em insights valiosos para tomada de decisões estratégicas.]]></content:encoded>
@@ -54,7 +68,7 @@
         <item>
             <title><![CDATA[Big Data e Analytics: Como Transformar Dados em Decisões Estratégicas para o Seu Negócio]]></title>
             <link>https://afgoulart.github.io/portfolio/pt/blog/2025-09-02-big-data-e-analytics-como-transformar-dados-em-decisoes-estrategicas-para-o-seu-negocio</link>
-            <guid isPermaLink="false">https://afgoulart.github.io/portfolio/pt/blog/2025-09-02-big-data-e-analytics-como-transformar-dados-em-decisoes-estrategicas-para-o-seu-negocio</guid>
+            <guid>https://afgoulart.github.io/portfolio/pt/blog/2025-09-02-big-data-e-analytics-como-transformar-dados-em-decisoes-estrategicas-para-o-seu-negocio</guid>
             <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Descubra como Big Data e Analytics estão revolucionando a tomada de decisões empresariais e transformando dados em vantagem competitiva no mercado digital.]]></description>
             <content:encoded><![CDATA[Descubra como Big Data e Analytics estão revolucionando a tomada de decisões empresariais e transformando dados em vantagem competitiva no mercado digital.]]></content:encoded>
@@ -68,7 +82,7 @@
         <item>
             <title><![CDATA[AI Coders: Como GitHub Copilot, ChatGPT, Claude e Amazon Q Estão Revolucionando o Desenvolvimento de Software]]></title>
             <link>https://afgoulart.github.io/portfolio/pt/blog/2025-09-02-ai-coders-copilot-chatgpt-claude-code-amazon-q</link>
-            <guid isPermaLink="false">https://afgoulart.github.io/portfolio/pt/blog/2025-09-02-ai-coders-copilot-chatgpt-claude-code-amazon-q</guid>
+            <guid>https://afgoulart.github.io/portfolio/pt/blog/2025-09-02-ai-coders-copilot-chatgpt-claude-code-amazon-q</guid>
             <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Descubra como as ferramentas de IA para programação estão transformando o trabalho dos desenvolvedores e qual escolher para seu projeto]]></description>
             <content:encoded><![CDATA[Descubra como as ferramentas de IA para programação estão transformando o trabalho dos desenvolvedores e qual escolher para seu projeto]]></content:encoded>
