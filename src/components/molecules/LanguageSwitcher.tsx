@@ -16,10 +16,11 @@ export default function LanguageSwitcher() {
   const currentLanguage = languages.find((lang) => lang.code === locale) || languages[0];
 
   const handleLanguageChange = (langCode: string) => {
-    const currentPath = window.location.pathname;
+    const url = new URL(window.location.href);
+    const currentPath = url.pathname;
 
-    const newPath = `/${langCode}${currentPath.replace(/^\/(pt|en)/, "")}`;
-    window.location.href = newPath;
+    url.pathname = `${currentPath.replace(/^\/(pt|en)/, langCode)}`;
+    window.location.href = url.toString();
   };
 
   return (
