@@ -9,10 +9,11 @@ interface FloatingRssButtonProps {
 }
 
 export default function FloatingRssButton({ locale }: FloatingRssButtonProps) {
-  const [isHovered, setIsHovered] = useState(true);
+  const [isHovered, setIsHovered] = useState(false);
+  const baseUrl = process.env.NODE_ENV === "production" ? "/portfolio" : "";
 
   const getRssUrl = () => {
-    return `/rss-${locale}.xml`;
+    return `/${baseUrl}/rss-${locale}.xml`;
   };
 
   const getRssLabel = () => {
