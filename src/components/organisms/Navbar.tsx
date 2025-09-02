@@ -5,6 +5,7 @@ import { useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { LanguageSwitcher } from "@/components/molecules";
+import { base } from "framer-motion/client";
 
 export default function Navbar() {
   const [isVisible, setIsVisible] = useState(true);
@@ -31,7 +32,8 @@ export default function Navbar() {
   ];
 
   // Always show navigation menu on all pages
-  const isOnHomePage = pathname === `/${locale}` || pathname === "/";
+  const baseUrl = process.env.NODE_ENV === "production" ? "/portfolio" : "";
+  const isOnHomePage = pathname === `/${baseUrl}/${locale}` || pathname === "/";
   const blogLabel = locale === "pt" ? "Blog" : "Blog";
 
   const scrollToSection = (href: string) => {
@@ -43,7 +45,7 @@ export default function Navbar() {
       }
     } else {
       // If we're not on homepage, navigate to homepage with hash
-      window.location.href = `/${locale}${href}`;
+      window.location.href = `/${baseUrl}/${locale}${href}`;
     }
   };
 
@@ -52,15 +54,15 @@ export default function Navbar() {
       initial={{ y: 0 }}
       animate={{ y: isVisible ? 0 : -100 }}
       transition={{ duration: 0.3 }}
-      className="fixed top-0 w-full z-50 bg-gray-900/80 backdrop-blur-md border-b border-white/10"
+      className="top-0 z-50 fixed bg-gray-900/80 backdrop-blur-md border-white/10 border-b w-full"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+      <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+        <div className="flex justify-between items-center h-16">
           <motion.button
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent"
+            className="bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 font-bold text-transparent text-xl"
           >
             Portfolio
           </motion.button>
@@ -72,20 +74,20 @@ export default function Navbar() {
                 onClick={() => scrollToSection(item.href)}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="text-gray-300 hover:text-white transition-colors duration-300 font-medium"
+                className="font-medium text-gray-300 hover:text-white transition-colors duration-300"
               >
                 {item.label}
               </motion.button>
             ))}
 
             {/* Vertical separator */}
-            <div className="h-6 w-px bg-white/20"></div>
+            <div className="bg-white/20 w-px h-6"></div>
 
-            <Link href={`/${locale}/blog`}>
+            <Link href={`${baseUrl}/${locale}/blog`}>
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="text-gray-300 hover:text-white transition-colors duration-300 font-medium"
+                className="font-medium text-gray-300 hover:text-white transition-colors duration-300"
               >
                 {blogLabel}
               </motion.div>
