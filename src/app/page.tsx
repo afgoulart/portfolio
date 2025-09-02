@@ -3,6 +3,10 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 
+const getBaseUrl = () => {
+  return process.env.NODE_ENV === 'production' ? '/portfolio' : '';
+};
+
 export default function LanguageSelector() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 flex items-center justify-center px-4">
@@ -54,7 +58,7 @@ export default function LanguageSelector() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="flex flex-col sm:flex-row gap-6 justify-center items-center"
         >
-          <Link href="/pt">
+          <Link href={`${getBaseUrl()}/pt`}>
             <motion.div
               whileHover={{ scale: 1.05, y: -5 }}
               whileTap={{ scale: 0.95 }}
@@ -70,7 +74,7 @@ export default function LanguageSelector() {
             </motion.div>
           </Link>
 
-          <Link href="/en">
+          <Link href={`${getBaseUrl()}/en`}>
             <motion.div
               whileHover={{ scale: 1.05, y: -5 }}
               whileTap={{ scale: 0.95 }}
