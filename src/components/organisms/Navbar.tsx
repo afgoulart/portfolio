@@ -2,7 +2,7 @@
 
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import { useState } from "react";
-import LanguageSwitcher from "./LanguageSwitcher";
+import { LanguageSwitcher } from '@/components/molecules';
 
 export default function Navbar() {
   const [isVisible, setIsVisible] = useState(true);

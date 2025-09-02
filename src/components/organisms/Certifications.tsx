@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useTranslations } from "@/lib/i18n-context";
-import Card from "@/components/ui/Card";
+import { Card } from '@/components/atoms';
 
 export default function Certifications() {
   const t = useTranslations("certifications");

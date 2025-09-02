@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import { SocialLink } from '@/components';
 
 const getBaseUrl = () => {
   return process.env.NODE_ENV === 'production' ? '/portfolio' : '';
@@ -97,34 +98,24 @@ export default function LanguageSelector() {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="mt-12 flex justify-center space-x-6"
         >
-          <motion.a
+          <SocialLink
             href="https://www.linkedin.com/in/afgoulart"
-            target="_blank"
-            rel="noopener noreferrer"
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-            className="w-12 h-12 bg-blue-600/20 rounded-full flex items-center justify-center border border-blue-600/30 hover:bg-blue-600/30 transition-all duration-300"
-          >
-            <span className="text-xl">💼</span>
-          </motion.a>
-          <motion.a
+            icon="💼"
+            label="LinkedIn"
+            className="bg-blue-600/20 border-blue-600/30 hover:bg-blue-600/30"
+          />
+          <SocialLink
             href="https://github.com/afgoulart"
-            target="_blank"
-            rel="noopener noreferrer"
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-            className="w-12 h-12 bg-gray-600/20 rounded-full flex items-center justify-center border border-gray-600/30 hover:bg-gray-600/30 transition-all duration-300"
-          >
-            <span className="text-xl">🐙</span>
-          </motion.a>
-          <motion.a
+            icon="🐙"
+            label="GitHub"
+            className="bg-gray-600/20 border-gray-600/30 hover:bg-gray-600/30"
+          />
+          <SocialLink
             href="mailto:afgoulart.rj@gmail.com"
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-            className="w-12 h-12 bg-purple-600/20 rounded-full flex items-center justify-center border border-purple-600/30 hover:bg-purple-600/30 transition-all duration-300"
-          >
-            <span className="text-xl">📧</span>
-          </motion.a>
+            icon="📧"
+            label="Email"
+            className="bg-purple-600/20 border-purple-600/30 hover:bg-purple-600/30"
+          />
         </motion.div>
       </motion.div>
 

@@ -3,7 +3,7 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
 import { useTranslations } from '@/lib/i18n-context';
-import Button from '@/components/ui/Button';
+import { Button } from '@/components/atoms';
 
 export default function Hero() {
   const t = useTranslations('hero');

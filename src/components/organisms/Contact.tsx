@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useTranslations } from "@/lib/i18n-context";
 import { useState } from "react";
-import Card from "@/components/ui/Card";
-import Button from "@/components/ui/Button";
+import { SocialLink } from '@/components/molecules';
+import { Card, Button } from '@/components/atoms';
 import { contactInfo } from "@/lib/data";
 
 export default function Contact() {
@@ -21,28 +21,27 @@ export default function Contact() {
     message: "",
   });
 
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState<"idle" | "success" | "error">("idle");
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-
-    // Simulate form submission
-    setTimeout(() => {
-      setSubmitStatus("success");
-      setIsSubmitting(false);
-      setFormData({ name: "", email: "", message: "" });
-
-      setTimeout(() => setSubmitStatus("idle"), 3000);
-    }, 1000);
-  };
-
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData((prev) => ({
       ...prev,
       [e.target.name]: e.target.value,
     }));
+  };
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    
+    // Format the message according to the template
+    const whatsappMessage = `*Name:* ${formData.name}%0A*Email:* ${formData.email}%0A*Message:* ${formData.message}`;
+    
+    // WhatsApp URL
+    const whatsappUrl = `https://wa.me/5521985364597?text=${whatsappMessage}`;
+    
+    // Open WhatsApp
+    window.open(whatsappUrl, '_blank');
+    
+    // Clear form
+    setFormData({ name: "", email: "", message: "" });
   };
 
   return (
@@ -57,7 +56,7 @@ export default function Contact() {
           {t("title")}
         </h2>
 
-        <div className="grid  gap-12 items-start">
+        <div className="grid lg:grid-cols-2 gap-12 items-start">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }}
@@ -97,6 +96,22 @@ export default function Contact() {
                 </motion.a>
               )}
 
+              <motion.a
+                href="https://wa.me/5521985364597"
+                target="_blank"
+                rel="noopener noreferrer"
+                whileHover={{ scale: 1.05 }}
+                className="flex items-center gap-4 p-4 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 hover:bg-white/15 transition-all duration-300"
+              >
+                <div className="w-12 h-12 bg-green-500/20 rounded-full flex items-center justify-center">
+                  <span className="text-xl">💬</span>
+                </div>
+                <div>
+                  <p className="text-gray-400 text-sm">WhatsApp</p>
+                  <p className="text-white font-medium">+55 21 98536-4597</p>
+                </div>
+              </motion.a>
+
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 className="flex items-center gap-4 p-4 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20"
@@ -112,43 +127,42 @@ export default function Contact() {
 
               <div className="flex gap-4 mt-6">
                 {contactInfo.linkedin && (
-                  <motion.a
+                  <SocialLink
                     href={contactInfo.linkedin}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
-                    className="w-12 h-12 bg-blue-600/20 rounded-full flex items-center justify-center border border-blue-600/30 hover:bg-blue-600/30 transition-all duration-300"
-                  >
-                    <span className="text-xl">💼</span>
-                  </motion.a>
+                    icon="💼"
+                    label="LinkedIn"
+                    className="bg-blue-600/20 border-blue-600/30 hover:bg-blue-600/30"
+                  />
                 )}
                 {contactInfo.github && (
-                  <motion.a
+                  <SocialLink
                     href={contactInfo.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
-                    className="w-12 h-12 bg-gray-600/20 rounded-full flex items-center justify-center border border-gray-600/30 hover:bg-gray-600/30 transition-all duration-300"
-                  >
-                    <span className="text-xl">🐙</span>
-                  </motion.a>
+                    icon="🐙"
+                    label="GitHub"
+                    className="bg-gray-600/20 border-gray-600/30 hover:bg-gray-600/30"
+                  />
                 )}
               </div>
             </div>
           </motion.div>
 
-          {/* <motion.div
+          <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             <Card>
+              <div className="mb-4">
+                <h3 className="text-xl font-semibold text-white mb-2">{t('sendMessage') || 'Send a Message'}</h3>
+                <p className="text-gray-400 text-sm mb-4">
+                  {t('whatsappDescription') || 'Fill out the form below and click send to contact me via WhatsApp'}
+                </p>
+              </div>
+              
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">
-                    {t('name')}
+                    {t('name') || 'Name'}
                   </label>
                   <input
                     type="text"
@@ -157,14 +171,14 @@ export default function Contact() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 bg-white/5 border border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-gray-400"
-                    placeholder="Seu nome"
+                    className="w-full px-4 py-3 bg-white/5 border border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent text-white placeholder-gray-400"
+                    placeholder={t('namePlaceholder') || 'Your name'}
                   />
                 </div>
 
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">
-                    {t('email')}
+                    {t('email') || 'Email'}
                   </label>
                   <input
                     type="email"
@@ -173,14 +187,14 @@ export default function Contact() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 bg-white/5 border border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-gray-400"
-                    placeholder="seu@email.com"
+                    className="w-full px-4 py-3 bg-white/5 border border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent text-white placeholder-gray-400"
+                    placeholder={t('emailPlaceholder') || 'your@email.com'}
                   />
                 </div>
 
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2">
-                    {t('message')}
+                    {t('message') || 'Message'}
                   </label>
                   <textarea
                     id="message"
@@ -189,42 +203,22 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     rows={5}
-                    className="w-full px-4 py-3 bg-white/5 border border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-gray-400 resize-none"
-                    placeholder="Sua mensagem..."
+                    className="w-full px-4 py-3 bg-white/5 border border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent text-white placeholder-gray-400 resize-none"
+                    placeholder={t('messagePlaceholder') || 'Your message...'}
                   />
                 </div>
 
                 <Button
                   type="submit"
                   size="lg"
-                  disabled={isSubmitting}
-                  className="w-full"
+                  className="w-full bg-green-600 hover:bg-green-700 focus:ring-green-500 flex items-center justify-center gap-2"
                 >
-                  {isSubmitting ? 'Enviando...' : t('send')}
+                  <span className="text-lg">💬</span>
+                  {t('sendWhatsapp') || 'Send via WhatsApp'}
                 </Button>
-
-                {submitStatus === 'success' && (
-                  <motion.p
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    className="text-green-400 text-center"
-                  >
-                    {t('success')}
-                  </motion.p>
-                )}
-
-                {submitStatus === 'error' && (
-                  <motion.p
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    className="text-red-400 text-center"
-                  >
-                    {t('error')}
-                  </motion.p>
-                )}
               </form>
             </Card>
-          </motion.div> */}
+          </motion.div>
         </div>
       </motion.div>
     </section>

@@ -4,7 +4,8 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useTranslations } from "@/lib/i18n-context";
 
-import Card from "@/components/ui/Card";
+import { Card } from '@/components/atoms';
+import { Badge } from '@/components/atoms';
 
 export default function About() {
   const t = useTranslations("about");
@@ -87,12 +88,9 @@ export default function About() {
 
                   <div className="flex flex-wrap gap-2">
                     {tExperiences.raw(`${company}.technologies`).map((tech: string, techIndex: number) => (
-                      <span
-                        key={techIndex}
-                        className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30"
-                      >
+                      <Badge key={techIndex} variant="primary" className="rounded-full">
                         {tech}
-                      </span>
+                      </Badge>
                     ))}
                   </div>
                 </Card>

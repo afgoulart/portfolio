@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useLocale } from "@/lib/i18n-context";
 import Image from "next/image";
+import { Badge } from '@/components/atoms';
 
 const basePath = process.env.NODE_ENV === "production" ? "/portfolio" : "";
 
@@ -190,21 +191,11 @@ export default function Companies() {
         >
           <p className="text-gray-300 text-lg mb-6">{t.description}</p>
           <div className="flex flex-wrap justify-center gap-3">
-            <span className="px-4 py-2 bg-blue-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">
-              E-commerce
-            </span>
-            <span className="px-4 py-2 bg-green-500/20 text-green-300 rounded-full text-sm border border-green-500/30">
-              Fintech
-            </span>
-            <span className="px-4 py-2 bg-purple-500/20 text-purple-300 rounded-full text-sm border border-purple-500/30">
-              Design Platform
-            </span>
-            <span className="px-4 py-2 bg-pink-500/20 text-pink-300 rounded-full text-sm border border-pink-500/30">
-              Consultoria
-            </span>
-            <span className="px-4 py-2 bg-orange-500/20 text-orange-300 rounded-full text-sm border border-orange-500/30">
-              Cloud Solutions
-            </span>
+            <Badge variant="primary" className="rounded-full">E-commerce</Badge>
+            <Badge variant="primary" className="rounded-full">Fintech</Badge>
+            <Badge variant="primary" className="rounded-full">Design Platform</Badge>
+            <Badge variant="primary" className="rounded-full">Consultoria</Badge>
+            <Badge variant="primary" className="rounded-full">Cloud Solutions</Badge>
           </div>
         </motion.div>
       </motion.div>
