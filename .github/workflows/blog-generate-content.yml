@@ -7,9 +7,20 @@ on:
   workflow_dispatch: # Permite execução manual
     inputs:
       topic:
-        description: "Tópico específico (opcional)"
+        description: "Tópico específico (opcional - deixe em branco para usar tópicos automáticos)"
         required: false
         type: string
+        default: ""
+      content_type:
+        description: "Tipo de conteúdo"
+        required: false
+        type: choice
+        default: "tech-article"
+        options:
+          - "tech-article"
+          - "tutorial" 
+          - "review"
+          - "news-analysis"
 
 env:
   ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -42,6 +53,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ env.ANTHROPIC_API_KEY }}
           CUSTOM_TOPIC: ${{ github.event.inputs.topic }}
+          CONTENT_TYPE: ${{ github.event.inputs.content_type }}
 
       - name: Generate RSS feeds
         run: node .github/scripts/generate-rss.js
