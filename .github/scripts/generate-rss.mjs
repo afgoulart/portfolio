@@ -1,7 +1,11 @@
-const fs = require('fs');
-const path = require('path');
-const matter = require('gray-matter');
-const { Feed } = require('feed');
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
+import { Feed } from 'feed';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 function getAllPosts(locale = 'pt') {
   const postsDirectory = path.join(process.cwd(), 'src/contents');

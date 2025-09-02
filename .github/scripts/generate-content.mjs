@@ -1,8 +1,12 @@
-// .github/scripts/generate-content.js
-const Anthropic = require('@anthropic-ai/sdk');
-const fs = require('fs-extra');
-const path = require('path');
-const matter = require('gray-matter');
+// .github/scripts/generate-content.mjs
+import Anthropic from '@anthropic-ai/sdk';
+import fs from 'fs-extra';
+import path from 'path';
+import matter from 'gray-matter';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const anthropic = new Anthropic({
   apiKey: process.env.ANTHROPIC_API_KEY,

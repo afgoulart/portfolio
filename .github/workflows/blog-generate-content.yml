@@ -49,14 +49,14 @@ jobs:
           npm install @anthropic-ai/sdk cheerio fs-extra gray-matter feed
 
       - name: Generate blog content
-        run: node .github/scripts/generate-content.js
+        run: node .github/scripts/generate-content.mjs
         env:
           ANTHROPIC_API_KEY: ${{ env.ANTHROPIC_API_KEY }}
           CUSTOM_TOPIC: ${{ github.event.inputs.topic }}
           CONTENT_TYPE: ${{ github.event.inputs.content_type }}
 
       - name: Generate RSS feeds
-        run: node .github/scripts/generate-rss.js
+        run: node .github/scripts/generate-rss.mjs
 
       - name: Commit and push changes
         run: |
