@@ -11,13 +11,18 @@ interface BlogPostPageProps {
   }>;
 }
 
-export async function generateStaticParams({ params }: { params: Promise<{ locale: string }> }) {
-  const { locale } = await params;
-  const slugs = getPostSlugs(locale);
+export async function generateStaticParams() {
+  const locales = ['en', 'pt'];
+  const allParams: { locale: string; slug: string }[] = [];
   
-  return slugs.map((slug) => ({
-    slug,
-  }));
+  for (const locale of locales) {
+    const slugs = getPostSlugs(locale);
+    for (const slug of slugs) {
+      allParams.push({ locale, slug });
+    }
+  }
+  
+  return allParams;
 }
 
 export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {

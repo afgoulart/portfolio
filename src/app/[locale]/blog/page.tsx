@@ -9,6 +9,10 @@ interface BlogPageProps {
   }>;
 }
 
+export function generateStaticParams() {
+  return [{ locale: "en" }, { locale: "pt" }];
+}
+
 export async function generateMetadata({ params }: BlogPageProps): Promise<Metadata> {
   const { locale } = await params;
   

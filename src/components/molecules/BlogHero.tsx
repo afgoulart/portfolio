@@ -12,8 +12,11 @@ const techIcons = ['⚡', '🚀', '💻', '🔧', '⚙️', '🌐', '📱', '�
 
 export default function BlogHero({ title, subtitle }: BlogHeroProps) {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
+    setIsClient(true);
+    
     const handleMouseMove = (e: MouseEvent) => {
       setMousePosition({ x: e.clientX, y: e.clientY });
     };
@@ -39,17 +42,17 @@ export default function BlogHero({ title, subtitle }: BlogHeroProps) {
         />
         
         {/* Floating Tech Icons */}
-        {techIcons.map((icon, index) => (
+        {isClient && techIcons.map((icon, index) => (
           <motion.div
             key={index}
             className="absolute text-blue-400/20 text-2xl"
             initial={{ 
-              x: Math.random() * window.innerWidth,
-              y: Math.random() * window.innerHeight,
+              x: Math.random() * (typeof window !== 'undefined' ? window.innerWidth : 1000),
+              y: Math.random() * (typeof window !== 'undefined' ? window.innerHeight : 800),
             }}
             animate={{
-              x: Math.random() * window.innerWidth,
-              y: Math.random() * window.innerHeight,
+              x: Math.random() * (typeof window !== 'undefined' ? window.innerWidth : 1000),
+              y: Math.random() * (typeof window !== 'undefined' ? window.innerHeight : 800),
               rotate: [0, 360],
             }}
             transition={{

@@ -51,12 +51,12 @@ export default function BlogCard({ post }: BlogCardProps) {
             {/* Tags - Fixed height at bottom */}
             <div className="flex flex-wrap gap-2 mt-auto flex-shrink-0">
               {post.tags.slice(0, 3).map((tag) => (
-                <Badge key={tag} variant="outline" className="text-xs">
+                <Badge key={tag} variant="secondary" className="text-xs">
                   {tag}
                 </Badge>
               ))}
               {post.tags.length > 3 && (
-                <Badge variant="outline" className="text-xs">
+                <Badge variant="secondary" className="text-xs">
                   +{post.tags.length - 3}
                 </Badge>
               )}
