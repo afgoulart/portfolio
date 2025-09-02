@@ -40,13 +40,27 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "18"
-          cache: "npm"
-
+          node-version: "20"
+          
       - name: Install dependencies
         run: |
-          npm init -y
-          npm install @anthropic-ai/sdk cheerio fs-extra gray-matter feed
+          # Criar package.json temporário para o workflow
+          cat > package.json << 'EOF'
+          {
+            "name": "blog-generator",
+            "version": "1.0.0",
+            "type": "module",
+            "description": "Blog content generator",
+            "main": "index.js",
+            "dependencies": {
+              "@anthropic-ai/sdk": "^0.30.0",
+              "fs-extra": "^11.2.0",
+              "gray-matter": "^4.0.3",
+              "feed": "^4.2.2"
+            }
+          }
+          EOF
+          npm install --no-package-lock
 
       - name: Generate blog content
         run: node .github/scripts/generate-content.mjs
