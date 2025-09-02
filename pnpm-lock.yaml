@@ -9,10 +9,10 @@ importers:
   .:
     dependencies:
       '@anthropic-ai/sdk':
-        specifier: ^0.24.2
+        specifier: ^0.24.3
         version: 0.24.3
       cheerio:
-        specifier: ^1.0.0-rc.12
+        specifier: ^1.1.0
         version: 1.1.2
       classnames:
         specifier: ^2.5.1
@@ -24,7 +24,7 @@ importers:
         specifier: ^12.23.12
         version: 12.23.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       fs-extra:
-        specifier: ^11.1.1
+        specifier: ^11.3.1
         version: 11.3.1
       gray-matter:
         specifier: ^4.0.3
