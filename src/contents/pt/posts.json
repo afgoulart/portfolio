@@ -15,6 +15,21 @@
     "filename": "2025-09-03-construindo-um-blog-portfolio-multilingue-com-nextjs-15-licoes-aprendidas-sobre-arquitetura-estatica-server-actions-typescript-e-cicd.md"
   },
   {
+    "slug": "kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel",
+    "title": "CVE-2024-50264: Análise Técnica da Vulnerabilidade Crítica no Kernel Linux e Estratégias de Mitigação",
+    "date": "2025-09-03",
+    "author": "Tech Blog Bot",
+    "tags": [
+      "cybersecurity",
+      "linux-kernel",
+      "cve",
+      "vulnerability-analysis",
+      "infosec"
+    ],
+    "excerpt": "Análise detalhada da vulnerabilidade CVE-2024-50264 no kernel Linux, incluindo vetores de exploração, impactos de segurança e medidas preventivas essenciais para administradores de sistemas.",
+    "filename": "2025-09-03-kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel.md"
+  },
+  {
     "slug": "ai-coders-como-github-copilot-chatgpt-claude-e-amazon-q-estao-revolucionando-o-desenvolvimento-de-software",
     "title": "AI Coders: Como GitHub Copilot, ChatGPT, Claude e Amazon Q Estão Revolucionando o Desenvolvimento de Software",
     "date": "2025-09-02",

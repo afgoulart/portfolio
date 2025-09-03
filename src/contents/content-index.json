@@ -1,5 +1,5 @@
 {
-  "totalPosts": 13,
+  "totalPosts": 15,
   "locales": [
     "pt",
     "en"
@@ -9,7 +9,7 @@
       "months": {
         "09": {
           "days": {
-            "01": {
+            "02": {
               "count": 11,
               "posts": [
                 {
@@ -29,7 +29,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "ai-coding-assistants",
@@ -48,7 +48,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "big-data-analytics-business",
@@ -67,7 +67,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "claude-code-revolucionando-o-desenvolvimento-com-ia-guia-completo-dos-ai-assistants",
@@ -86,7 +86,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "design-patterns-guide",
@@ -105,7 +105,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "automated-testing-guide",
@@ -124,7 +124,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "ai-coders-how-github-copilot-chatgpt-claude-and-amazon-q-are-revolutionizing-software-development",
@@ -143,7 +143,7 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "ai-coding-assistants",
@@ -162,7 +162,7 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "automated-testing-guide",
@@ -181,7 +181,7 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "claude-code-revolutionizing-development-with-ai-complete-guide-to-ai-assistants",
@@ -200,7 +200,7 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "design-patterns-guide",
@@ -219,12 +219,12 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 }
               ]
             },
-            "02": {
-              "count": 2,
+            "03": {
+              "count": 4,
               "posts": [
                 {
                   "slug": "construindo-um-blog-portfolio-multilingue-com-nextjs-15-licoes-aprendidas-sobre-arquitetura-estatica-server-actions-typescript-e-cicd",
@@ -243,7 +243,26 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 2
+                  "day": 3
+                },
+                {
+                  "slug": "kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel",
+                  "title": "CVE-2024-50264: Análise Técnica da Vulnerabilidade Crítica no Kernel Linux e Estratégias de Mitigação",
+                  "date": "2025-09-03",
+                  "author": "Tech Blog Bot",
+                  "tags": [
+                    "cybersecurity",
+                    "linux-kernel",
+                    "cve",
+                    "vulnerability-analysis",
+                    "infosec"
+                  ],
+                  "excerpt": "Análise detalhada da vulnerabilidade CVE-2024-50264 no kernel Linux, incluindo vetores de exploração, impactos de segurança e medidas preventivas essenciais para administradores de sistemas.",
+                  "filename": "2025-09-03-kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel.md",
+                  "locale": "pt",
+                  "year": 2025,
+                  "month": 9,
+                  "day": 3
                 },
                 {
                   "slug": "construindo-um-blog-portfolio-multilingue-com-nextjs-15-licoes-aprendidas-sobre-arquitetura-estatica-server-actions-typescript-e-cicd",
@@ -262,15 +281,34 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 2
+                  "day": 3
+                },
+                {
+                  "slug": "kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel",
+                  "title": "CVE-2024-50264: Technical Analysis of Critical Linux Kernel Vulnerability and Mitigation Strategies",
+                  "date": "2025-09-03",
+                  "author": "Tech Blog Bot",
+                  "tags": [
+                    "cybersecurity",
+                    "linux-kernel",
+                    "cve",
+                    "vulnerability-analysis",
+                    "infosec"
+                  ],
+                  "excerpt": "Detailed analysis of the CVE-2024-50264 vulnerability in the Linux kernel, including exploitation vectors, security impacts, and essential preventive measures for system administrators.",
+                  "filename": "2025-09-03-kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel.md",
+                  "locale": "en",
+                  "year": 2025,
+                  "month": 9,
+                  "day": 3
                 }
               ]
             }
           },
-          "count": 13
+          "count": 15
         }
       },
-      "count": 13
+      "count": 15
     }
   },
   "posts": [
@@ -291,7 +329,26 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 2
+      "day": 3
+    },
+    {
+      "slug": "kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel",
+      "title": "CVE-2024-50264: Análise Técnica da Vulnerabilidade Crítica no Kernel Linux e Estratégias de Mitigação",
+      "date": "2025-09-03",
+      "author": "Tech Blog Bot",
+      "tags": [
+        "cybersecurity",
+        "linux-kernel",
+        "cve",
+        "vulnerability-analysis",
+        "infosec"
+      ],
+      "excerpt": "Análise detalhada da vulnerabilidade CVE-2024-50264 no kernel Linux, incluindo vetores de exploração, impactos de segurança e medidas preventivas essenciais para administradores de sistemas.",
+      "filename": "2025-09-03-kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel.md",
+      "locale": "pt",
+      "year": 2025,
+      "month": 9,
+      "day": 3
     },
     {
       "slug": "construindo-um-blog-portfolio-multilingue-com-nextjs-15-licoes-aprendidas-sobre-arquitetura-estatica-server-actions-typescript-e-cicd",
@@ -310,7 +367,26 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 2
+      "day": 3
+    },
+    {
+      "slug": "kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel",
+      "title": "CVE-2024-50264: Technical Analysis of Critical Linux Kernel Vulnerability and Mitigation Strategies",
+      "date": "2025-09-03",
+      "author": "Tech Blog Bot",
+      "tags": [
+        "cybersecurity",
+        "linux-kernel",
+        "cve",
+        "vulnerability-analysis",
+        "infosec"
+      ],
+      "excerpt": "Detailed analysis of the CVE-2024-50264 vulnerability in the Linux kernel, including exploitation vectors, security impacts, and essential preventive measures for system administrators.",
+      "filename": "2025-09-03-kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel.md",
+      "locale": "en",
+      "year": 2025,
+      "month": 9,
+      "day": 3
     },
     {
       "slug": "ai-coders-como-github-copilot-chatgpt-claude-e-amazon-q-estao-revolucionando-o-desenvolvimento-de-software",
@@ -329,7 +405,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "ai-coding-assistants",
@@ -348,7 +424,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "big-data-analytics-business",
@@ -367,7 +443,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "claude-code-revolucionando-o-desenvolvimento-com-ia-guia-completo-dos-ai-assistants",
@@ -386,7 +462,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "design-patterns-guide",
@@ -405,7 +481,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "automated-testing-guide",
@@ -424,7 +500,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "ai-coders-how-github-copilot-chatgpt-claude-and-amazon-q-are-revolutionizing-software-development",
@@ -443,7 +519,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "ai-coding-assistants",
@@ -462,7 +538,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "automated-testing-guide",
@@ -481,7 +557,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "claude-code-revolutionizing-development-with-ai-complete-guide-to-ai-assistants",
@@ -500,7 +576,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "design-patterns-guide",
@@ -519,7 +595,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     }
   ],
   "tags": {
@@ -701,6 +777,36 @@
       "count": 1,
       "posts": [
         "construindo-um-blog-portfolio-multilingue-com-nextjs-15-licoes-aprendidas-sobre-arquitetura-estatica-server-actions-typescript-e-cicd"
+      ]
+    },
+    "cybersecurity": {
+      "count": 1,
+      "posts": [
+        "kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel"
+      ]
+    },
+    "linux-kernel": {
+      "count": 1,
+      "posts": [
+        "kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel"
+      ]
+    },
+    "cve": {
+      "count": 1,
+      "posts": [
+        "kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel"
+      ]
+    },
+    "vulnerability-analysis": {
+      "count": 1,
+      "posts": [
+        "kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel"
+      ]
+    },
+    "infosec": {
+      "count": 1,
+      "posts": [
+        "kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel"
       ]
     },
     "artificial-intelligence": {
