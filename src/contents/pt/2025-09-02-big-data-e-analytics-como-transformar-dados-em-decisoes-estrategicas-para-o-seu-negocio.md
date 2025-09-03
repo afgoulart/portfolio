@@ -13,6 +13,7 @@ tags:
 excerpt: >-
   Descubra como Big Data e Analytics estão revolucionando a tomada de decisões
   empresariais e transformando dados em vantagem competitiva no mercado digital.
+slug: big-data-analytics-business
 ---
 
 # Big Data e Analytics: Como Transformar Dados em Decisões Estratégicas para o Seu Negócio

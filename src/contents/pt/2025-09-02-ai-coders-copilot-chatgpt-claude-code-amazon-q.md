@@ -13,6 +13,8 @@ tags:
 excerpt: >-
   Descubra como as ferramentas de IA para programação estão transformando o
   trabalho dos desenvolvedores e qual escolher para seu projeto
+slug: >-
+  ai-coders-como-github-copilot-chatgpt-claude-e-amazon-q-estao-revolucionando-o-desenvolvimento-de-software
 ---
 
 # AI Coders: Como GitHub Copilot, ChatGPT, Claude e Amazon Q Estão Revolucionando o Desenvolvimento de Software

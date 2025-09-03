@@ -2,17 +2,20 @@
 
 import Link from 'next/link';
 import { BlogPost } from '@/lib/blog';
+import { PostIndex } from '@/lib/content-client';
 import { Badge, Card } from '@/components/atoms';
 import { motion } from 'framer-motion';
 
 interface BlogCardProps {
-  post: BlogPost;
+  post: BlogPost | PostIndex;
 }
 
 export default function BlogCard({ post }: BlogCardProps) {
+  const locale = 'locale' in post ? post.locale : 'pt'; // Default fallback
+  
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
-    return date.toLocaleDateString(post.locale === 'pt' ? 'pt-BR' : 'en-US', {
+    return date.toLocaleDateString(locale === 'pt' ? 'pt-BR' : 'en-US', {
       year: 'numeric',
       month: 'long',
       day: 'numeric'
@@ -26,7 +29,7 @@ export default function BlogCard({ post }: BlogCardProps) {
       transition={{ duration: 0.6 }}
       whileHover={{ y: -5 }}
     >
-      <Link href={`/${post.locale}/blog/${post.slug}`}>
+      <Link href={`/${locale}/blog/${post.slug}`}>
         <Card className="h-full hover:bg-gray-800/50 transition-colors duration-300 cursor-pointer group">
           <div className="h-full p-6 flex flex-col">
             {/* Header - Fixed height */}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>André Goulart - Tech Blog</title>
+        <link>https://afgoulart.github.io/portfolio/en</link>
+        <description>A tech blog with the most current content being discussed in the tech world.</description>
+        <lastBuildDate>Tue, 02 Sep 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en-US</language>
+        <copyright>All rights reserved 2025, André Filipe Goulart</copyright>
+        <item>
+            <title><![CDATA[Design Patterns: O Guia Definitivo para Padrões de Projeto em Desenvolvimento de Software]]></title>
+            <link>https://afgoulart.github.io/portfolio/en/blog/2025-09-02-design-patterns-o-guia-definitivo-para-padroes-de-projeto-em-desenvolvimento-de-software</link>
+            <guid isPermaLink="false">https://afgoulart.github.io/portfolio/en/blog/2025-09-02-design-patterns-o-guia-definitivo-para-padroes-de-projeto-em-desenvolvimento-de-software</guid>
+            <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Descubra como os Design Patterns podem revolucionar seu código, tornando-o mais eficiente, reutilizável e fácil de manter. Um guia completo para desenvolvedores de todos os níveis.]]></description>
+            <content:encoded><![CDATA[Descubra como os Design Patterns podem revolucionar seu código, tornando-o mais eficiente, reutilizável e fácil de manter. Um guia completo para desenvolvedores de todos os níveis.]]></content:encoded>
+            <author>afgoulart.rj@gmail.com (André Goulart)</author>
+            <category>design-patterns</category>
+            <category>programacao</category>
+            <category>arquitetura-software</category>
+            <category>desenvolvimento</category>
+            <category>boas-praticas</category>
+        </item>
+        <item>
+            <title><![CDATA[Claude Code: Revolutionizing Development with AI - Complete Guide to AI Assistants]]></title>
+            <link>https://afgoulart.github.io/portfolio/en/blog/2025-09-02-claude-code-e-ai-assistants</link>
+            <guid isPermaLink="false">https://afgoulart.github.io/portfolio/en/blog/2025-09-02-claude-code-e-ai-assistants</guid>
+            <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover how Claude Code and other AI Assistants are transforming modern programming, offering intelligent solutions for developers of all levels.]]></description>
+            <content:encoded><![CDATA[Discover how Claude Code and other AI Assistants are transforming modern programming, offering intelligent solutions for developers of all levels.]]></content:encoded>
+            <author>afgoulart.rj@gmail.com (André Goulart)</author>
+            <category>artificial-intelligence</category>
+            <category>programming</category>
+            <category>claude</category>
+            <category>ai-assistants</category>
+            <category>development</category>
+        </item>
+        <item>
+            <title><![CDATA[Automated Testing: The Complete Guide to Building Bulletproof Software in 2024]]></title>
+            <link>https://afgoulart.github.io/portfolio/en/blog/2025-09-02-automated-testing-the-complete-guide-to-building-bulletproof-software-in-2024</link>
+            <guid isPermaLink="false">https://afgoulart.github.io/portfolio/en/blog/2025-09-02-automated-testing-the-complete-guide-to-building-bulletproof-software-in-2024</guid>
+            <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Master automated testing with this comprehensive guide covering types, benefits, implementation strategies, and best practices for modern software development teams.]]></description>
+            <content:encoded><![CDATA[Master automated testing with this comprehensive guide covering types, benefits, implementation strategies, and best practices for modern software development teams.]]></content:encoded>
+            <author>afgoulart.rj@gmail.com (André Goulart)</author>
+            <category>automated-testing</category>
+            <category>software-development</category>
+            <category>quality-assurance</category>
+            <category>devops</category>
+            <category>testing-frameworks</category>
+        </item>
+        <item>
+            <title><![CDATA[AI Coding Assistants Revolution: Complete Guide to Copilot, ChatGPT, Claude, and Amazon Q]]></title>
+            <link>https://afgoulart.github.io/portfolio/en/blog/2025-09-02-ai-coding-assistants-revolution-complete-guide-to-copilot-chatgpt-claude-and-amazon-q</link>
+            <guid isPermaLink="false">https://afgoulart.github.io/portfolio/en/blog/2025-09-02-ai-coding-assistants-revolution-complete-guide-to-copilot-chatgpt-claude-and-amazon-q</guid>
+            <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore the leading AI coding assistants transforming software development. Compare features, capabilities, and real-world applications of GitHub Copilot, ChatGPT, Claude Code, and Amazon Q.]]></description>
+            <content:encoded><![CDATA[Explore the leading AI coding assistants transforming software development. Compare features, capabilities, and real-world applications of GitHub Copilot, ChatGPT, Claude Code, and Amazon Q.]]></content:encoded>
+            <author>afgoulart.rj@gmail.com (André Goulart)</author>
+            <category>ai-coding</category>
+            <category>github-copilot</category>
+            <category>chatgpt</category>
+            <category>claude</category>
+            <category>amazon-q</category>
+        </item>
+        <item>
+            <title><![CDATA[AI Coders: How GitHub Copilot, ChatGPT, Claude and Amazon Q Are Revolutionizing Software Development]]></title>
+            <link>https://afgoulart.github.io/portfolio/en/blog/2025-09-02-ai-coders-copilot-chatgpt-claude-code-amazon-q</link>
+            <guid isPermaLink="false">https://afgoulart.github.io/portfolio/en/blog/2025-09-02-ai-coders-copilot-chatgpt-claude-code-amazon-q</guid>
+            <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover how AI programming tools are transforming developers' work and which one to choose for your project]]></description>
+            <content:encoded><![CDATA[Discover how AI programming tools are transforming developers' work and which one to choose for your project]]></content:encoded>
+            <author>afgoulart.rj@gmail.com (André Goulart)</author>
+            <category>artificial-intelligence</category>
+            <category>software-development</category>
+            <category>copilot</category>
+            <category>chatgpt</category>
+            <category>programming</category>
+        </item>
+    </channel>
+</rss>

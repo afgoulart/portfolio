@@ -13,6 +13,8 @@ tags:
 excerpt: >-
   Discover how Claude Code and other AI Assistants are transforming modern
   programming, offering intelligent solutions for developers of all levels.
+slug: >-
+  claude-code-revolutionizing-development-with-ai-complete-guide-to-ai-assistants
 ---
 
 # Claude Code: Revolutionizing Development with AI - Complete Guide to AI Assistants

@@ -1,0 +1,389 @@
+1:"$Sreact.fragment"
+2:I[26817,["/portfolio/_next/static/chunks/b01d8231a23ddbc2.js","/portfolio/_next/static/chunks/9cf248a4f2702dd5.js","/portfolio/_next/static/chunks/b52c84ebfdb579ac.js","/portfolio/_next/static/chunks/ae26c6ea571f173d.js","/portfolio/_next/static/chunks/702a77745ca38bfa.js"],"default"]
+3:I[54289,["/portfolio/_next/static/chunks/504003311425f84c.js","/portfolio/_next/static/chunks/db40686d3c8a0b66.js"],"default"]
+4:I[26237,["/portfolio/_next/static/chunks/504003311425f84c.js","/portfolio/_next/static/chunks/db40686d3c8a0b66.js"],"default"]
+7:I[17625,["/portfolio/_next/static/chunks/504003311425f84c.js","/portfolio/_next/static/chunks/db40686d3c8a0b66.js"],"OutletBoundary"]
+9:I[14287,["/portfolio/_next/static/chunks/504003311425f84c.js","/portfolio/_next/static/chunks/db40686d3c8a0b66.js"],"AsyncMetadataOutlet"]
+b:I[17625,["/portfolio/_next/static/chunks/504003311425f84c.js","/portfolio/_next/static/chunks/db40686d3c8a0b66.js"],"ViewportBoundary"]
+d:I[17625,["/portfolio/_next/static/chunks/504003311425f84c.js","/portfolio/_next/static/chunks/db40686d3c8a0b66.js"],"MetadataBoundary"]
+e:"$Sreact.suspense"
+10:I[53973,["/portfolio/_next/static/chunks/b01d8231a23ddbc2.js"],"default"]
+:HL["/portfolio/_next/static/chunks/349c61bb7362acd5.css","style"]
+:HL["/portfolio/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/portfolio/_next/static/media/caa3a2e1cccd8315-s.p.6435ea53.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"DfXXDUncF-8vtWSqFd9EZ","p":"/portfolio","c":["","pt","blog","2025-09-02-design-patterns-o-guia-completo-para-revolucionar-seu-desenvolvimento-de-software",""],"i":false,"f":[[["",{"children":[["locale","pt","d"],{"children":["blog",{"children":[["slug","2025-09-02-design-patterns-o-guia-completo-para-revolucionar-seu-desenvolvimento-de-software","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/chunks/349c61bb7362acd5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/portfolio/_next/static/chunks/b01d8231a23ddbc2.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"pt","children":["$","body",null,{"className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable antialiased bg-gray-900 text-white","children":[["$","$L2",null,{}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":[["locale","pt","d"],["$","$1","c",{"children":[[["$","script","script-0",{"src":"/portfolio/_next/static/chunks/9cf248a4f2702dd5.js","async":true,"nonce":"$undefined"}]],"$L5"]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","2025-09-02-design-patterns-o-guia-completo-para-revolucionar-seu-desenvolvimento-de-software","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/portfolio/_next/static/chunks/b52c84ebfdb579ac.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/portfolio/_next/static/chunks/ae26c6ea571f173d.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/portfolio/_next/static/chunks/702a77745ca38bfa.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$L8",["$","$L9",null,{"promise":"$@a"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$Ld",null,{"children":["$","div",null,{"hidden":true,"children":["$","$e",null,{"fallback":null,"children":"$Lf"}]}]}]]}],false]],"m":"$undefined","G":["$10",[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/chunks/349c61bb7362acd5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"s":false,"S":true}
+11:I[5431,["/portfolio/_next/static/chunks/b01d8231a23ddbc2.js","/portfolio/_next/static/chunks/9cf248a4f2702dd5.js","/portfolio/_next/static/chunks/b52c84ebfdb579ac.js","/portfolio/_next/static/chunks/ae26c6ea571f173d.js","/portfolio/_next/static/chunks/702a77745ca38bfa.js"],"default"]
+12:I[42607,["/portfolio/_next/static/chunks/b01d8231a23ddbc2.js","/portfolio/_next/static/chunks/9cf248a4f2702dd5.js","/portfolio/_next/static/chunks/b52c84ebfdb579ac.js","/portfolio/_next/static/chunks/ae26c6ea571f173d.js","/portfolio/_next/static/chunks/702a77745ca38bfa.js"],"default"]
+13:I[97181,["/portfolio/_next/static/chunks/b01d8231a23ddbc2.js","/portfolio/_next/static/chunks/9cf248a4f2702dd5.js","/portfolio/_next/static/chunks/b52c84ebfdb579ac.js","/portfolio/_next/static/chunks/ae26c6ea571f173d.js","/portfolio/_next/static/chunks/702a77745ca38bfa.js"],"default"]
+14:T40b2,<h1>Design Patterns: O Guia Completo para Revolucionar seu Desenvolvimento de Software</h1>
+<p>Imagine poder resolver problemas complexos de desenvolvimento usando soluções já testadas e aprovadas por milhares de desenvolvedores ao redor do mundo. Os <strong>Design Patterns</strong> (Padrões de Design) são exatamente isso: um catálogo de soluções elegantes e reutilizáveis para problemas comuns no desenvolvimento de software.</p>
+<p>Criados pelo famoso "Gang of Four" (Erich Gamma, Richard Helm, Ralph Johnson e John Vlissides) em 1994, os design patterns se tornaram fundamentais na programação orientada a objetos e continuam sendo relevantes até hoje, adaptando-se a novas linguagens e paradigmas de desenvolvimento.</p>
+<h2>O que são Design Patterns e Por que São Importantes?</h2>
+<p>Os Design Patterns são <strong>modelos de solução</strong> que descrevem como resolver problemas recorrentes no design de software de forma elegante e eficiente. Eles não são código pronto, mas sim conceitos e estruturas que podem ser aplicados em diferentes contextos e linguagens.</p>
+<h3>Benefícios dos Design Patterns:</h3>
+<ul>
+<li><strong>Reutilização de código</strong>: Evita reinventar a roda</li>
+<li><strong>Comunicação eficiente</strong>: Cria um vocabulário comum entre desenvolvedores</li>
+<li><strong>Manutenibilidade</strong>: Facilita modificações e extensões futuras</li>
+<li><strong>Qualidade do software</strong>: Promove boas práticas de programação</li>
+<li><strong>Redução de bugs</strong>: Utiliza soluções já testadas e validadas</li>
+</ul>
+<h3>Exemplo Prático - Singleton Pattern</h3>
+<p>O padrão Singleton garante que uma classe tenha apenas uma instância e fornece acesso global a ela:</p>
+<pre><code class="language-python">class DatabaseConnection:
+    _instance = None
+    
+    def __new__(cls):
+        if cls._instance is None:
+            cls._instance = super().__new__(cls)
+        return cls._instance
+    
+    def connect(self):
+        return "Conectado ao banco de dados"
+
+# Uso
+db1 = DatabaseConnection()
+db2 = DatabaseConnection()
+print(db1 is db2)  # True - mesma instância
+</code></pre>
+<h2>Os Três Pilares dos Design Patterns</h2>
+<h3>1. Padrões Criacionais (Creational Patterns)</h3>
+<p>Os padrões criacionais lidam com <strong>mecanismos de criação de objetos</strong>, tentando criar objetos de maneira adequada à situação. Eles aumentam a flexibilidade e reutilização do código existente.</p>
+<h4>Factory Method - Exemplo Prático</h4>
+<pre><code class="language-javascript">class ShapeFactory {
+    createShape(type) {
+        switch(type) {
+            case 'circle':
+                return new Circle();
+            case 'rectangle':
+                return new Rectangle();
+            case 'triangle':
+                return new Triangle();
+            default:
+                throw new Error('Tipo de forma não suportado');
+        }
+    }
+}
+
+// Uso em um sistema de desenho
+const factory = new ShapeFactory();
+const circle = factory.createShape('circle');
+const rectangle = factory.createShape('rectangle');
+</code></pre>
+<h4>Principais Padrões Criacionais:</h4>
+<ul>
+<li><strong>Singleton</strong>: Uma única instância</li>
+<li><strong>Factory Method</strong>: Criação através de métodos especializados</li>
+<li><strong>Abstract Factory</strong>: Famílias de objetos relacionados</li>
+<li><strong>Builder</strong>: Construção passo a passo de objetos complexos</li>
+<li><strong>Prototype</strong>: Clonagem de objetos existentes</li>
+</ul>
+<h3>2. Padrões Estruturais (Structural Patterns)</h3>
+<p>Os padrões estruturais explicam como <strong>montar objetos e classes</strong> em estruturas maiores, mantendo essas estruturas flexíveis e eficientes.</p>
+<h4>Adapter Pattern - Caso de Uso Real</h4>
+<p>Imagine integrar uma API de pagamento externa com interface diferente:</p>
+<pre><code class="language-java">// Interface esperada pelo sistema
+interface PaymentProcessor {
+    void processPayment(double amount);
+}
+
+// API externa com interface diferente
+class ExternalPaymentAPI {
+    public void makePayment(String currency, double value) {
+        System.out.println("Processando pagamento: " + currency + " " + value);
+    }
+}
+
+// Adapter para compatibilizar as interfaces
+class PaymentAdapter implements PaymentProcessor {
+    private ExternalPaymentAPI externalAPI;
+    
+    public PaymentAdapter(ExternalPaymentAPI api) {
+        this.externalAPI = api;
+    }
+    
+    @Override
+    public void processPayment(double amount) {
+        externalAPI.makePayment("BRL", amount);
+    }
+}
+</code></pre>
+<h4>Principais Padrões Estruturais:</h4>
+<ul>
+<li><strong>Adapter</strong>: Compatibiliza interfaces incompatíveis</li>
+<li><strong>Decorator</strong>: Adiciona funcionalidades dinamicamente</li>
+<li><strong>Facade</strong>: Interface simplificada para sistema complexo</li>
+<li><strong>Composite</strong>: Estruturas em árvore de objetos</li>
+<li><strong>Proxy</strong>: Controla acesso a outro objeto</li>
+</ul>
+<h3>3. Padrões Comportamentais (Behavioral Patterns)</h3>
+<p>Os padrões comportamentais focam na <strong>comunicação entre objetos</strong> e na atribuição de responsabilidades entre eles.</p>
+<h4>Observer Pattern - Sistema de Notificações</h4>
+<pre><code class="language-typescript">interface Observer {
+    update(message: string): void;
+}
+
+class NewsletterSubscriber implements Observer {
+    private name: string;
+    
+    constructor(name: string) {
+        this.name = name;
+    }
+    
+    update(message: string): void {
+        console.log(`${this.name} recebeu: ${message}`);
+    }
+}
+
+class NewsPublisher {
+    private observers: Observer[] = [];
+    
+    subscribe(observer: Observer): void {
+        this.observers.push(observer);
+    }
+    
+    unsubscribe(observer: Observer): void {
+        this.observers = this.observers.filter(obs => obs !== observer);
+    }
+    
+    notify(message: string): void {
+        this.observers.forEach(observer => observer.update(message));
+    }
+    
+    publishNews(news: string): void {
+        console.log(`Publicando: ${news}`);
+        this.notify(news);
+    }
+}
+
+// Uso
+const publisher = new NewsPublisher();
+const subscriber1 = new NewsletterSubscriber("João");
+const subscriber2 = new NewsletterSubscriber("Maria");
+
+publisher.subscribe(subscriber1);
+publisher.subscribe(subscriber2);
+publisher.publishNews("Nova versão do produto lançada!");
+</code></pre>
+<h2>Implementação Moderna dos Design Patterns</h2>
+<h3>Design Patterns em Frameworks Modernos</h3>
+<p>Os design patterns evoluíram e se adaptaram aos frameworks modernos:</p>
+<h4>React e o Pattern de Composição</h4>
+<pre><code class="language-jsx">// Higher-Order Component (HOC) - Decorator Pattern
+const withLoading = (WrappedComponent) => {
+    return function WithLoadingComponent({ isLoading, ...props }) {
+        if (isLoading) {
+            return &#x3C;div>Carregando...&#x3C;/div>;
+        }
+        return &#x3C;WrappedComponent {...props} />;
+    };
+};
+
+// Custom Hooks - Strategy Pattern
+const usePaymentStrategy = (method) => {
+    const strategies = {
+        creditCard: () => processCreditCard(),
+        pix: () => processPix(),
+        bankSlip: () => processBankSlip()
+    };
+    
+    return strategies[method] || strategies.creditCard;
+};
+</code></pre>
+<h4>Microserviços e Design Patterns</h4>
+<ul>
+<li><strong>Circuit Breaker</strong>: Previne falhas em cascata</li>
+<li><strong>Saga Pattern</strong>: Gerencia transações distribuídas</li>
+<li><strong>API Gateway</strong>: Centraliza acesso aos serviços</li>
+</ul>
+<h3>Boas Práticas de Implementação</h3>
+<ol>
+<li><strong>Não force um padrão</strong>: Use apenas quando realmente resolver um problema</li>
+<li><strong>Entenda o contexto</strong>: Cada padrão tem seu cenário ideal</li>
+<li><strong>Mantenha simplicidade</strong>: Patterns devem simplificar, não complicar</li>
+<li><strong>Documente bem</strong>: Explique por que escolheu determinado padrão</li>
+<li><strong>Teste adequadamente</strong>: Patterns podem adicionar complexidade aos testes</li>
+</ol>
+<h2>Conclusão</h2>
+<p>Os Design Patterns são ferramentas poderosas que continuam relevantes no desenvolvimento moderno de software. Eles oferecem soluções elegantes para problemas comuns, melhoram a comunicação entre desenvolvedores e promovem código mais limpo e manutenível.</p>
+<p>A chave para usar Design Patterns efetivamente é <strong>entender os problemas que eles resolvem</strong> antes de implementá-los. Eles não são soluções mágicas, mas sim ferramentas valiosas no arsenal de qualquer desenvolvedor experiente.</p>
+<p>Comece implementando padrões simples como Singleton e Observer em seus projetos pessoais, e gradualmente incorpore padrões mais complexos conforme ganha experiência. Lembre-se: o objetivo é escrever código melhor, não apenas usar padrões por usar.</p>
+<hr>
+<h1>Design Patterns: The Complete Guide to Revolutionize Your Software Development</h1>
+<p>Imagine being able to solve complex development problems using solutions already tested and approved by thousands of developers worldwide. <strong>Design Patterns</strong> are exactly that: a catalog of elegant and reusable solutions to common problems in software development.</p>
+<p>Created by the famous "Gang of Four" (Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides) in 1994, design patterns became fundamental in object-oriented programming and remain relevant today, adapting to new languages and development paradigms.</p>
+<h2>What are Design Patterns and Why Are They Important?</h2>
+<p>Design Patterns are <strong>solution templates</strong> that describe how to solve recurring problems in software design elegantly and efficiently. They are not ready-made code, but concepts and structures that can be applied in different contexts and languages.</p>
+<h3>Benefits of Design Patterns:</h3>
+<ul>
+<li><strong>Code reusability</strong>: Avoids reinventing the wheel</li>
+<li><strong>Efficient communication</strong>: Creates common vocabulary among developers</li>
+<li><strong>Maintainability</strong>: Facilitates future modifications and extensions</li>
+<li><strong>Software quality</strong>: Promotes good programming practices</li>
+<li><strong>Bug reduction</strong>: Uses tested and validated solutions</li>
+</ul>
+<h3>Practical Example - Singleton Pattern</h3>
+<p>The Singleton pattern ensures a class has only one instance and provides global access to it:</p>
+<pre><code class="language-python">class DatabaseConnection:
+    _instance = None
+    
+    def __new__(cls):
+        if cls._instance is None:
+            cls._instance = super().__new__(cls)
+        return cls._instance
+    
+    def connect(self):
+        return "Connected to database"
+
+# Usage
+db1 = DatabaseConnection()
+db2 = DatabaseConnection()
+print(db1 is db2)  # True - same instance
+</code></pre>
+<h2>The Three Pillars of Design Patterns</h2>
+<h3>1. Creational Patterns</h3>
+<p>Creational patterns deal with <strong>object creation mechanisms</strong>, trying to create objects in a manner suitable to the situation. They increase flexibility and reuse of existing code.</p>
+<h4>Factory Method - Practical Example</h4>
+<pre><code class="language-javascript">class ShapeFactory {
+    createShape(type) {
+        switch(type) {
+            case 'circle':
+                return new Circle();
+            case 'rectangle':
+                return new Rectangle();
+            case 'triangle':
+                return new Triangle();
+            default:
+                throw new Error('Unsupported shape type');
+        }
+    }
+}
+
+// Usage in a drawing system
+const factory = new ShapeFactory();
+const circle = factory.createShape('circle');
+const rectangle = factory.createShape('rectangle');
+</code></pre>
+<h3>2. Structural Patterns</h3>
+<p>Structural patterns explain how to <strong>assemble objects and classes</strong> into larger structures while keeping these structures flexible and efficient.</p>
+<h4>Adapter Pattern - Real Use Case</h4>
+<p>Imagine integrating an external payment API with a different interface:</p>
+<pre><code class="language-java">// Interface expected by the system
+interface PaymentProcessor {
+    void processPayment(double amount);
+}
+
+// External API with different interface
+class ExternalPaymentAPI {
+    public void makePayment(String currency, double value) {
+        System.out.println("Processing payment: " + currency + " " + value);
+    }
+}
+
+// Adapter to make interfaces compatible
+class PaymentAdapter implements PaymentProcessor {
+    private ExternalPaymentAPI externalAPI;
+    
+    public PaymentAdapter(ExternalPaymentAPI api) {
+        this.externalAPI = api;
+    }
+    
+    @Override
+    public void processPayment(double amount) {
+        externalAPI.makePayment("USD", amount);
+    }
+}
+</code></pre>
+<h3>3. Behavioral Patterns</h3>
+<p>Behavioral patterns focus on <strong>communication between objects</strong> and the assignment of responsibilities between them.</p>
+<h4>Observer Pattern - Notification System</h4>
+<pre><code class="language-typescript">interface Observer {
+    update(message: string): void;
+}
+
+class NewsletterSubscriber implements Observer {
+    private name: string;
+    
+    constructor(name: string) {
+        this.name = name;
+    }
+    
+    update(message: string): void {
+        console.log(`${this.name} received: ${message}`);
+    }
+}
+
+class NewsPublisher {
+    private observers: Observer[] = [];
+    
+    subscribe(observer: Observer): void {
+        this.observers.push(observer);
+    }
+    
+    notify(message: string): void {
+        this.observers.forEach(observer => observer.update(message));
+    }
+    
+    publishNews(news: string): void {
+        console.log(`Publishing: ${news}`);
+        this.notify(news);
+    }
+}
+</code></pre>
+<h2>Modern Implementation of Design Patterns</h2>
+<h3>Design Patterns in Modern Frameworks</h3>
+<p>Design patterns have evolved and adapted to modern frameworks:</p>
+<h4>React and Composition Pattern</h4>
+<pre><code class="language-jsx">// Higher-Order Component (HOC) - Decorator Pattern
+const withLoading = (WrappedComponent) => {
+    return function WithLoadingComponent({ isLoading, ...props }) {
+        if (isLoading) {
+            return &#x3C;div>Loading...&#x3C;/div>;
+        }
+        return &#x3C;WrappedComponent {...props} />;
+    };
+};
+
+// Custom Hooks - Strategy Pattern
+const usePaymentStrategy = (method) => {
+    const strategies = {
+        creditCard: () => processCreditCard(),
+        paypal: () => processPaypal(),
+        bankTransfer: () => processBankTransfer()
+    };
+    
+    return strategies[method] || strategies.creditCard;
+};
+</code></pre>
+<h2>Conclusion</h2>
+<p>Design Patterns are powerful tools that remain relevant in modern software development. They offer elegant solutions to common problems, improve communication between developers, and promote cleaner, more maintainable code.</p>
+<p>The key to using Design Patterns effectively is <strong>understanding the problems they solve</strong> before implementing them. They are not magic solutions, but valuable tools in any experienced developer's arsenal.</p>
+<p>Start by implementing simple patterns like Singleton and Observer in your personal projects, and gradually incorporate more complex patterns as you gain experience. Remember: the goal is to write better code, not just use patterns for the sake of using them.</p>
+<hr>
+<h2>Fontes e Links Relevantes</h2>
+<h3>Livros Fundamentais:</h3>
+<ul>
+<li><a href="https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612">Design Patterns: Elements of Reusable Object-Oriented Software</a> - Gang of Four</li>
+<li><a href="https://www.oreilly.com/library/view/head-first-design/0596007124/">Head First Design Patterns</a> - Eric Freeman &#x26; Elisabeth Robson</li>
+</ul>
+<h3>Recursos Online:</h3>
+<ul>
+<li><a href="https://refactoring.guru/design-patterns">Refactoring Guru - Design Patterns</a></li>
+<li><a href="https://sourcemaking.com/design_patterns">Source Making - Design Patterns</a></li>
+<li><a href="https://designpatternsgame.com/">Design Patterns Game</a> - Aprenda brincando</li>
+</ul>
+<h3>Documentação e Tutoriais:</h3>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">Mozilla Developer Network - Design Patterns</a></li>
+<li><a href="https://martinfowler.com/">Martin Fowler's Blog</a> - Patterns e Arquitetura</li>
+<li><a href="https://blog.cleancoder.com/">Clean Code Blog</a> - Uncle Bob Martin</li>
+</ul>
+6:["$","$L11",null,{"children":[["$","$L12",null,{}],["$","main",null,{"className":"overflow-x-hidden","children":["$","$L13",null,{"post":{"slug":"2025-09-02-design-patterns-o-guia-completo-para-revolucionar-seu-desenvolvimento-de-software","locale":"pt","title":"Design Patterns: O Guia Completo para Revolucionar seu Desenvolvimento de Software","date":"2025-09-02","author":"Tech Blog Bot","tags":["design-patterns","desenvolvimento-software","programacao","arquitetura","boas-praticas"],"excerpt":"Descubra como os Design Patterns podem transformar seu código em soluções elegantes, reutilizáveis e fáceis de manter. Um guia completo com exemplos práticos e casos de uso reais.","content":"$14"}}]}]]}]
+15:I[64434,["/portfolio/_next/static/chunks/b01d8231a23ddbc2.js","/portfolio/_next/static/chunks/9cf248a4f2702dd5.js"],"I18nProvider"]
+5:["$","$L15",null,{"locale":"pt","messages":{"hero":{"greeting":"Olá, eu sou","name":"André Filipe de Moraes Goulart","subtitle":"Engenheiro de Software Sênior com mais de 10 anos de experiência em desenvolvimento web, especialista em tecnologias modernas como NodeJS, React, Vue e TypeScript","viewProjects":"Ver Projetos","contact":"Entre em Contato"},"about":{"title":"Sobre Mim","subtitle":"Engenheiro de Software Sênior","description1":"Com mais de 10 anos de experiência em desenvolvimento web, tenho me dedicado a criar soluções digitais inovadoras e interfaces modernas e responsivas.","description2":"Especializado em tecnologias modernas como NodeJS, React, Vue e TypeScript, busco sempre aprender continuamente e entregar soluções eficientes e sustentáveis que causem impacto positivo.","description3":"Minha maior inspiração é minha família, que me motiva a superar desafios e buscar a excelência em tudo o que faço.","experience":"Experiência Profissional"},"skills":{"title":"Habilidades","categories":{"all":"Todas","frontend":"Frontend","backend":"Backend","tools":"Ferramentas","other":"Outras"},"learning":"Aprendizado Contínuo","innovation":"Inovação","results":"Foco em Resultados","motto":"Sempre em busca de novas tecnologias e desafios"},"projects":{"title":"Projetos","viewDemo":"Ver Demo","github":"GitHub","description":"Estes são alguns dos meus projetos favoritos. Cada um representa um desafio único e uma oportunidade de crescimento.","viewMore":"Ver Mais no GitHub"},"contact":{"title":"Entre em Contato","subtitle":"Vamos trabalhar juntos","description":"Estou sempre aberto para discutir novas oportunidades, projetos interessantes, ou apenas bater um papo sobre tecnologia.","sendMessage":"Enviar uma Mensagem","whatsappDescription":"Preencha o formulário abaixo e clique em enviar para entrar em contato comigo via WhatsApp","name":"Nome","email":"Email","message":"Mensagem","namePlaceholder":"Seu nome","emailPlaceholder":"seu@email.com","messagePlaceholder":"Sua mensagem...","sendWhatsapp":"Enviar via WhatsApp","send":"Enviar Mensagem","success":"Mensagem enviada com sucesso!","error":"Erro ao enviar mensagem. Tente novamente."},"certifications":{"title":"Certificações","description":"Certificações e cursos que validam minha expertise técnica e compromisso com o aprendizado contínuo.","totalCerts":"Certificações","cloudFocus":"Especialização","latestYear":"Mais Recente","viewCertificate":"Ver Certificado"},"experiences":{"skopia":{"title":"Especialista Fullstack Engineer | AWS Architect","company":"Skopia (EclipseWork/NScreen)","period":"Dezembro 2024 - presente","description":"Faço parte de uma consultoria, alocado no cliente Aviva Incasa Residencial clube, onde proponho ideias e crio soluções para melhorar o site de reservas para o clube residencial da empresa. Manutenção e sustentação nos projetos de front e back relacionados ao Cliente.","technologies":["React","Node.js","AWS","TypeScript","Vue.js"]},"calindra":{"title":"Senior Frontend Engineer","company":"Calindra","period":"Julho 2024 - Novembro 2024","description":"Atuei como parte de uma consultoria, alocado no cliente Tania Bulhões, onde propus ideias e criei soluções para melhorar o site de e-commerce da empresa. Colaborei diretamente com o cliente para entender suas necessidades e entregar soluções técnicas impactantes para otimizar a experiência do usuário e o desempenho do site.","technologies":["React","Vue.js","TypeScript","E-commerce","UX/UI"]},"desygner":{"title":"Senior Frontend Engineer","company":"Desygner","period":"Dezembro 2023 - Maio 2024","description":"Desenvolvi interfaces modernas e responsivas usando React, Vue, Node.js, TypeScript, Styled-components, Storybook e Nx. Melhorei continuamente o código e criei componentes reutilizáveis, colaborando com designers e gerentes de produto para transformar conceitos em soluções funcionais.","technologies":["React","Vue.js","Node.js","TypeScript","Styled-components","Storybook","Nx"]},"stone":{"title":"Staff Software Engineer","company":"Stone","period":"Julho 2023 - Dezembro 2023","description":"Desenvolvi interfaces modernas e responsivas usando Vue.js, Next.js, React e Tailwind CSS.","technologies":["Vue.js","Next.js","React","Tailwind CSS"]},"mosaico_specialist":{"title":"Especialista Fullstack Engineer","company":"Mosaico","period":"Janeiro 2023 - Maio 2023","description":"Liderei a reestruturação do sistema de autenticação, implementando novas estratégias de login para melhorar a segurança e a experiência do usuário.","technologies":["React","Node.js","TypeScript","Autenticação","Especialista Tecnico"]},"mosaico_tech_lead":{"title":"Tech Lead","company":"Mosaico","period":"Janeiro 2022 - Dezembro 2022","description":"Liderei a equipe responsável pelo desenvolvimento de sistemas de autenticação e áreas logadas. Promovi melhorias nos processos e funcionalidades por meio da colaboração interdepartamental. Fui referência técnica para duas equipes, oferecendo suporte e orientação para aprimorar as habilidades técnicas dos desenvolvedores.","technologies":["React","Node.js","TypeScript","Autenticação","Liderança Técnica"]},"mosaico_fullstack":{"title":"Full Stack Engineer","company":"Mosaico","period":"Agosto 2019 - Janeiro 2022","description":"Participei da reengenharia do sistema de checkout do marketplace usando Next.js e React. Desenvolvi um painel financeiro para relatórios de lojas, utilizando NodeJS + Express em TypeScript para a API e React para o front-end.","technologies":["Next.js","React","Node.js","Express","TypeScript"]},"b2w_tech_lead":{"title":"Tech Lead / Full Stack Developer Senior","company":"B2W Digital","period":"Outubro 2017 - Julho 2019","description":"Assumi à liderança técnica de três projetos, Spacey (CMS para publicações do marketing) e gerenciador de promoções. Trabalhei no projeto Submarino usando JAVA, HTML, CSS, JavaScript e jQuery.","technologies":["React","Node.js","Java","JavaScript","jQuery","HTML","CSS"]},"b2w_frontend":{"title":"Frontend Developer Pleno","company":"B2W Digital","period":"Agosto 2014 - Setembro 2017","description":"Assumi à liderança técnica de três projetos, Spacey (CMS para publicações do marketing) e gerenciador de promoções. Trabalhei no projeto Submarino usando JAVA, HTML, CSS, JavaScript e jQuery.","technologies":["React","Node.js","Java","JavaScript","jQuery","HTML","CSS"]},"rrd_intern":{"title":"Desenvolvedor Web Estagiário","company":"RR Donnelley","period":"Janeiro 2013 - Julho 2014","description":"Auxiliei no desenvolvimento e manutenção de aplicações web internas usando ASP.NET e C#. Adquiri experiência prática em tecnologias web e colaborei com desenvolvedores seniores para aprimorar minhas habilidades.","technologies":["ASP.NET","HTML","CSS","JavaScript","AngularJS"]}},"projectsList":[{"title":"Sistema de Reservas - Aviva Incasa","description":"Desenvolvimento de soluções para sistema de reservas de clube residencial, com foco em melhorias de UX e performance."},{"title":"E-commerce Tania Bulhões","description":"Otimização e melhorias em plataforma de e-commerce, focando na experiência do usuário e performance do site."},{"title":"Marketplace Checkout System","description":"Reengenharia completa do sistema de checkout de marketplace usando tecnologias modernas."},{"title":"CMS Spacey - B2W Digital","description":"Sistema de gerenciamento de conteúdo para publicações de marketing e gerenciador de promoções."}],"certificationsList":{"aws_cloud_practitioner":{"title":"AWS Certified Cloud Practitioner","instituicao":"Amazon Web Services (AWS)","data":"Agosto 2025","descricao":"Certificação fundamental da AWS que valida conhecimentos sobre conceitos de nuvem, serviços AWS, segurança e arquitetura. Credencial: 933a2d2e-ebd4-447b-9053-dbe33b094099","link":"https://www.credly.com/badges/933a2d2e-ebd4-447b-9053-dbe33b094099"},"javascript_intermediate":{"title":"JavaScript Intermediate Certificate","instituicao":"HackerRank","data":"Julho 2025","descricao":"Certificação intermediária em JavaScript validando conhecimentos em conceitos avançados de programação e desenvolvimento web. Credencial: cebe10e21cd6","link":"https://www.hackerrank.com/certificates/cebe10e21cd6"},"sql_advanced":{"title":"SQL (Advanced) Certificate","instituicao":"HackerRank","data":"Julho 2025","descricao":"Certificação avançada em SQL demonstrando expertise em consultas complexas, otimização de banco de dados e análise de dados. Credencial: 98a3110ebdc8","link":"https://www.hackerrank.com/certificates/98a3110ebdc8"},"software_engineer":{"title":"Software Engineer Certificate","instituicao":"HackerRank","data":"Julho 2025","descricao":"Certificação em Engenharia de Software validando competências em desenvolvimento de software e engenharia de computação. Credencial: 8f85af9249f3","link":"https://www.hackerrank.com/certificates/8f85af9249f3"},"frontend_react":{"title":"Frontend Developer (React) Certificate","instituicao":"HackerRank","data":"Novembro 2024","descricao":"Certificação especializada em desenvolvimento frontend com React e TypeScript, validando habilidades em criação de interfaces modernas. Credencial: 311e83c79289","link":"https://www.hackerrank.com/certificates/311e83c79289"},"ef_set_english":{"title":"Certificado EF SET 40/100 (A2 Elementary)","instituicao":"EF SET","data":"Maio 2024","descricao":"Certificação oficial de proficiência em inglês demonstrando nível A2 Elementary em compreensão e comunicação.","link":"https://www.efset.org/cert/"},"architecting_aws":{"title":"Architecting on AWS","instituicao":"Amazon Web Services (AWS)","data":"Outubro 2022","descricao":"Curso oficial AWS sobre arquitetura de soluções na nuvem, cobrindo design de sistemas distribuídos e boas práticas. Credencial: EjOywvZlM0OKqiPmflMfoQ2","link":"https://www.credly.com/badges/EjOywvZlM0OKqiPmflMfoQ2"},"angularjs_coursera":{"title":"Front-End JavaScript Frameworks: AngularJS","instituicao":"Coursera","data":"Agosto 2017","descricao":"Certificação em desenvolvimento frontend com AngularJS, abordando conceitos de Single Page Applications e frameworks JavaScript. Credencial: DLAM5TYS4SLH","link":"https://www.coursera.org/verify/DLAM5TYS4SLH"},"html_css_js_coursera":{"title":"HTML, CSS and JavaScript","instituicao":"Coursera","data":"Agosto 2017","descricao":"Certificação fundamental em tecnologias web, cobrindo HTML5, CSS3 e JavaScript para desenvolvimento frontend. Credencial: LDG97SGZTGYA","link":"https://www.coursera.org/verify/LDG97SGZTGYA"},"nodejs_coursera":{"title":"Server-side Development with NodeJS","instituicao":"Coursera","data":"Agosto 2017","descricao":"Certificação em desenvolvimento backend com Node.js, incluindo APIs REST, autenticação e integração com bancos de dados. Credencial: TTYWKBJKYX86","link":"https://www.coursera.org/verify/TTYWKBJKYX86"}}},"children":"$L16"}]
+16:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+17:I[85654,["/portfolio/_next/static/chunks/504003311425f84c.js","/portfolio/_next/static/chunks/db40686d3c8a0b66.js"],"IconMark"]
+a:{"metadata":[["$","title","0",{"children":"Design Patterns: O Guia Completo para Revolucionar seu Desenvolvimento de Software | Blog"}],["$","meta","1",{"name":"description","content":"Descubra como os Design Patterns podem transformar seu código em soluções elegantes, reutilizáveis e fáceis de manter. Um guia completo com exemplos práticos e casos de uso reais."}],["$","link","2",{"rel":"author","href":"https://www.linkedin.com/in/afgoulart"}],["$","meta","3",{"name":"author","content":"André Filipe de Moraes Goulart"}],["$","meta","4",{"name":"keywords","content":"software engineer, react, vue, nodejs, typescript, frontend, backend, fullstack developer"}],["$","link","5",{"rel":"alternate","type":"application/rss+xml","title":"RSS Feed (PT)","href":"/rss.xml"}],["$","link","6",{"rel":"alternate","type":"application/rss+xml","title":"RSS Feed (Português)","href":"/rss-pt.xml"}],["$","link","7",{"rel":"alternate","type":"application/rss+xml","title":"RSS Feed (English)","href":"/rss-en.xml"}],["$","meta","8",{"property":"og:title","content":"Design Patterns: O Guia Completo para Revolucionar seu Desenvolvimento de Software"}],["$","meta","9",{"property":"og:description","content":"Descubra como os Design Patterns podem transformar seu código em soluções elegantes, reutilizáveis e fáceis de manter. Um guia completo com exemplos práticos e casos de uso reais."}],["$","meta","10",{"property":"og:type","content":"article"}],["$","meta","11",{"property":"article:published_time","content":"2025-09-02"}],["$","meta","12",{"property":"article:author","content":"Tech Blog Bot"}],["$","meta","13",{"property":"article:tag","content":"design-patterns"}],["$","meta","14",{"property":"article:tag","content":"desenvolvimento-software"}],["$","meta","15",{"property":"article:tag","content":"programacao"}],["$","meta","16",{"property":"article:tag","content":"arquitetura"}],["$","meta","17",{"property":"article:tag","content":"boas-praticas"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"Design Patterns: O Guia Completo para Revolucionar seu Desenvolvimento de Software"}],["$","meta","20",{"name":"twitter:description","content":"Descubra como os Design Patterns podem transformar seu código em soluções elegantes, reutilizáveis e fáceis de manter. Um guia completo com exemplos práticos e casos de uso reais."}],["$","link","21",{"rel":"icon","href":"/portfolio/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L17","22",{}]],"error":null,"digest":"$undefined"}
+f:"$a:metadata"

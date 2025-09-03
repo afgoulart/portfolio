@@ -14,6 +14,7 @@ excerpt: >-
   Explore the leading AI coding assistants transforming software development.
   Compare features, capabilities, and real-world applications of GitHub Copilot,
   ChatGPT, Claude Code, and Amazon Q.
+slug: ai-coding-assistants
 ---
 
 # AI Coding Assistants Revolution: Complete Guide to Copilot, ChatGPT, Claude, and Amazon Q

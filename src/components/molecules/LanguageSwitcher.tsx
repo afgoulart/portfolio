@@ -1,11 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useParams } from "next/navigation";
-import { useState } from "react";
+import { useParams, usePathname } from "next/navigation";
+import { useMemo, useState } from "react";
+import Link from "next/link";
+import { getEquivalentSlugClient } from "@/lib/slug-mapping-client";
 
 export default function LanguageSwitcher() {
-  const { locale } = useParams();
+  const { locale, slug } = useParams();
+  const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
 
   const languages = [
@@ -13,14 +16,33 @@ export default function LanguageSwitcher() {
     { code: "en", name: "English", flag: "🇺🇸" },
   ];
 
-  const currentLanguage = languages.find((lang) => lang.code === locale) || languages[0];
+  const currentLanguage = useMemo(() => {
+    return languages.find((lang) => lang.code === locale) || languages[0];
+  }, [locale]);
 
-  const handleLanguageChange = (langCode: string) => {
-    const url = new URL(window.location.href);
-    const currentPath = url.pathname;
+  const getLanguageUrl = (langCode: string) => {
+    let newPath = pathname.replace(/^\/(pt|en)/, `/${langCode}`);
 
-    url.pathname = `${currentPath.replace(/^\/(pt|en)/, langCode)}`;
-    window.location.href = url.toString();
+    // Special handling for blog posts
+    if (pathname.includes("/blog/") && slug && typeof slug === "string") {
+      const currentLocale = typeof locale === "string" ? locale : "pt";
+      const equivalentSlug = getEquivalentSlugClient(slug, currentLocale, langCode);
+
+      if (equivalentSlug && equivalentSlug !== slug) {
+        newPath = `/${langCode}/blog/${equivalentSlug}`;
+      }
+    }
+
+    // Add search params if they exist (client-side only)
+    if (typeof window !== "undefined") {
+      const searchParams = new URLSearchParams(window.location.search);
+      const searchString = searchParams.toString();
+      const hash = window.location.hash;
+
+      return newPath + (searchString ? `?${searchString}` : "") + hash;
+    }
+
+    return newPath;
   };
 
   return (
@@ -51,20 +73,22 @@ export default function LanguageSwitcher() {
           className="top-full right-0 z-50 absolute bg-gray-800 shadow-lg mt-2 border border-white/20 rounded-lg overflow-hidden"
         >
           {languages.map((lang) => (
-            <motion.button
+            <Link
               key={lang.code}
-              whileHover={{ backgroundColor: "rgba(59, 130, 246, 0.1)" }}
-              onClick={() => {
-                handleLanguageChange(lang.code);
-                setIsOpen(false);
-              }}
-              className={`w-full px-4 py-3 text-left flex items-center gap-3 hover:bg-blue-500/10 transition-colors ${
+              href={getLanguageUrl(lang.code)}
+              onClick={() => setIsOpen(false)}
+              className={`w-full px-4 py-3 text-left hover:bg-blue-500/10 transition-colors block ${
                 locale === lang.code ? "bg-blue-500/20 text-blue-400" : "text-gray-300"
               }`}
             >
-              <span className="text-lg">{lang.flag}</span>
-              <span className="font-medium text-sm whitespace-nowrap">{lang.name}</span>
-            </motion.button>
+              <motion.div
+                whileHover={{ backgroundColor: "rgba(59, 130, 246, 0.1)" }}
+                className="flex items-center gap-3 w-full"
+              >
+                <span className="text-lg">{lang.flag}</span>
+                <span className="font-medium text-sm whitespace-nowrap">{lang.name}</span>
+              </motion.div>
+            </Link>
           ))}
         </motion.div>
       )}

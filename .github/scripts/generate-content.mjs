@@ -198,6 +198,47 @@ function generateSlugFromTopic(topic) {
     .trim();
 }
 
+async function updatePostsJSON(language) {
+  const postsDir = path.join(process.cwd(), 'src', 'contents', language);
+  
+  if (!await fs.pathExists(postsDir)) {
+    console.log(`Directory ${postsDir} does not exist`);
+    return;
+  }
+
+  const files = await fs.readdir(postsDir);
+  const postsData = [];
+
+  for (const fileName of files) {
+    if (fileName.endsWith('.md')) {
+      const slug = fileName.replace(/\.md$/, '');
+      const fullPath = path.join(postsDir, fileName);
+      const fileContents = await fs.readFile(fullPath, 'utf8');
+      const matterResult = matter(fileContents);
+
+      postsData.push({
+        slug: matterResult.data.slug || slug, // Usar slug do front matter se existir
+        title: matterResult.data.title,
+        date: matterResult.data.date,
+        author: matterResult.data.author,
+        tags: matterResult.data.tags || [],
+        excerpt: matterResult.data.excerpt,
+        filename: fileName,
+      });
+    }
+  }
+
+  // Ordenar por data (mais recente primeiro)
+  postsData.sort((a, b) => {
+    if (a.date < b.date) return 1;
+    else return -1;
+  });
+
+  const jsonPath = path.join(postsDir, 'posts.json');
+  await fs.writeFile(jsonPath, JSON.stringify(postsData, null, 2));
+  console.log(`✅ JSON metadata updated: ${jsonPath} with ${postsData.length} posts`);
+}
+
 async function savePost(content, language = 'pt', baseSlug = null) {
   // Extrair front matter e conteúdo
   const parsed = matter(content);
@@ -205,7 +246,7 @@ async function savePost(content, language = 'pt', baseSlug = null) {
 
   // Gerar nome do arquivo baseado na data e slug base (se fornecido)
   const date = new Date().toISOString().split('T')[0];
-  const slug = baseSlug || data.title
+  const friendlySlug = baseSlug || data.title
     .toLowerCase()
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '') // Remove acentos
@@ -214,10 +255,12 @@ async function savePost(content, language = 'pt', baseSlug = null) {
     .replace(/-+/g, '-') // Remove hífens duplos
     .trim();
 
-  const filename = `${date}-${slug}.md`;
+  // Nome do arquivo mantém a data, mas slug amigável não
+  const filename = `${date}-${friendlySlug}.md`;
 
-  // Atualizar data no front matter
+  // Atualizar front matter com slug amigável e data
   data.date = date;
+  data.slug = friendlySlug; // Adicionar slug amigável
 
   // Recriar o arquivo com front matter atualizado
   const finalContent = matter.stringify(postContent, data);
@@ -233,7 +276,7 @@ async function savePost(content, language = 'pt', baseSlug = null) {
   console.log(`✅ Post gerado com sucesso: ${filename}`);
   console.log(`📍 Localização: ${filePath}`);
 
-  return { filename, filePath, data, slug };
+  return { filename, filePath, data, slug: friendlySlug };
 }
 
 
@@ -255,7 +298,7 @@ async function main() {
       throw new Error(`❌ Tópico inválido detectado: "${topic}". Contém HTML ou está vazio.`);
     }
 
-    // Gerar slug base do tópico para manter consistência
+    // Gerar slug base do tópico para manter consistência (sem data)
     const baseSlug = generateSlugFromTopic(topic);
     console.log(`📌 Slug base: ${baseSlug}`);
 
@@ -277,6 +320,11 @@ async function main() {
       savedPosts.push(postInfo);
       console.log(`🔗 Post salvo: ${postInfo.filename}`);
     }
+
+    // 3. Atualizar índice centralizado de conteúdo
+    console.log('📄 Atualizando índice centralizado de conteúdo...');
+    const { generateContentIndex, saveContentIndex } = await import('../../scripts/generate-content-index.mjs');
+    await saveContentIndex();
 
     console.log('✨ Processo concluído com sucesso!');
     console.log('📑 Artigos gerados:');

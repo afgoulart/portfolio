@@ -14,6 +14,8 @@ excerpt: >-
   Descubra como Claude Code e outros AI Assistants estão transformando a
   programação moderna, oferecendo soluções inteligentes para desenvolvedores de
   todos os níveis.
+slug: >-
+  claude-code-revolucionando-o-desenvolvimento-com-ia-guia-completo-dos-ai-assistants
 ---
 
 # Claude Code: Revolucionando o Desenvolvimento com IA - Guia Completo dos AI Assistants

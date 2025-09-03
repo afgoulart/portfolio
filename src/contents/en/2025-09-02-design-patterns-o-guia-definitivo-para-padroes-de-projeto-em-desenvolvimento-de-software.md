@@ -14,6 +14,7 @@ excerpt: >-
   Descubra como os Design Patterns podem revolucionar seu código, tornando-o
   mais eficiente, reutilizável e fácil de manter. Um guia completo para
   desenvolvedores de todos os níveis.
+slug: design-patterns-guide
 ---
 
 # Design Patterns: O Guia Definitivo para Padrões de Projeto em Desenvolvimento de Software

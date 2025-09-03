@@ -2,17 +2,15 @@
 
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import { useState } from "react";
-import { usePathname } from "next/navigation";
+import { useParams } from "next/navigation";
 import Link from "next/link";
 import { LanguageSwitcher } from "@/components/molecules";
-import { base } from "framer-motion/client";
 
 export default function Navbar() {
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
   const { scrollY } = useScroll();
-  const pathname = usePathname();
-  const locale = pathname.split("/")[1] || "pt";
+  const { locale } = useParams() || {};
 
   useMotionValueEvent(scrollY, "change", (latest) => {
     if (latest > lastScrollY && latest > 100) {
@@ -22,22 +20,20 @@ export default function Navbar() {
     }
     setLastScrollY(latest);
   });
-
   const navItems = [
-    { href: "#about", label: locale === "pt" ? "Sobre" : "About" },
-    { href: "#skills", label: locale === "pt" ? "Habilidades" : "Skills" },
-    { href: "#projects", label: locale === "pt" ? "Projetos" : "Projects" },
-    { href: "#companies", label: locale === "pt" ? "Empresas" : "Companies" },
-    { href: "#contact", label: locale === "pt" ? "Contato" : "Contact" },
+    { href: `/${locale}#about`, label: locale === "pt" ? "Sobre" : "About" },
+    { href: `/${locale}#skills`, label: locale === "pt" ? "Habilidades" : "Skills" },
+    // { href: `/${locale}#projects`, label: locale === "pt" ? "Projetos" : "Projects" },
+    { href: `/${locale}#companies`, label: locale === "pt" ? "Empresas" : "Companies" },
+    { href: `/${locale}#contact`, label: locale === "pt" ? "Contato" : "Contact" },
   ];
 
   // Always show navigation menu on all pages
-  const baseUrl = process.env.NODE_ENV === "production" ? "/portfolio" : "";
-  const isOnHomePage = pathname === `/${baseUrl}/${locale}` || pathname === "/";
+
   const blogLabel = locale === "pt" ? "Blog" : "Blog";
 
   const scrollToSection = (href: string) => {
-    if (isOnHomePage) {
+    if (href.includes("#")) {
       // If we're on homepage, scroll to section
       const element = document.querySelector(href);
       if (element) {
@@ -45,7 +41,7 @@ export default function Navbar() {
       }
     } else {
       // If we're not on homepage, navigate to homepage with hash
-      window.location.href = `/${baseUrl}/${locale}${href}`;
+      window.location.href = href;
     }
   };
 
@@ -58,32 +54,37 @@ export default function Navbar() {
     >
       <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <div className="flex justify-between items-center h-16">
-          <motion.button
-            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 font-bold text-transparent text-xl"
-          >
-            Portfolio
-          </motion.button>
+          <Link href={`/${locale}`}>
+            <motion.div
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 font-bold text-transparent text-xl cursor-pointer"
+            >
+              Portfolio
+            </motion.div>
+          </Link>
 
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
-              <motion.button
+              <motion.div
                 key={item.href}
-                onClick={() => scrollToSection(item.href)}
+                onClick={(e) => {
+                  e.preventDefault();
+                  scrollToSection(item.href);
+                }}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="font-medium text-gray-300 hover:text-white transition-colors duration-300"
               >
-                {item.label}
-              </motion.button>
+                <Link href={item.href}>{item.label}</Link>
+              </motion.div>
             ))}
 
             {/* Vertical separator */}
             <div className="bg-white/20 w-px h-6"></div>
 
-            <Link href={`${baseUrl}/${locale}/blog`}>
+            <Link href={`/${locale}/blog`}>
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}

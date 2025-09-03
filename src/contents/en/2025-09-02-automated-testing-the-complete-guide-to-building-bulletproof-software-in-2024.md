@@ -12,6 +12,7 @@ excerpt: >-
   Master automated testing with this comprehensive guide covering types,
   benefits, implementation strategies, and best practices for modern software
   development teams.
+slug: automated-testing-guide
 ---
 
 # Automated Testing: The Complete Guide to Building Bulletproof Software in 2024

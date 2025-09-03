@@ -1,0 +1,238 @@
+1:"$Sreact.fragment"
+2:I[26817,["/portfolio/_next/static/chunks/b01d8231a23ddbc2.js","/portfolio/_next/static/chunks/9cf248a4f2702dd5.js","/portfolio/_next/static/chunks/b52c84ebfdb579ac.js","/portfolio/_next/static/chunks/ae26c6ea571f173d.js","/portfolio/_next/static/chunks/702a77745ca38bfa.js"],"default"]
+3:I[54289,["/portfolio/_next/static/chunks/504003311425f84c.js","/portfolio/_next/static/chunks/db40686d3c8a0b66.js"],"default"]
+4:I[26237,["/portfolio/_next/static/chunks/504003311425f84c.js","/portfolio/_next/static/chunks/db40686d3c8a0b66.js"],"default"]
+7:I[17625,["/portfolio/_next/static/chunks/504003311425f84c.js","/portfolio/_next/static/chunks/db40686d3c8a0b66.js"],"OutletBoundary"]
+9:I[14287,["/portfolio/_next/static/chunks/504003311425f84c.js","/portfolio/_next/static/chunks/db40686d3c8a0b66.js"],"AsyncMetadataOutlet"]
+b:I[17625,["/portfolio/_next/static/chunks/504003311425f84c.js","/portfolio/_next/static/chunks/db40686d3c8a0b66.js"],"ViewportBoundary"]
+d:I[17625,["/portfolio/_next/static/chunks/504003311425f84c.js","/portfolio/_next/static/chunks/db40686d3c8a0b66.js"],"MetadataBoundary"]
+e:"$Sreact.suspense"
+10:I[53973,["/portfolio/_next/static/chunks/b01d8231a23ddbc2.js"],"default"]
+:HL["/portfolio/_next/static/chunks/349c61bb7362acd5.css","style"]
+:HL["/portfolio/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/portfolio/_next/static/media/caa3a2e1cccd8315-s.p.6435ea53.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"DfXXDUncF-8vtWSqFd9EZ","p":"/portfolio","c":["","en","blog","2025-09-02-claude-code-e-ai-assistants",""],"i":false,"f":[[["",{"children":[["locale","en","d"],{"children":["blog",{"children":[["slug","2025-09-02-claude-code-e-ai-assistants","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/chunks/349c61bb7362acd5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/portfolio/_next/static/chunks/b01d8231a23ddbc2.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"pt","children":["$","body",null,{"className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable antialiased bg-gray-900 text-white","children":[["$","$L2",null,{}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":[["locale","en","d"],["$","$1","c",{"children":[[["$","script","script-0",{"src":"/portfolio/_next/static/chunks/9cf248a4f2702dd5.js","async":true,"nonce":"$undefined"}]],"$L5"]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","2025-09-02-claude-code-e-ai-assistants","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/portfolio/_next/static/chunks/b52c84ebfdb579ac.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/portfolio/_next/static/chunks/ae26c6ea571f173d.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/portfolio/_next/static/chunks/702a77745ca38bfa.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$L8",["$","$L9",null,{"promise":"$@a"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$Ld",null,{"children":["$","div",null,{"hidden":true,"children":["$","$e",null,{"fallback":null,"children":"$Lf"}]}]}]]}],false]],"m":"$undefined","G":["$10",[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/chunks/349c61bb7362acd5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"s":false,"S":true}
+11:I[5431,["/portfolio/_next/static/chunks/b01d8231a23ddbc2.js","/portfolio/_next/static/chunks/9cf248a4f2702dd5.js","/portfolio/_next/static/chunks/b52c84ebfdb579ac.js","/portfolio/_next/static/chunks/ae26c6ea571f173d.js","/portfolio/_next/static/chunks/702a77745ca38bfa.js"],"default"]
+12:I[42607,["/portfolio/_next/static/chunks/b01d8231a23ddbc2.js","/portfolio/_next/static/chunks/9cf248a4f2702dd5.js","/portfolio/_next/static/chunks/b52c84ebfdb579ac.js","/portfolio/_next/static/chunks/ae26c6ea571f173d.js","/portfolio/_next/static/chunks/702a77745ca38bfa.js"],"default"]
+13:I[97181,["/portfolio/_next/static/chunks/b01d8231a23ddbc2.js","/portfolio/_next/static/chunks/9cf248a4f2702dd5.js","/portfolio/_next/static/chunks/b52c84ebfdb579ac.js","/portfolio/_next/static/chunks/ae26c6ea571f173d.js","/portfolio/_next/static/chunks/702a77745ca38bfa.js"],"default"]
+14:T2a45,<h1>Claude Code: Revolutionizing Development with AI - Complete Guide to AI Assistants</h1>
+<p>Artificial intelligence is completely redefining the software development landscape. In a world where speed and efficiency are fundamental, tools like Claude Code emerge as true productivity catalysts for programmers. Whether you're a developer looking to optimize your workflow or simply curious about the latest innovations in AI, this article offers a comprehensive view of how these intelligent assistants are shaping the future of programming.</p>
+<p>AI Assistants for code are no longer science fiction - they are a present reality in thousands of IDEs around the world, helping developers write cleaner code, debug complex problems, and accelerate the development process in unprecedented ways.</p>
+<h2>What is Claude Code and How It Works</h2>
+<p>Claude Code represents a new generation of artificial intelligence assistants specialized in programming, developed by Anthropic. Unlike traditional code autocomplete tools, Claude uses advanced language models to understand context, intentions, and complex programming patterns.</p>
+<h3>Architecture and Technology</h3>
+<p>The technological foundation of Claude Code is based on neural transformers trained on billions of lines of code from multiple programming languages. This architecture allows the tool to:</p>
+<ul>
+<li><strong>Analyze semantic context</strong>: Understands not just syntax, but the logic behind the code</li>
+<li><strong>Generate contextually relevant solutions</strong>: Proposes implementations that follow the specific language's best practices</li>
+<li><strong>Learn design patterns</strong>: Recognizes and suggests appropriate design patterns</li>
+<li><strong>Detect potential problems</strong>: Identifies bugs, security vulnerabilities, and optimizations</li>
+</ul>
+<h3>Competitive Advantage</h3>
+<p>What makes Claude Code unique in the market is its conversational approach. Instead of just suggesting code snippets, Claude can:</p>
+<pre><code class="language-python"># Example of interaction with Claude Code
+# Prompt: "Create a function to validate CPF with error handling"
+
+def validar_cpf(cpf: str) -> bool:
+    """
+    Validates a Brazilian CPF number.
+    
+    Args:
+        cpf (str): CPF to be validated (with or without formatting)
+    
+    Returns:
+        bool: True if valid, False otherwise
+    """
+    # Remove non-numeric characters
+    cpf = ''.join(filter(str.isdigit, cpf))
+    
+    # Check if it has 11 digits
+    if len(cpf) != 11:
+        return False
+    
+    # Check if all digits are not the same
+    if cpf == cpf[0] * 11:
+        return False
+    
+    # Calculate first verification digit
+    soma = sum(int(cpf[i]) * (10 - i) for i in range(9))
+    primeiro_digito = (soma * 10 % 11) % 10
+    
+    # Calculate second verification digit
+    soma = sum(int(cpf[i]) * (11 - i) for i in range(10))
+    segundo_digito = (soma * 10 % 11) % 10
+    
+    return cpf[-2:] == f"{primeiro_digito}{segundo_digito}"
+</code></pre>
+<h2>Main Features and Practical Use Cases</h2>
+<h3>1. Intelligent Code Generation</h3>
+<p>Claude Code goes beyond simple autocompletion, offering complete function generation based on natural language descriptions. This is particularly useful for:</p>
+<ul>
+<li><strong>Rapid prototyping</strong>: Developing MVPs in record time</li>
+<li><strong>Complex algorithm implementation</strong>: Translating pseudocode into efficient implementations</li>
+<li><strong>Boilerplate code creation</strong>: Generating basic structures for new projects</li>
+</ul>
+<h3>2. Advanced Debugging</h3>
+<p>One of the most impressive features is the bug analysis capability. Claude can:</p>
+<pre><code class="language-javascript">// Code with bug
+function calcularDesconto(preco, desconto) {
+    return preco - (preco * desconto / 100);
+}
+
+// Claude identifies and suggests:
+// "Potential problem: no input validation. 
+// Improvement suggestion:"
+
+function calcularDesconto(preco, desconto) {
+    // Input validations
+    if (typeof preco !== 'number' || preco &#x3C; 0) {
+        throw new Error('Price must be a positive number');
+    }
+    
+    if (typeof desconto !== 'number' || desconto &#x3C; 0 || desconto > 100) {
+        throw new Error('Discount must be between 0 and 100');
+    }
+    
+    return Number((preco - (preco * desconto / 100)).toFixed(2));
+}
+</code></pre>
+<h3>3. Refactoring and Optimization</h3>
+<p>Claude Code analyzes existing code and suggests improvements in terms of:</p>
+<ul>
+<li><strong>Performance</strong>: Bottleneck identification and optimization suggestions</li>
+<li><strong>Readability</strong>: Restructuring proposals for better maintainability</li>
+<li><strong>Code patterns</strong>: Compliance with language/framework conventions</li>
+</ul>
+<h3>4. Automatic Documentation</h3>
+<p>Automatically generates technical documentation, inline comments, and README files based on source code analysis:</p>
+<pre><code class="language-python">def fibonacci_memo(n: int, memo: dict = None) -> int:
+    """
+    Calculates the nth number in the Fibonacci sequence using memoization.
+    
+    This implementation uses dynamic programming to optimize calculation,
+    avoiding unnecessary recalculations by storing results
+    in a memoization dictionary.
+    
+    Args:
+        n (int): Position in Fibonacci sequence (n >= 0)
+        memo (dict, optional): Dictionary for memoization. Defaults to None.
+    
+    Returns:
+        int: The nth Fibonacci number
+        
+    Raises:
+        ValueError: If n is negative
+        
+    Example:
+        >>> fibonacci_memo(10)
+        55
+        >>> fibonacci_memo(0)
+        0
+    
+    Time Complexity: O(n)
+    Space Complexity: O(n)
+    """
+    if memo is None:
+        memo = {}
+    
+    if n &#x3C; 0:
+        raise ValueError("n must be non-negative")
+    
+    if n in memo:
+        return memo[n]
+    
+    if n &#x3C;= 1:
+        return n
+    
+    memo[n] = fibonacci_memo(n-1, memo) + fibonacci_memo(n-2, memo)
+    return memo[n]
+</code></pre>
+<h2>Comparison: Claude vs Other AI Tools for Code</h2>
+<h3>Claude Code vs GitHub Copilot</h3>
+<p>| Aspect | Claude Code | GitHub Copilot |
+|---------|-------------|----------------|
+| <strong>Conversation context</strong> | Maintains extensive context between interactions | Context limited to current file |
+| <strong>Detailed explanations</strong> | Provides in-depth code explanations | Primary focus on code generation |
+| <strong>Security</strong> | Emphasis on secure development practices | Dependent on training data quality |
+| <strong>Customization</strong> | Adaptable to different coding styles | More fixed patterns based on public repositories |</p>
+<h3>Claude Code vs Amazon CodeWhisperer</h3>
+<p><strong>Claude Advantages:</strong></p>
+<ul>
+<li>More conversational and intuitive interface</li>
+<li>Better understanding of complex requirements</li>
+<li>Superior explanation and teaching capability</li>
+</ul>
+<p><strong>CodeWhisperer Advantages:</strong></p>
+<ul>
+<li>Native AWS integration</li>
+<li>Optimized for specific cloud services</li>
+<li>Better performance in large-scale enterprise projects</li>
+</ul>
+<h3>Integration and Ecosystem</h3>
+<p>Claude Code can be integrated into various development environments:</p>
+<ul>
+<li><strong>Popular IDEs</strong>: VS Code, IntelliJ IDEA, PyCharm</li>
+<li><strong>Text editors</strong>: Vim, Emacs, Sublime Text</li>
+<li><strong>Cloud platforms</strong>: Repl.it, Codepen, GitLab</li>
+<li><strong>APIs and SDKs</strong>: For custom integration</li>
+</ul>
+<h2>Market Impact and Future of AI Assistants</h2>
+<h3>Development Workflow Transformation</h3>
+<p>The massive adoption of AI Assistants like Claude Code is creating new dynamics in the development market:</p>
+<p><strong>For Junior Developers:</strong></p>
+<ul>
+<li>Accelerated learning curve</li>
+<li>Instant access to best practices</li>
+<li>Reduced barriers to entry in complex technologies</li>
+</ul>
+<p><strong>For Senior Developers:</strong></p>
+<ul>
+<li>Significant productivity increase</li>
+<li>Focus on architecture and strategic decisions</li>
+<li>Automation of repetitive tasks</li>
+</ul>
+<p><strong>For Companies:</strong></p>
+<ul>
+<li>Reduced time-to-market</li>
+<li>Improved code quality</li>
+<li>Human resource optimization</li>
+</ul>
+<h3>Emerging Trends</h3>
+<ol>
+<li><strong>Domain Specialization</strong>: AIs focused on specific niches (blockchain, ML, IoT)</li>
+<li><strong>Collaborative Coding</strong>: Multiple developers working with AI in real-time</li>
+<li><strong>Automated Code Review</strong>: Complete analysis of pull requests</li>
+<li><strong>Test Generation</strong>: Automatic creation of comprehensive test suites</li>
+</ol>
+<h3>Challenges and Ethical Considerations</h3>
+<p><strong>Excessive Dependency</strong>:
+Risk of developers losing fundamental skills</p>
+<p><strong>Intellectual Property</strong>:
+Questions about authorship and licensing of generated code</p>
+<p><strong>Model Bias</strong>:
+Possible perpetuation of inadequate practices present in training data</p>
+<p><strong>Security</strong>:
+Need for rigorous validation of generated code</p>
+<h2>Conclusion</h2>
+<p>Claude Code and other AI Assistants represent a silent but profound revolution in how we develop software. Far from replacing programmers, these tools are elevating the profession level, allowing developers to focus on more creative and strategic aspects of development.</p>
+<p>The key to success in this new era is finding the balance between leveraging AI power and maintaining fundamental programming skills. Claude Code is not just a productivity tool - it's an intelligent partner that can accelerate learning, improve code quality, and open new creative possibilities.</p>
+<p>For developers who haven't yet experienced these technologies, the time is now. The adoption curve is accelerating, and those who master these tools will have significant advantages in the competitive technology market of the coming years.</p>
+<p>The future of development has already arrived, and it's powered by artificial intelligence. The question is no longer "if" you should adopt AI Assistants, but "when" and "how" to integrate them into your workflow to maximize your potential as a developer.</p>
+<hr>
+<h3>Sources and Relevant Links:</h3>
+<ol>
+<li><a href="https://docs.anthropic.com/">Anthropic Claude Documentation</a></li>
+<li><a href="https://github.com/features/copilot">GitHub State of AI in Software Development 2024</a></li>
+<li><a href="https://survey.stackoverflow.co/">Stack Overflow Developer Survey - AI Tools Usage</a></li>
+<li><a href="https://aws.amazon.com/codewhisperer/">AWS CodeWhisperer vs Competitors Analysis</a></li>
+<li><a href="https://www.technologyreview.com/">MIT Technology Review - The Future of AI-Assisted Programming</a></li>
+</ol>
+6:["$","$L11",null,{"children":[["$","$L12",null,{}],["$","main",null,{"className":"overflow-x-hidden","children":["$","$L13",null,{"post":{"slug":"2025-09-02-claude-code-e-ai-assistants","locale":"en","title":"Claude Code: Revolutionizing Development with AI - Complete Guide to AI Assistants","date":"2025-09-02","author":"Tech Blog Bot","tags":["artificial-intelligence","programming","claude","ai-assistants","development"],"excerpt":"Discover how Claude Code and other AI Assistants are transforming modern programming, offering intelligent solutions for developers of all levels.","content":"$14"}}]}]]}]
+15:I[64434,["/portfolio/_next/static/chunks/b01d8231a23ddbc2.js","/portfolio/_next/static/chunks/9cf248a4f2702dd5.js"],"I18nProvider"]
+5:["$","$L15",null,{"locale":"en","messages":{"hero":{"greeting":"Hello, I'm","name":"André Filipe de Moraes Goulart","subtitle":"Senior Software Engineer with over 10 years of experience in web development, specializing in cutting-edge technologies such as NodeJS, React, Vue, and TypeScript","viewProjects":"View Projects","contact":"Get in Touch"},"about":{"title":"About Me","subtitle":"Senior Software Engineer","description1":"With over 10 years of experience in web development, I have dedicated my career to creating innovative digital solutions and modern, responsive interfaces.","description2":"I specialize in cutting-edge technologies such as NodeJS, React, Vue, and TypeScript. I am passionate about continuous learning and delivering efficient, sustainable solutions that make a tangible impact.","description3":"My family is my greatest inspiration outside of work, driving me to push my boundaries and strive for excellence in everything I do.","experience":"Professional Experience"},"skills":{"title":"Skills","categories":{"all":"All","frontend":"Frontend","backend":"Backend","tools":"Tools","other":"Others"},"learning":"Continuous Learning","innovation":"Innovation","results":"Results Focused","motto":"Always looking for new technologies and challenges"},"projects":{"title":"Projects","viewDemo":"View Demo","github":"GitHub","description":"These are some of my favorite projects. Each represents a unique challenge and a growth opportunity.","viewMore":"View More on GitHub"},"contact":{"title":"Get in Touch","subtitle":"Let's work together","description":"I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology.","sendMessage":"Send a Message","whatsappDescription":"Fill out the form below and click send to contact me via WhatsApp","name":"Name","email":"Email","message":"Message","namePlaceholder":"Your name","emailPlaceholder":"your@email.com","messagePlaceholder":"Your message...","sendWhatsapp":"Send via WhatsApp","send":"Send Message","success":"Message sent successfully!","error":"Error sending message. Please try again."},"certifications":{"title":"Certifications","description":"Certifications and courses that validate my technical expertise and commitment to continuous learning.","totalCerts":"Certifications","cloudFocus":"Specialization","latestYear":"Most Recent","viewCertificate":"View Certificate"},"experiences":{"skopia":{"title":"Fullstack Specialist Engineer | AWS Architect","company":"Skopia (EclipseWork/NScreen)","period":"December 2024 - present","description":"I am part of a consultancy, allocated to the client Aviva Incasa Residencial Clube, where I propose ideas and create solutions to improve the reservation website for the company's residential club. Maintenance and support on front and back projects related to the Client.","technologies":["React","Node.js","AWS","TypeScript","Vue.js"]},"calindra":{"title":"Senior Frontend Engineer","company":"Calindra","period":"July 2024 - November 2024","description":"As part of Calindra, a consultancy firm, I am allocated to a client (Tania Bulhões), where I propose ideas and create solutions to improve their e-commerce website. I collaborate with clients to understand their needs, delivering impactful technical solutions to enhance user experience and streamline site performance.","technologies":["React","Vue.js","TypeScript","E-commerce","UX/UI"]},"desygner":{"title":"Senior Frontend Engineer","company":"Desygner","period":"December 2023 - May 2024","description":"Developed modern, responsive interfaces using React, Vue, Node.js, TypeScript, Styled-components, Storybook, and Nx. Continuously reviewed and improved code, and developed reusable components. Collaborated with designers and product managers to transform concepts into functional solutions.","technologies":["React","Vue.js","Node.js","TypeScript","Styled-components","Storybook","Nx"]},"stone":{"title":"Staff Software Engineer","company":"Stone","period":"July 2023 - December 2023","description":"Developed responsive and modern interfaces using Vue.js, Next.js, React, and Tailwind CSS.","technologies":["Vue.js","Next.js","React","Tailwind CSS"]},"mosaico_tech_lead":{"title":"Tech Lead","company":"Mosaico","period":"January 2022 - January 2023","description":"Led the user team in developing and enhancing authentication systems, logged-in areas, and login pages. Promoted process and functionality improvements through interdepartmental collaboration. Served as a technical reference for two teams, providing guidance and support to enhance developers' technical proficiency.","technologies":["React","Node.js","TypeScript","Authentication","Technical Leadership"]},"mosaico_fullstack":{"title":"Full Stack Engineer","company":"Mosaico","period":"August 2019 - January 2022","description":"Participated in the reengineering of the marketplace checkout system using Next.js and React. Developed a financial dashboard for store reports, using NodeJS + Express in TypeScript for the API and React for the front end.","technologies":["Next.js","React","Node.js","Express","TypeScript"]},"b2w_tech_lead":{"title":"Tech Lead / Full Stack Developer Senior","company":"B2W Digital","period":"October 2017 - July 2019","description":"Led technical leadership of three projects, Spacey (CMS for marketing publications) and promotions manager. Worked on the Submarino Project using JAVA, HTML, CSS, JavaScript, and jQuery. Later, joined a team to create a new application using React and NodeJS.","technologies":["React","Node.js","Java","JavaScript","jQuery","HTML","CSS"]},"b2w_frontend":{"title":"Front-end Developer Junior","company":"B2W Digital","period":"August 2014 - July 2017","description":"Worked on the Submarino Project using JAVA, HTML, CSS, JavaScript, and jQuery. Later, joined a team to create a new application using React and NodeJS.","technologies":["Java","JavaScript","jQuery","HTML","CSS"]},"rrd_intern":{"title":"Web Development Intern","company":"RR Donnelley","period":"January 2013 - July 2014","description":"Assisted in the development and maintenance of internal web applications using ASP.NET and C#. Gained practical experience in web technologies and collaborated with senior developers to enhance my skills.","technologies":["ASP.NET","HTML","CSS","JavaScript","AngularJS"]}},"projectsList":[{"title":"Reservation System - Aviva Incasa","description":"Development of solutions for residential club reservation system, focusing on UX improvements and performance."},{"title":"E-commerce Tania Bulhões","description":"Optimization and improvements to e-commerce platform, focusing on user experience and site performance."},{"title":"Marketplace Checkout System","description":"Complete reengineering of marketplace checkout system using modern technologies."},{"title":"CMS Spacey - B2W Digital","description":"Content management system for marketing publications and promotions manager."}],"certificationsList":{"aws_cloud_practitioner":{"title":"AWS Certified Cloud Practitioner","instituicao":"Amazon Web Services (AWS)","data":"August 2025","descricao":"AWS foundational certification that validates knowledge about cloud concepts, AWS services, security, and architecture. Credential: 933a2d2e-ebd4-447b-9053-dbe33b094099","link":"https://www.credly.com/badges/933a2d2e-ebd4-447b-9053-dbe33b094099"},"javascript_intermediate":{"title":"JavaScript Intermediate Certificate","instituicao":"HackerRank","data":"July 2025","descricao":"Intermediate JavaScript certification validating knowledge in advanced programming concepts and web development. Credential: cebe10e21cd6","link":"https://www.hackerrank.com/certificates/cebe10e21cd6"},"sql_advanced":{"title":"SQL (Advanced) Certificate","instituicao":"HackerRank","data":"July 2025","descricao":"Advanced SQL certification demonstrating expertise in complex queries, database optimization, and data analysis. Credential: 98a3110ebdc8","link":"https://www.hackerrank.com/certificates/98a3110ebdc8"},"software_engineer":{"title":"Software Engineer Certificate","instituicao":"HackerRank","data":"July 2025","descricao":"Software Engineering certification validating competencies in software development and computer engineering. Credential: 8f85af9249f3","link":"https://www.hackerrank.com/certificates/8f85af9249f3"},"frontend_react":{"title":"Frontend Developer (React) Certificate","instituicao":"HackerRank","data":"November 2024","descricao":"Specialized frontend development certification with React and TypeScript, validating skills in creating modern interfaces. Credential: 311e83c79289","link":"https://www.hackerrank.com/certificates/311e83c79289"},"ef_set_english":{"title":"EF SET Certificate 40/100 (A2 Elementary)","instituicao":"EF SET","data":"May 2024","descricao":"Official English proficiency certification demonstrating A2 Elementary level in comprehension and communication.","link":"https://www.efset.org/cert/"},"architecting_aws":{"title":"Architecting on AWS","instituicao":"Amazon Web Services (AWS)","data":"October 2022","descricao":"Official AWS course on cloud solutions architecture, covering distributed systems design and best practices. Credential: EjOywvZlM0OKqiPmflMfoQ2","link":"https://www.credly.com/badges/EjOywvZlM0OKqiPmflMfoQ2"},"angularjs_coursera":{"title":"Front-End JavaScript Frameworks: AngularJS","instituicao":"Coursera","data":"August 2017","descricao":"Frontend development certification with AngularJS, covering Single Page Applications concepts and JavaScript frameworks. Credential: DLAM5TYS4SLH","link":"https://www.coursera.org/verify/DLAM5TYS4SLH"},"html_css_js_coursera":{"title":"HTML, CSS and JavaScript","instituicao":"Coursera","data":"August 2017","descricao":"Fundamental web technologies certification, covering HTML5, CSS3, and JavaScript for frontend development. Credential: LDG97SGZTGYA","link":"https://www.coursera.org/verify/LDG97SGZTGYA"},"nodejs_coursera":{"title":"Server-side Development with NodeJS","instituicao":"Coursera","data":"August 2017","descricao":"Backend development certification with Node.js, including REST APIs, authentication, and database integration. Credential: TTYWKBJKYX86","link":"https://www.coursera.org/verify/TTYWKBJKYX86"}}},"children":"$L16"}]
+16:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+17:I[85654,["/portfolio/_next/static/chunks/504003311425f84c.js","/portfolio/_next/static/chunks/db40686d3c8a0b66.js"],"IconMark"]
+a:{"metadata":[["$","title","0",{"children":"Claude Code: Revolutionizing Development with AI - Complete Guide to AI Assistants | Blog"}],["$","meta","1",{"name":"description","content":"Discover how Claude Code and other AI Assistants are transforming modern programming, offering intelligent solutions for developers of all levels."}],["$","link","2",{"rel":"author","href":"https://www.linkedin.com/in/afgoulart"}],["$","meta","3",{"name":"author","content":"André Filipe de Moraes Goulart"}],["$","meta","4",{"name":"keywords","content":"software engineer, react, vue, nodejs, typescript, frontend, backend, fullstack developer"}],["$","link","5",{"rel":"alternate","type":"application/rss+xml","title":"RSS Feed (PT)","href":"/rss.xml"}],["$","link","6",{"rel":"alternate","type":"application/rss+xml","title":"RSS Feed (Português)","href":"/rss-pt.xml"}],["$","link","7",{"rel":"alternate","type":"application/rss+xml","title":"RSS Feed (English)","href":"/rss-en.xml"}],["$","meta","8",{"property":"og:title","content":"Claude Code: Revolutionizing Development with AI - Complete Guide to AI Assistants"}],["$","meta","9",{"property":"og:description","content":"Discover how Claude Code and other AI Assistants are transforming modern programming, offering intelligent solutions for developers of all levels."}],["$","meta","10",{"property":"og:type","content":"article"}],["$","meta","11",{"property":"article:published_time","content":"2025-09-02"}],["$","meta","12",{"property":"article:author","content":"Tech Blog Bot"}],["$","meta","13",{"property":"article:tag","content":"artificial-intelligence"}],["$","meta","14",{"property":"article:tag","content":"programming"}],["$","meta","15",{"property":"article:tag","content":"claude"}],["$","meta","16",{"property":"article:tag","content":"ai-assistants"}],["$","meta","17",{"property":"article:tag","content":"development"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"Claude Code: Revolutionizing Development with AI - Complete Guide to AI Assistants"}],["$","meta","20",{"name":"twitter:description","content":"Discover how Claude Code and other AI Assistants are transforming modern programming, offering intelligent solutions for developers of all levels."}],["$","link","21",{"rel":"icon","href":"/portfolio/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L17","22",{}]],"error":null,"digest":"$undefined"}
+f:"$a:metadata"

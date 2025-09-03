@@ -1,5 +1,5 @@
-import { getAllPosts } from '@/lib/blog';
-import BlogList from '@/components/organisms/BlogList';
+import { getAllTagsAction, getArchiveAction, getContentIndexAction } from '@/lib/content-actions';
+import BlogListClient from '@/components/organisms/BlogListClient';
 import { Navbar, AnalyticsProvider } from "@/components";
 import type { Metadata } from 'next';
 
@@ -39,7 +39,11 @@ export async function generateMetadata({ params }: BlogPageProps): Promise<Metad
 
 export default async function BlogPage({ params }: BlogPageProps) {
   const { locale } = await params;
-  const posts = getAllPosts(locale);
+  
+  // Get all content data at build time for static generation
+  const contentIndex = await getContentIndexAction();
+  const tags = await getAllTagsAction(locale);
+  const archive = await getArchiveAction(locale);
 
   const title = locale === 'pt' ? 'Blog' : 'Blog';
   const subtitle = locale === 'pt' 
@@ -53,12 +57,14 @@ export default async function BlogPage({ params }: BlogPageProps) {
     <AnalyticsProvider>
       <Navbar />
       <main className="overflow-x-hidden">
-        <BlogList 
-          posts={posts}
+        <BlogListClient 
+          contentIndex={contentIndex}
           title={title}
           subtitle={subtitle}
           noPosts={noPosts}
           locale={locale}
+          tags={tags}
+          archive={archive}
         />
       </main>
     </AnalyticsProvider>

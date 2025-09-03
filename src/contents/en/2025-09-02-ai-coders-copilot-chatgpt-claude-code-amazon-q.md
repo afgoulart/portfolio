@@ -13,6 +13,8 @@ tags:
 excerpt: >-
   Discover how AI programming tools are transforming developers' work and which
   one to choose for your project
+slug: >-
+  ai-coders-how-github-copilot-chatgpt-claude-and-amazon-q-are-revolutionizing-software-development
 ---
 
 # AI Coders: How GitHub Copilot, ChatGPT, Claude and Amazon Q Are Revolutionizing Software Development

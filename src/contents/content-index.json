@@ -1,0 +1,596 @@
+{
+  "totalPosts": 10,
+  "locales": [
+    "pt",
+    "en"
+  ],
+  "years": {
+    "2025": {
+      "months": {
+        "09": {
+          "days": {
+            "01": {
+              "count": 10,
+              "posts": [
+                {
+                  "slug": "ai-coders-como-github-copilot-chatgpt-claude-e-amazon-q-estao-revolucionando-o-desenvolvimento-de-software",
+                  "title": "AI Coders: Como GitHub Copilot, ChatGPT, Claude e Amazon Q Estão Revolucionando o Desenvolvimento de Software",
+                  "date": "2025-09-02",
+                  "author": "Tech Blog Bot",
+                  "tags": [
+                    "inteligencia-artificial",
+                    "desenvolvimento-software",
+                    "copilot",
+                    "chatgpt",
+                    "programacao"
+                  ],
+                  "excerpt": "Descubra como as ferramentas de IA para programação estão transformando o trabalho dos desenvolvedores e qual escolher para seu projeto",
+                  "filename": "2025-09-02-ai-coders-copilot-chatgpt-claude-code-amazon-q.md",
+                  "locale": "pt",
+                  "year": 2025,
+                  "month": 9,
+                  "day": 1
+                },
+                {
+                  "slug": "big-data-analytics-business",
+                  "title": "Big Data e Analytics: Como Transformar Dados em Decisões Estratégicas para o Seu Negócio",
+                  "date": "2025-09-02",
+                  "author": "Tech Blog Bot",
+                  "tags": [
+                    "big-data",
+                    "analytics",
+                    "data-science",
+                    "business-intelligence",
+                    "transformação-digital"
+                  ],
+                  "excerpt": "Descubra como Big Data e Analytics estão revolucionando a tomada de decisões empresariais e transformando dados em vantagem competitiva no mercado digital.",
+                  "filename": "2025-09-02-big-data-e-analytics-como-transformar-dados-em-decisoes-estrategicas-para-o-seu-negocio.md",
+                  "locale": "pt",
+                  "year": 2025,
+                  "month": 9,
+                  "day": 1
+                },
+                {
+                  "slug": "big-data-analytics-business",
+                  "title": "Big Data e Analytics: Como Transformar Dados em Vantagem Competitiva em 2024",
+                  "date": "2025-09-02",
+                  "author": "Tech Blog Bot",
+                  "tags": [
+                    "big-data",
+                    "analytics",
+                    "business-intelligence",
+                    "data-science",
+                    "tecnologia"
+                  ],
+                  "excerpt": "Descubra como Big Data e Analytics estão revolucionando os negócios, transformando milhões de dados em insights valiosos para tomada de decisões estratégicas.",
+                  "filename": "2025-09-02-big-data-e-analytics-como-transformar-dados-em-vantagem-competitiva-em-2024.md",
+                  "locale": "pt",
+                  "year": 2025,
+                  "month": 9,
+                  "day": 1
+                },
+                {
+                  "slug": "claude-code-revolucionando-o-desenvolvimento-com-ia-guia-completo-dos-ai-assistants",
+                  "title": "Claude Code: Revolucionando o Desenvolvimento com IA - Guia Completo dos AI Assistants",
+                  "date": "2025-09-02",
+                  "author": "Tech Blog Bot",
+                  "tags": [
+                    "inteligencia-artificial",
+                    "programacao",
+                    "claude",
+                    "ai-assistants",
+                    "desenvolvimento"
+                  ],
+                  "excerpt": "Descubra como Claude Code e outros AI Assistants estão transformando a programação moderna, oferecendo soluções inteligentes para desenvolvedores de todos os níveis.",
+                  "filename": "2025-09-02-claude-code-e-ai-assistants.md",
+                  "locale": "pt",
+                  "year": 2025,
+                  "month": 9,
+                  "day": 1
+                },
+                {
+                  "slug": "design-patterns-guide",
+                  "title": "Design Patterns: O Guia Completo para Revolucionar seu Desenvolvimento de Software",
+                  "date": "2025-09-02",
+                  "author": "Tech Blog Bot",
+                  "tags": [
+                    "design-patterns",
+                    "desenvolvimento-software",
+                    "programacao",
+                    "arquitetura",
+                    "boas-praticas"
+                  ],
+                  "excerpt": "Descubra como os Design Patterns podem transformar seu código em soluções elegantes, reutilizáveis e fáceis de manter. Um guia completo com exemplos práticos e casos de uso reais.",
+                  "filename": "2025-09-02-design-patterns-o-guia-completo-para-revolucionar-seu-desenvolvimento-de-software.md",
+                  "locale": "pt",
+                  "year": 2025,
+                  "month": 9,
+                  "day": 1
+                },
+                {
+                  "slug": "ai-coders-how-github-copilot-chatgpt-claude-and-amazon-q-are-revolutionizing-software-development",
+                  "title": "AI Coders: How GitHub Copilot, ChatGPT, Claude and Amazon Q Are Revolutionizing Software Development",
+                  "date": "2025-09-02",
+                  "author": "Tech Blog Bot",
+                  "tags": [
+                    "artificial-intelligence",
+                    "software-development",
+                    "copilot",
+                    "chatgpt",
+                    "programming"
+                  ],
+                  "excerpt": "Discover how AI programming tools are transforming developers' work and which one to choose for your project",
+                  "filename": "2025-09-02-ai-coders-copilot-chatgpt-claude-code-amazon-q.md",
+                  "locale": "en",
+                  "year": 2025,
+                  "month": 9,
+                  "day": 1
+                },
+                {
+                  "slug": "ai-coding-assistants",
+                  "title": "AI Coding Assistants Revolution: Complete Guide to Copilot, ChatGPT, Claude, and Amazon Q",
+                  "date": "2025-09-02",
+                  "author": "Tech Blog Bot",
+                  "tags": [
+                    "ai-coding",
+                    "github-copilot",
+                    "chatgpt",
+                    "claude",
+                    "amazon-q"
+                  ],
+                  "excerpt": "Explore the leading AI coding assistants transforming software development. Compare features, capabilities, and real-world applications of GitHub Copilot, ChatGPT, Claude Code, and Amazon Q.",
+                  "filename": "2025-09-02-ai-coding-assistants-revolution-complete-guide-to-copilot-chatgpt-claude-and-amazon-q.md",
+                  "locale": "en",
+                  "year": 2025,
+                  "month": 9,
+                  "day": 1
+                },
+                {
+                  "slug": "automated-testing-guide",
+                  "title": "Automated Testing: The Complete Guide to Building Bulletproof Software in 2024",
+                  "date": "2025-09-02",
+                  "author": "Tech Blog Bot",
+                  "tags": [
+                    "automated-testing",
+                    "software-development",
+                    "quality-assurance",
+                    "devops",
+                    "testing-frameworks"
+                  ],
+                  "excerpt": "Master automated testing with this comprehensive guide covering types, benefits, implementation strategies, and best practices for modern software development teams.",
+                  "filename": "2025-09-02-automated-testing-the-complete-guide-to-building-bulletproof-software-in-2024.md",
+                  "locale": "en",
+                  "year": 2025,
+                  "month": 9,
+                  "day": 1
+                },
+                {
+                  "slug": "claude-code-revolutionizing-development-with-ai-complete-guide-to-ai-assistants",
+                  "title": "Claude Code: Revolutionizing Development with AI - Complete Guide to AI Assistants",
+                  "date": "2025-09-02",
+                  "author": "Tech Blog Bot",
+                  "tags": [
+                    "artificial-intelligence",
+                    "programming",
+                    "claude",
+                    "ai-assistants",
+                    "development"
+                  ],
+                  "excerpt": "Discover how Claude Code and other AI Assistants are transforming modern programming, offering intelligent solutions for developers of all levels.",
+                  "filename": "2025-09-02-claude-code-e-ai-assistants.md",
+                  "locale": "en",
+                  "year": 2025,
+                  "month": 9,
+                  "day": 1
+                },
+                {
+                  "slug": "design-patterns-guide",
+                  "title": "Design Patterns: O Guia Definitivo para Padrões de Projeto em Desenvolvimento de Software",
+                  "date": "2025-09-02",
+                  "author": "Tech Blog Bot",
+                  "tags": [
+                    "design-patterns",
+                    "programacao",
+                    "arquitetura-software",
+                    "desenvolvimento",
+                    "boas-praticas"
+                  ],
+                  "excerpt": "Descubra como os Design Patterns podem revolucionar seu código, tornando-o mais eficiente, reutilizável e fácil de manter. Um guia completo para desenvolvedores de todos os níveis.",
+                  "filename": "2025-09-02-design-patterns-o-guia-definitivo-para-padroes-de-projeto-em-desenvolvimento-de-software.md",
+                  "locale": "en",
+                  "year": 2025,
+                  "month": 9,
+                  "day": 1
+                }
+              ]
+            }
+          },
+          "count": 10
+        }
+      },
+      "count": 10
+    }
+  },
+  "posts": [
+    {
+      "slug": "ai-coders-como-github-copilot-chatgpt-claude-e-amazon-q-estao-revolucionando-o-desenvolvimento-de-software",
+      "title": "AI Coders: Como GitHub Copilot, ChatGPT, Claude e Amazon Q Estão Revolucionando o Desenvolvimento de Software",
+      "date": "2025-09-02",
+      "author": "Tech Blog Bot",
+      "tags": [
+        "inteligencia-artificial",
+        "desenvolvimento-software",
+        "copilot",
+        "chatgpt",
+        "programacao"
+      ],
+      "excerpt": "Descubra como as ferramentas de IA para programação estão transformando o trabalho dos desenvolvedores e qual escolher para seu projeto",
+      "filename": "2025-09-02-ai-coders-copilot-chatgpt-claude-code-amazon-q.md",
+      "locale": "pt",
+      "year": 2025,
+      "month": 9,
+      "day": 1
+    },
+    {
+      "slug": "big-data-analytics-business",
+      "title": "Big Data e Analytics: Como Transformar Dados em Decisões Estratégicas para o Seu Negócio",
+      "date": "2025-09-02",
+      "author": "Tech Blog Bot",
+      "tags": [
+        "big-data",
+        "analytics",
+        "data-science",
+        "business-intelligence",
+        "transformação-digital"
+      ],
+      "excerpt": "Descubra como Big Data e Analytics estão revolucionando a tomada de decisões empresariais e transformando dados em vantagem competitiva no mercado digital.",
+      "filename": "2025-09-02-big-data-e-analytics-como-transformar-dados-em-decisoes-estrategicas-para-o-seu-negocio.md",
+      "locale": "pt",
+      "year": 2025,
+      "month": 9,
+      "day": 1
+    },
+    {
+      "slug": "big-data-analytics-business",
+      "title": "Big Data e Analytics: Como Transformar Dados em Vantagem Competitiva em 2024",
+      "date": "2025-09-02",
+      "author": "Tech Blog Bot",
+      "tags": [
+        "big-data",
+        "analytics",
+        "business-intelligence",
+        "data-science",
+        "tecnologia"
+      ],
+      "excerpt": "Descubra como Big Data e Analytics estão revolucionando os negócios, transformando milhões de dados em insights valiosos para tomada de decisões estratégicas.",
+      "filename": "2025-09-02-big-data-e-analytics-como-transformar-dados-em-vantagem-competitiva-em-2024.md",
+      "locale": "pt",
+      "year": 2025,
+      "month": 9,
+      "day": 1
+    },
+    {
+      "slug": "claude-code-revolucionando-o-desenvolvimento-com-ia-guia-completo-dos-ai-assistants",
+      "title": "Claude Code: Revolucionando o Desenvolvimento com IA - Guia Completo dos AI Assistants",
+      "date": "2025-09-02",
+      "author": "Tech Blog Bot",
+      "tags": [
+        "inteligencia-artificial",
+        "programacao",
+        "claude",
+        "ai-assistants",
+        "desenvolvimento"
+      ],
+      "excerpt": "Descubra como Claude Code e outros AI Assistants estão transformando a programação moderna, oferecendo soluções inteligentes para desenvolvedores de todos os níveis.",
+      "filename": "2025-09-02-claude-code-e-ai-assistants.md",
+      "locale": "pt",
+      "year": 2025,
+      "month": 9,
+      "day": 1
+    },
+    {
+      "slug": "design-patterns-guide",
+      "title": "Design Patterns: O Guia Completo para Revolucionar seu Desenvolvimento de Software",
+      "date": "2025-09-02",
+      "author": "Tech Blog Bot",
+      "tags": [
+        "design-patterns",
+        "desenvolvimento-software",
+        "programacao",
+        "arquitetura",
+        "boas-praticas"
+      ],
+      "excerpt": "Descubra como os Design Patterns podem transformar seu código em soluções elegantes, reutilizáveis e fáceis de manter. Um guia completo com exemplos práticos e casos de uso reais.",
+      "filename": "2025-09-02-design-patterns-o-guia-completo-para-revolucionar-seu-desenvolvimento-de-software.md",
+      "locale": "pt",
+      "year": 2025,
+      "month": 9,
+      "day": 1
+    },
+    {
+      "slug": "ai-coders-how-github-copilot-chatgpt-claude-and-amazon-q-are-revolutionizing-software-development",
+      "title": "AI Coders: How GitHub Copilot, ChatGPT, Claude and Amazon Q Are Revolutionizing Software Development",
+      "date": "2025-09-02",
+      "author": "Tech Blog Bot",
+      "tags": [
+        "artificial-intelligence",
+        "software-development",
+        "copilot",
+        "chatgpt",
+        "programming"
+      ],
+      "excerpt": "Discover how AI programming tools are transforming developers' work and which one to choose for your project",
+      "filename": "2025-09-02-ai-coders-copilot-chatgpt-claude-code-amazon-q.md",
+      "locale": "en",
+      "year": 2025,
+      "month": 9,
+      "day": 1
+    },
+    {
+      "slug": "ai-coding-assistants",
+      "title": "AI Coding Assistants Revolution: Complete Guide to Copilot, ChatGPT, Claude, and Amazon Q",
+      "date": "2025-09-02",
+      "author": "Tech Blog Bot",
+      "tags": [
+        "ai-coding",
+        "github-copilot",
+        "chatgpt",
+        "claude",
+        "amazon-q"
+      ],
+      "excerpt": "Explore the leading AI coding assistants transforming software development. Compare features, capabilities, and real-world applications of GitHub Copilot, ChatGPT, Claude Code, and Amazon Q.",
+      "filename": "2025-09-02-ai-coding-assistants-revolution-complete-guide-to-copilot-chatgpt-claude-and-amazon-q.md",
+      "locale": "en",
+      "year": 2025,
+      "month": 9,
+      "day": 1
+    },
+    {
+      "slug": "automated-testing-guide",
+      "title": "Automated Testing: The Complete Guide to Building Bulletproof Software in 2024",
+      "date": "2025-09-02",
+      "author": "Tech Blog Bot",
+      "tags": [
+        "automated-testing",
+        "software-development",
+        "quality-assurance",
+        "devops",
+        "testing-frameworks"
+      ],
+      "excerpt": "Master automated testing with this comprehensive guide covering types, benefits, implementation strategies, and best practices for modern software development teams.",
+      "filename": "2025-09-02-automated-testing-the-complete-guide-to-building-bulletproof-software-in-2024.md",
+      "locale": "en",
+      "year": 2025,
+      "month": 9,
+      "day": 1
+    },
+    {
+      "slug": "claude-code-revolutionizing-development-with-ai-complete-guide-to-ai-assistants",
+      "title": "Claude Code: Revolutionizing Development with AI - Complete Guide to AI Assistants",
+      "date": "2025-09-02",
+      "author": "Tech Blog Bot",
+      "tags": [
+        "artificial-intelligence",
+        "programming",
+        "claude",
+        "ai-assistants",
+        "development"
+      ],
+      "excerpt": "Discover how Claude Code and other AI Assistants are transforming modern programming, offering intelligent solutions for developers of all levels.",
+      "filename": "2025-09-02-claude-code-e-ai-assistants.md",
+      "locale": "en",
+      "year": 2025,
+      "month": 9,
+      "day": 1
+    },
+    {
+      "slug": "design-patterns-guide",
+      "title": "Design Patterns: O Guia Definitivo para Padrões de Projeto em Desenvolvimento de Software",
+      "date": "2025-09-02",
+      "author": "Tech Blog Bot",
+      "tags": [
+        "design-patterns",
+        "programacao",
+        "arquitetura-software",
+        "desenvolvimento",
+        "boas-praticas"
+      ],
+      "excerpt": "Descubra como os Design Patterns podem revolucionar seu código, tornando-o mais eficiente, reutilizável e fácil de manter. Um guia completo para desenvolvedores de todos os níveis.",
+      "filename": "2025-09-02-design-patterns-o-guia-definitivo-para-padroes-de-projeto-em-desenvolvimento-de-software.md",
+      "locale": "en",
+      "year": 2025,
+      "month": 9,
+      "day": 1
+    }
+  ],
+  "tags": {
+    "inteligencia-artificial": {
+      "count": 2,
+      "posts": [
+        "ai-coders-como-github-copilot-chatgpt-claude-e-amazon-q-estao-revolucionando-o-desenvolvimento-de-software",
+        "claude-code-revolucionando-o-desenvolvimento-com-ia-guia-completo-dos-ai-assistants"
+      ]
+    },
+    "desenvolvimento-software": {
+      "count": 2,
+      "posts": [
+        "ai-coders-como-github-copilot-chatgpt-claude-e-amazon-q-estao-revolucionando-o-desenvolvimento-de-software",
+        "design-patterns-guide"
+      ]
+    },
+    "copilot": {
+      "count": 2,
+      "posts": [
+        "ai-coders-como-github-copilot-chatgpt-claude-e-amazon-q-estao-revolucionando-o-desenvolvimento-de-software",
+        "ai-coders-how-github-copilot-chatgpt-claude-and-amazon-q-are-revolutionizing-software-development"
+      ]
+    },
+    "chatgpt": {
+      "count": 3,
+      "posts": [
+        "ai-coders-como-github-copilot-chatgpt-claude-e-amazon-q-estao-revolucionando-o-desenvolvimento-de-software",
+        "ai-coders-how-github-copilot-chatgpt-claude-and-amazon-q-are-revolutionizing-software-development",
+        "ai-coding-assistants"
+      ]
+    },
+    "programacao": {
+      "count": 3,
+      "posts": [
+        "ai-coders-como-github-copilot-chatgpt-claude-e-amazon-q-estao-revolucionando-o-desenvolvimento-de-software",
+        "claude-code-revolucionando-o-desenvolvimento-com-ia-guia-completo-dos-ai-assistants",
+        "design-patterns-guide"
+      ]
+    },
+    "big-data": {
+      "count": 1,
+      "posts": [
+        "big-data-analytics-business"
+      ]
+    },
+    "analytics": {
+      "count": 1,
+      "posts": [
+        "big-data-analytics-business"
+      ]
+    },
+    "data-science": {
+      "count": 1,
+      "posts": [
+        "big-data-analytics-business"
+      ]
+    },
+    "business-intelligence": {
+      "count": 1,
+      "posts": [
+        "big-data-analytics-business"
+      ]
+    },
+    "transformação-digital": {
+      "count": 1,
+      "posts": [
+        "big-data-analytics-business"
+      ]
+    },
+    "tecnologia": {
+      "count": 1,
+      "posts": [
+        "big-data-analytics-business"
+      ]
+    },
+    "claude": {
+      "count": 3,
+      "posts": [
+        "claude-code-revolucionando-o-desenvolvimento-com-ia-guia-completo-dos-ai-assistants",
+        "ai-coding-assistants",
+        "claude-code-revolutionizing-development-with-ai-complete-guide-to-ai-assistants"
+      ]
+    },
+    "ai-assistants": {
+      "count": 2,
+      "posts": [
+        "claude-code-revolucionando-o-desenvolvimento-com-ia-guia-completo-dos-ai-assistants",
+        "claude-code-revolutionizing-development-with-ai-complete-guide-to-ai-assistants"
+      ]
+    },
+    "desenvolvimento": {
+      "count": 2,
+      "posts": [
+        "claude-code-revolucionando-o-desenvolvimento-com-ia-guia-completo-dos-ai-assistants",
+        "design-patterns-guide"
+      ]
+    },
+    "design-patterns": {
+      "count": 1,
+      "posts": [
+        "design-patterns-guide"
+      ]
+    },
+    "arquitetura": {
+      "count": 1,
+      "posts": [
+        "design-patterns-guide"
+      ]
+    },
+    "boas-praticas": {
+      "count": 1,
+      "posts": [
+        "design-patterns-guide"
+      ]
+    },
+    "artificial-intelligence": {
+      "count": 2,
+      "posts": [
+        "ai-coders-how-github-copilot-chatgpt-claude-and-amazon-q-are-revolutionizing-software-development",
+        "claude-code-revolutionizing-development-with-ai-complete-guide-to-ai-assistants"
+      ]
+    },
+    "software-development": {
+      "count": 2,
+      "posts": [
+        "ai-coders-how-github-copilot-chatgpt-claude-and-amazon-q-are-revolutionizing-software-development",
+        "automated-testing-guide"
+      ]
+    },
+    "programming": {
+      "count": 2,
+      "posts": [
+        "ai-coders-how-github-copilot-chatgpt-claude-and-amazon-q-are-revolutionizing-software-development",
+        "claude-code-revolutionizing-development-with-ai-complete-guide-to-ai-assistants"
+      ]
+    },
+    "ai-coding": {
+      "count": 1,
+      "posts": [
+        "ai-coding-assistants"
+      ]
+    },
+    "github-copilot": {
+      "count": 1,
+      "posts": [
+        "ai-coding-assistants"
+      ]
+    },
+    "amazon-q": {
+      "count": 1,
+      "posts": [
+        "ai-coding-assistants"
+      ]
+    },
+    "automated-testing": {
+      "count": 1,
+      "posts": [
+        "automated-testing-guide"
+      ]
+    },
+    "quality-assurance": {
+      "count": 1,
+      "posts": [
+        "automated-testing-guide"
+      ]
+    },
+    "devops": {
+      "count": 1,
+      "posts": [
+        "automated-testing-guide"
+      ]
+    },
+    "testing-frameworks": {
+      "count": 1,
+      "posts": [
+        "automated-testing-guide"
+      ]
+    },
+    "development": {
+      "count": 1,
+      "posts": [
+        "claude-code-revolutionizing-development-with-ai-complete-guide-to-ai-assistants"
+      ]
+    },
+    "arquitetura-software": {
+      "count": 1,
+      "posts": [
+        "design-patterns-guide"
+      ]
+    }
+  }
+}

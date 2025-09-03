@@ -14,6 +14,7 @@ excerpt: >-
   Descubra como os Design Patterns podem transformar seu código em soluções
   elegantes, reutilizáveis e fáceis de manter. Um guia completo com exemplos
   práticos e casos de uso reais.
+slug: design-patterns-guide
 ---
 
 # Design Patterns: O Guia Completo para Revolucionar seu Desenvolvimento de Software
