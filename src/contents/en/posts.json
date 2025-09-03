@@ -1,5 +1,20 @@
 [
   {
+    "slug": "construindo-um-blog-portfolio-multilingue-com-nextjs-15-licoes-aprendidas-sobre-arquitetura-estatica-server-actions-typescript-e-cicd",
+    "title": "Next.js 15 in Practice: Building a Multilingual Blog Portfolio with Modern Architecture and CI/CD",
+    "date": "2025-09-03",
+    "author": "Tech Blog Bot",
+    "tags": [
+      "nextjs",
+      "typescript",
+      "portfolio",
+      "multilingual",
+      "cicd"
+    ],
+    "excerpt": "Discover how to build a professional multilingual blog portfolio with Next.js 15, exploring Server Actions, static generation, TypeScript and CI/CD automation in a real project.",
+    "filename": "2025-09-03-construindo-um-blog-portfolio-multilingue-com-nextjs-15-licoes-aprendidas-sobre-arquitetura-estatica-server-actions-typescript-e-cicd.md"
+  },
+  {
     "slug": "ai-coders-how-github-copilot-chatgpt-claude-and-amazon-q-are-revolutionizing-software-development",
     "title": "AI Coders: How GitHub Copilot, ChatGPT, Claude and Amazon Q Are Revolutionizing Software Development",
     "date": "2025-09-02",

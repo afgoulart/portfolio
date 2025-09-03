@@ -7,7 +7,7 @@ import {
   Certifications,
   Contact,
   Navbar,
-  AnalyticsProvider
+  AnalyticsProvider,
 } from "@/components";
 
 export function generateStaticParams() {
@@ -22,7 +22,7 @@ export default function Home() {
         <Hero />
         <About />
         <Skills />
-        <Projects />
+        {/* <Projects /> */}
         <Companies />
         <Certifications />
         <Contact />
