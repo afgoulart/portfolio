@@ -4,24 +4,52 @@
         <title>André Goulart - Tech Blog</title>
         <link>https://afgoulart.github.io/portfolio/pt</link>
         <description>Um blog de tecnologia com conteúdo mais atual que está sendo discutido no meio tech.</description>
-        <lastBuildDate>Tue, 02 Sep 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Sep 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
         <copyright>Todos os direitos reservados 2025, André Filipe Goulart</copyright>
         <item>
-            <title><![CDATA[React e JavaScript: O Guia Completo para Dominar a Dupla Mais Poderosa do Desenvolvimento Web]]></title>
-            <link>https://afgoulart.github.io/portfolio/pt/blog/2025-09-02-react-e-javascript</link>
-            <guid>https://afgoulart.github.io/portfolio/pt/blog/2025-09-02-react-e-javascript</guid>
-            <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Descubra como React e JavaScript trabalham juntos para criar aplicações web modernas e eficientes. Aprenda conceitos, veja exemplos práticos e domine essa combinação essencial.]]></description>
-            <content:encoded><![CDATA[Descubra como React e JavaScript trabalham juntos para criar aplicações web modernas e eficientes. Aprenda conceitos, veja exemplos práticos e domine essa combinação essencial.]]></content:encoded>
+            <title><![CDATA[CVE-2024-50264: Análise Técnica da Vulnerabilidade Crítica no Kernel Linux e Estratégias de Mitigação]]></title>
+            <link>https://afgoulart.github.io/portfolio/pt/blog/2025-09-03-kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel</link>
+            <guid>https://afgoulart.github.io/portfolio/pt/blog/2025-09-03-kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel</guid>
+            <pubDate>Wed, 03 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Análise detalhada da vulnerabilidade CVE-2024-50264 no kernel Linux, incluindo vetores de exploração, impactos de segurança e medidas preventivas essenciais para administradores de sistemas.]]></description>
+            <content:encoded><![CDATA[Análise detalhada da vulnerabilidade CVE-2024-50264 no kernel Linux, incluindo vetores de exploração, impactos de segurança e medidas preventivas essenciais para administradores de sistemas.]]></content:encoded>
             <author>afgoulart.rj@gmail.com (André Goulart)</author>
-            <category>React</category>
-            <category>JavaScript</category>
-            <category>Frontend</category>
-            <category>Desenvolvimento Web</category>
-            <category>Frameworks</category>
+            <category>cybersecurity</category>
+            <category>linux-kernel</category>
+            <category>cve</category>
+            <category>vulnerability-analysis</category>
+            <category>infosec</category>
+        </item>
+        <item>
+            <title><![CDATA[Next.js 15 na Prática: Construindo um Blog Portfolio Multilíngue com Arquitetura Moderna e CI/CD]]></title>
+            <link>https://afgoulart.github.io/portfolio/pt/blog/2025-09-03-construindo-um-blog-portfolio-multilingue-com-nextjs-15-licoes-aprendidas-sobre-arquitetura-estatica-server-actions-typescript-e-cicd</link>
+            <guid>https://afgoulart.github.io/portfolio/pt/blog/2025-09-03-construindo-um-blog-portfolio-multilingue-com-nextjs-15-licoes-aprendidas-sobre-arquitetura-estatica-server-actions-typescript-e-cicd</guid>
+            <pubDate>Wed, 03 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Descubra como construir um blog portfolio multilíngue profissional com Next.js 15, explorando Server Actions, geração estática, TypeScript e automação CI/CD em um projeto real.]]></description>
+            <content:encoded><![CDATA[Descubra como construir um blog portfolio multilíngue profissional com Next.js 15, explorando Server Actions, geração estática, TypeScript e automação CI/CD em um projeto real.]]></content:encoded>
+            <author>afgoulart.rj@gmail.com (André Goulart)</author>
+            <category>nextjs</category>
+            <category>typescript</category>
+            <category>portfolio</category>
+            <category>multilingual</category>
+            <category>cicd</category>
+        </item>
+        <item>
+            <title><![CDATA[Testes Automatizados: O Guia Completo para Construir Software à Prova de Balas em 2024]]></title>
+            <link>https://afgoulart.github.io/portfolio/pt/blog/2025-09-02-testes-automatizados-o-guia-completo-para-construir-software-a-prova-de-balas-em-2024</link>
+            <guid>https://afgoulart.github.io/portfolio/pt/blog/2025-09-02-testes-automatizados-o-guia-completo-para-construir-software-a-prova-de-balas-em-2024</guid>
+            <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Domine testes automatizados com este guia abrangente cobrindo tipos, benefícios, estratégias de implementação e melhores práticas para equipes modernas de desenvolvimento de software.]]></description>
+            <content:encoded><![CDATA[Domine testes automatizados com este guia abrangente cobrindo tipos, benefícios, estratégias de implementação e melhores práticas para equipes modernas de desenvolvimento de software.]]></content:encoded>
+            <author>afgoulart.rj@gmail.com (André Goulart)</author>
+            <category>testes-automatizados</category>
+            <category>desenvolvimento-software</category>
+            <category>garantia-qualidade</category>
+            <category>devops</category>
+            <category>frameworks-teste</category>
         </item>
         <item>
             <title><![CDATA[Design Patterns: O Guia Completo para Revolucionar seu Desenvolvimento de Software]]></title>
@@ -52,20 +80,6 @@
             <category>desenvolvimento</category>
         </item>
         <item>
-            <title><![CDATA[Big Data e Analytics: Como Transformar Dados em Vantagem Competitiva em 2024]]></title>
-            <link>https://afgoulart.github.io/portfolio/pt/blog/2025-09-02-big-data-e-analytics-como-transformar-dados-em-vantagem-competitiva-em-2024</link>
-            <guid>https://afgoulart.github.io/portfolio/pt/blog/2025-09-02-big-data-e-analytics-como-transformar-dados-em-vantagem-competitiva-em-2024</guid>
-            <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Descubra como Big Data e Analytics estão revolucionando os negócios, transformando milhões de dados em insights valiosos para tomada de decisões estratégicas.]]></description>
-            <content:encoded><![CDATA[Descubra como Big Data e Analytics estão revolucionando os negócios, transformando milhões de dados em insights valiosos para tomada de decisões estratégicas.]]></content:encoded>
-            <author>afgoulart.rj@gmail.com (André Goulart)</author>
-            <category>big-data</category>
-            <category>analytics</category>
-            <category>business-intelligence</category>
-            <category>data-science</category>
-            <category>tecnologia</category>
-        </item>
-        <item>
             <title><![CDATA[Big Data e Analytics: Como Transformar Dados em Decisões Estratégicas para o Seu Negócio]]></title>
             <link>https://afgoulart.github.io/portfolio/pt/blog/2025-09-02-big-data-e-analytics-como-transformar-dados-em-decisoes-estrategicas-para-o-seu-negocio</link>
             <guid>https://afgoulart.github.io/portfolio/pt/blog/2025-09-02-big-data-e-analytics-como-transformar-dados-em-decisoes-estrategicas-para-o-seu-negocio</guid>
@@ -78,6 +92,20 @@
             <category>data-science</category>
             <category>business-intelligence</category>
             <category>transformação-digital</category>
+        </item>
+        <item>
+            <title><![CDATA[Revolução dos Assistentes de IA para Programação: Guia Completo do Copilot, ChatGPT, Claude e Amazon Q]]></title>
+            <link>https://afgoulart.github.io/portfolio/pt/blog/2025-09-02-assistentes-de-ia-para-programacao-revolucao-completa-copilot-chatgpt-claude-amazon-q</link>
+            <guid>https://afgoulart.github.io/portfolio/pt/blog/2025-09-02-assistentes-de-ia-para-programacao-revolucao-completa-copilot-chatgpt-claude-amazon-q</guid>
+            <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore os principais assistentes de IA que estão transformando o desenvolvimento de software. Compare recursos, capacidades e aplicações do GitHub Copilot, ChatGPT, Claude Code e Amazon Q.]]></description>
+            <content:encoded><![CDATA[Explore os principais assistentes de IA que estão transformando o desenvolvimento de software. Compare recursos, capacidades e aplicações do GitHub Copilot, ChatGPT, Claude Code e Amazon Q.]]></content:encoded>
+            <author>afgoulart.rj@gmail.com (André Goulart)</author>
+            <category>ia-programacao</category>
+            <category>github-copilot</category>
+            <category>chatgpt</category>
+            <category>claude</category>
+            <category>amazon-q</category>
         </item>
         <item>
             <title><![CDATA[AI Coders: Como GitHub Copilot, ChatGPT, Claude e Amazon Q Estão Revolucionando o Desenvolvimento de Software]]></title>

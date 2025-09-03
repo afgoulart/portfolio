@@ -4,24 +4,38 @@
         <title>André Goulart - Tech Blog</title>
         <link>https://afgoulart.github.io/portfolio/en</link>
         <description>A tech blog with the most current content being discussed in the tech world.</description>
-        <lastBuildDate>Tue, 02 Sep 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Sep 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
         <copyright>All rights reserved 2025, André Filipe Goulart</copyright>
         <item>
-            <title><![CDATA[React and JavaScript: The Complete Guide to Mastering the Most Powerful Duo in Web Development]]></title>
-            <link>https://afgoulart.github.io/portfolio/en/blog/2025-09-02-react-e-javascript</link>
-            <guid>https://afgoulart.github.io/portfolio/en/blog/2025-09-02-react-e-javascript</guid>
-            <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Discover how React and JavaScript work together to create modern and efficient web applications. Learn concepts, see practical examples, and master this essential combination.]]></description>
-            <content:encoded><![CDATA[Discover how React and JavaScript work together to create modern and efficient web applications. Learn concepts, see practical examples, and master this essential combination.]]></content:encoded>
+            <title><![CDATA[CVE-2024-50264: Technical Analysis of Critical Linux Kernel Vulnerability and Mitigation Strategies]]></title>
+            <link>https://afgoulart.github.io/portfolio/en/blog/2025-09-03-kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel</link>
+            <guid>https://afgoulart.github.io/portfolio/en/blog/2025-09-03-kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel</guid>
+            <pubDate>Wed, 03 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Detailed analysis of the CVE-2024-50264 vulnerability in the Linux kernel, including exploitation vectors, security impacts, and essential preventive measures for system administrators.]]></description>
+            <content:encoded><![CDATA[Detailed analysis of the CVE-2024-50264 vulnerability in the Linux kernel, including exploitation vectors, security impacts, and essential preventive measures for system administrators.]]></content:encoded>
             <author>afgoulart.rj@gmail.com (André Goulart)</author>
-            <category>React</category>
-            <category>JavaScript</category>
-            <category>Frontend</category>
-            <category>Web Development</category>
-            <category>Frameworks</category>
+            <category>cybersecurity</category>
+            <category>linux-kernel</category>
+            <category>cve</category>
+            <category>vulnerability-analysis</category>
+            <category>infosec</category>
+        </item>
+        <item>
+            <title><![CDATA[Next.js 15 in Practice: Building a Multilingual Blog Portfolio with Modern Architecture and CI/CD]]></title>
+            <link>https://afgoulart.github.io/portfolio/en/blog/2025-09-03-construindo-um-blog-portfolio-multilingue-com-nextjs-15-licoes-aprendidas-sobre-arquitetura-estatica-server-actions-typescript-e-cicd</link>
+            <guid>https://afgoulart.github.io/portfolio/en/blog/2025-09-03-construindo-um-blog-portfolio-multilingue-com-nextjs-15-licoes-aprendidas-sobre-arquitetura-estatica-server-actions-typescript-e-cicd</guid>
+            <pubDate>Wed, 03 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover how to build a professional multilingual blog portfolio with Next.js 15, exploring Server Actions, static generation, TypeScript and CI/CD automation in a real project.]]></description>
+            <content:encoded><![CDATA[Discover how to build a professional multilingual blog portfolio with Next.js 15, exploring Server Actions, static generation, TypeScript and CI/CD automation in a real project.]]></content:encoded>
+            <author>afgoulart.rj@gmail.com (André Goulart)</author>
+            <category>nextjs</category>
+            <category>typescript</category>
+            <category>portfolio</category>
+            <category>multilingual</category>
+            <category>cicd</category>
         </item>
         <item>
             <title><![CDATA[Design Patterns: O Guia Definitivo para Padrões de Projeto em Desenvolvimento de Software]]></title>
