@@ -15,6 +15,21 @@
     "filename": "2025-09-02-ai-coders-copilot-chatgpt-claude-code-amazon-q.md"
   },
   {
+    "slug": "ai-coding-assistants",
+    "title": "Revolução dos Assistentes de IA para Programação: Guia Completo do Copilot, ChatGPT, Claude e Amazon Q",
+    "date": "2025-09-02",
+    "author": "Tech Blog Bot",
+    "tags": [
+      "ia-programacao",
+      "github-copilot",
+      "chatgpt",
+      "claude",
+      "amazon-q"
+    ],
+    "excerpt": "Explore os principais assistentes de IA que estão transformando o desenvolvimento de software. Compare recursos, capacidades e aplicações do GitHub Copilot, ChatGPT, Claude Code e Amazon Q.",
+    "filename": "2025-09-02-assistentes-de-ia-para-programacao-revolucao-completa-copilot-chatgpt-claude-amazon-q.md"
+  },
+  {
     "slug": "big-data-analytics-business",
     "title": "Big Data e Analytics: Como Transformar Dados em Decisões Estratégicas para o Seu Negócio",
     "date": "2025-09-02",
@@ -28,21 +43,6 @@
     ],
     "excerpt": "Descubra como Big Data e Analytics estão revolucionando a tomada de decisões empresariais e transformando dados em vantagem competitiva no mercado digital.",
     "filename": "2025-09-02-big-data-e-analytics-como-transformar-dados-em-decisoes-estrategicas-para-o-seu-negocio.md"
-  },
-  {
-    "slug": "big-data-analytics-business",
-    "title": "Big Data e Analytics: Como Transformar Dados em Vantagem Competitiva em 2024",
-    "date": "2025-09-02",
-    "author": "Tech Blog Bot",
-    "tags": [
-      "big-data",
-      "analytics",
-      "business-intelligence",
-      "data-science",
-      "tecnologia"
-    ],
-    "excerpt": "Descubra como Big Data e Analytics estão revolucionando os negócios, transformando milhões de dados em insights valiosos para tomada de decisões estratégicas.",
-    "filename": "2025-09-02-big-data-e-analytics-como-transformar-dados-em-vantagem-competitiva-em-2024.md"
   },
   {
     "slug": "claude-code-revolucionando-o-desenvolvimento-com-ia-guia-completo-dos-ai-assistants",
@@ -73,5 +73,20 @@
     ],
     "excerpt": "Descubra como os Design Patterns podem transformar seu código em soluções elegantes, reutilizáveis e fáceis de manter. Um guia completo com exemplos práticos e casos de uso reais.",
     "filename": "2025-09-02-design-patterns-o-guia-completo-para-revolucionar-seu-desenvolvimento-de-software.md"
+  },
+  {
+    "slug": "automated-testing-guide",
+    "title": "Testes Automatizados: O Guia Completo para Construir Software à Prova de Balas em 2024",
+    "date": "2025-09-02",
+    "author": "Tech Blog Bot",
+    "tags": [
+      "testes-automatizados",
+      "desenvolvimento-software",
+      "garantia-qualidade",
+      "devops",
+      "frameworks-teste"
+    ],
+    "excerpt": "Domine testes automatizados com este guia abrangente cobrindo tipos, benefícios, estratégias de implementação e melhores práticas para equipes modernas de desenvolvimento de software.",
+    "filename": "2025-09-02-testes-automatizados-o-guia-completo-para-construir-software-a-prova-de-balas-em-2024.md"
   }
 ]

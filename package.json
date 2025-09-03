@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
+    "build": "node scripts/generate-content-index.mjs && next build --turbopack",
     "start": "next start",
     "lint": "eslint",
-    "export": "next build && next export"
+    "export": "next build && next export",
+    "generate-content": "node scripts/generate-content-index.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.24.3",

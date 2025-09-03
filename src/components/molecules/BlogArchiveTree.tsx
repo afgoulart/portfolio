@@ -104,13 +104,6 @@ export default function BlogArchiveTree({ contentIndex, locale, currentFilters }
     .filter(node => node.count > 0)
     .sort((a, b) => b.year - a.year);
 
-  const buildUrl = (year: number, month?: number, day?: number) => {
-    const params = new URLSearchParams();
-    params.set('year', year.toString());
-    if (month) params.set('month', month.toString());
-    if (day) params.set('day', day.toString());
-    return `/${locale}/blog?${params.toString()}`;
-  };
 
   const toggleYear = (year: number) => {
     const newExpanded = new Set(expandedYears);

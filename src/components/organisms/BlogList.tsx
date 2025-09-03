@@ -1,6 +1,6 @@
 'use client';
 
-import { PostIndex } from '@/lib/content-client';
+import { PostIndex, ContentIndex } from '@/lib/content-client';
 import BlogCard from '@/components/molecules/BlogCard';
 import BlogHero from '@/components/molecules/BlogHero';
 import FloatingRssButton from '@/components/molecules/FloatingRssButton';
@@ -23,6 +23,7 @@ interface BlogListProps {
   subtitle: string;
   noPosts: string;
   locale: string;
+  contentIndex: ContentIndex;
   tags: Array<{ tag: string; count: number }>;
   archive: Array<{ year: number; month: number; count: number; monthName: string }>;
   filters: {
@@ -40,6 +41,7 @@ export default function BlogList({
   subtitle, 
   noPosts, 
   locale, 
+  contentIndex,
   tags, 
   archive, 
   filters 
@@ -77,7 +79,7 @@ export default function BlogList({
                   )}
                   {filters.search && (
                     <span className="px-3 py-1 bg-green-600 text-white text-sm rounded-full">
-                      {locale === 'pt' ? 'Busca:' : 'Search:'} "{filters.search}"
+                      {locale === 'pt' ? 'Busca:' : 'Search:'} &ldquo;{filters.search}&rdquo;
                     </span>
                   )}
                   {filters.year && (
@@ -138,6 +140,7 @@ export default function BlogList({
             <BlogSidebar 
               tags={tags}
               archive={archive}
+              contentIndex={contentIndex}
               locale={locale}
               currentFilters={filters}
             />

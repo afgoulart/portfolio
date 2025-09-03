@@ -11,14 +11,14 @@ export default function LanguageSwitcher() {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
 
-  const languages = [
+  const languages = useMemo(() => [
     { code: "pt", name: "Português", flag: "🇧🇷" },
     { code: "en", name: "English", flag: "🇺🇸" },
-  ];
+  ], []);
 
   const currentLanguage = useMemo(() => {
     return languages.find((lang) => lang.code === locale) || languages[0];
-  }, [locale]);
+  }, [locale, languages]);
 
   const getLanguageUrl = (langCode: string) => {
     let newPath = pathname.replace(/^\/(pt|en)/, `/${langCode}`);

@@ -1,7 +1,8 @@
-import { getAllTagsAction, getArchiveAction, getContentIndexAction } from '@/lib/content-actions';
+import { getAllTags, getArchive, getContentIndex } from '@/lib/content-static';
 import BlogListClient from '@/components/organisms/BlogListClient';
 import { Navbar, AnalyticsProvider } from "@/components";
 import type { Metadata } from 'next';
+import { Suspense } from 'react';
 
 interface BlogPageProps {
   params: Promise<{
@@ -41,9 +42,9 @@ export default async function BlogPage({ params }: BlogPageProps) {
   const { locale } = await params;
   
   // Get all content data at build time for static generation
-  const contentIndex = await getContentIndexAction();
-  const tags = await getAllTagsAction(locale);
-  const archive = await getArchiveAction(locale);
+  const contentIndex = getContentIndex();
+  const tags = getAllTags(locale);
+  const archive = getArchive(locale);
 
   const title = locale === 'pt' ? 'Blog' : 'Blog';
   const subtitle = locale === 'pt' 
@@ -57,15 +58,17 @@ export default async function BlogPage({ params }: BlogPageProps) {
     <AnalyticsProvider>
       <Navbar />
       <main className="overflow-x-hidden">
-        <BlogListClient 
-          contentIndex={contentIndex}
-          title={title}
-          subtitle={subtitle}
-          noPosts={noPosts}
-          locale={locale}
-          tags={tags}
-          archive={archive}
-        />
+        <Suspense fallback={<div className="min-h-screen flex items-center justify-center"><div className="animate-spin rounded-full h-32 w-32 border-b-2 border-blue-500"></div></div>}>
+          <BlogListClient 
+            contentIndex={contentIndex}
+            title={title}
+            subtitle={subtitle}
+            noPosts={noPosts}
+            locale={locale}
+            tags={tags}
+            archive={archive}
+          />
+        </Suspense>
       </main>
     </AnalyticsProvider>
   );

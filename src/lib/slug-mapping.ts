@@ -1,10 +1,11 @@
-import { getContentIndexAction } from './content-actions';
+import { getContentIndex } from './content-static';
+import type { PostIndex, ContentIndex } from './content-client';
 
 /**
  * Find equivalent slug in another language for blog posts
  */
-export async function getEquivalentSlug(currentSlug: string, currentLocale: string, targetLocale: string): Promise<string | null> {
-  const contentIndex = await getContentIndexAction();
+export function getEquivalentSlug(currentSlug: string, currentLocale: string, targetLocale: string): string | null {
+  const contentIndex = getContentIndex();
   
   // Find the current post
   const currentPost = contentIndex.posts.find(
@@ -21,10 +22,10 @@ export async function getEquivalentSlug(currentSlug: string, currentLocale: stri
   return equivalentPost ? equivalentPost.slug : null;
 }
 
-function findEquivalentPost(currentPost: any, targetLocale: string, contentIndex: any): any {
+function findEquivalentPost(currentPost: PostIndex, targetLocale: string, contentIndex: ContentIndex): PostIndex | null {
   // Strategy 1: Look for exact slug match in target locale
   const exactMatch = contentIndex.posts.find(
-    (post: any) => post.slug === currentPost.slug && post.locale === targetLocale
+    (post: PostIndex) => post.slug === currentPost.slug && post.locale === targetLocale
   );
   
   if (exactMatch) {
@@ -32,7 +33,7 @@ function findEquivalentPost(currentPost: any, targetLocale: string, contentIndex
   }
 
   // Strategy 2: Look for posts with similar tags and same date
-  const similarPosts = contentIndex.posts.filter((post: any) => 
+  const similarPosts = contentIndex.posts.filter((post: PostIndex) => 
     post.locale === targetLocale && 
     post.date === currentPost.date &&
     hasCommonTags(post.tags, currentPost.tags)
@@ -40,7 +41,7 @@ function findEquivalentPost(currentPost: any, targetLocale: string, contentIndex
 
   if (similarPosts.length > 0) {
     // Return the one with most similar tags
-    return similarPosts.reduce((best: any, current: any) => {
+    return similarPosts.reduce((best: PostIndex, current: PostIndex) => {
       const bestScore = calculateTagSimilarity(best.tags, currentPost.tags);
       const currentScore = calculateTagSimilarity(current.tags, currentPost.tags);
       return currentScore > bestScore ? current : best;
@@ -112,7 +113,7 @@ function tagSimilarity(tag1: string, tag2: string): number {
   return 0;
 }
 
-function findByTopicMapping(currentPost: any, targetLocale: string, contentIndex: any): any {
+function findByTopicMapping(currentPost: PostIndex, targetLocale: string, contentIndex: ContentIndex): PostIndex | null {
   // Known topic patterns that should map to same content
   const topicPatterns = [
     {
@@ -146,7 +147,7 @@ function findByTopicMapping(currentPost: any, targetLocale: string, contentIndex
 
     if (matchesKeywords || matchesSlugPattern) {
       // Find equivalent post in target locale
-      const equivalentPost = contentIndex.posts.find((post: any) => 
+      const equivalentPost = contentIndex.posts.find((post: PostIndex) => 
         post.locale === targetLocale &&
         (pattern.keywords.some(keyword => 
           post.tags.some((tag: string) => tag.includes(keyword)) ||

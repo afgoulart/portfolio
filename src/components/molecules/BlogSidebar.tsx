@@ -18,6 +18,7 @@ interface BlogSidebarProps {
   };
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export default function BlogSidebar({ tags, archive, contentIndex, locale, currentFilters }: BlogSidebarProps) {
   const buildTagUrl = (tag: string) => {
     const params = new URLSearchParams();

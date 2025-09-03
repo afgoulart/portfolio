@@ -85,7 +85,7 @@ export function getEquivalentSlugClient(currentSlug: string, currentLocale: stri
 /**
  * Check if a slug likely exists in the target language
  */
-export function hasEquivalentContent(currentSlug: string, targetLocale: string): boolean {
+export function hasEquivalentContent(currentSlug: string): boolean {
   // Check if we have a mapping or it's a shared slug
   return !!(SLUG_MAPPINGS[currentSlug] || 
            ['design-patterns-guide', 'big-data-analytics-business', 'ai-coding-assistants', 'automated-testing-guide'].includes(currentSlug) ||
