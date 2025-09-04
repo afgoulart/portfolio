@@ -4,11 +4,25 @@
         <title>André Goulart - Tech Blog</title>
         <link>https://afgoulart.github.io/portfolio/pt</link>
         <description>Um blog de tecnologia com conteúdo mais atual que está sendo discutido no meio tech.</description>
-        <lastBuildDate>Wed, 03 Sep 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 04 Sep 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
         <copyright>Todos os direitos reservados 2025, André Filipe Goulart</copyright>
+        <item>
+            <title><![CDATA[Frameworks de Desenvolvimento Web em 2024: Guia Completo para Escolher a Tecnologia Certa]]></title>
+            <link>https://afgoulart.github.io/portfolio/pt/blog/2025-09-04-desenvolvimento-web-e-frameworks</link>
+            <guid>https://afgoulart.github.io/portfolio/pt/blog/2025-09-04-desenvolvimento-web-e-frameworks</guid>
+            <pubDate>Thu, 04 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Descubra os principais frameworks de desenvolvimento web, suas vantagens e como escolher a tecnologia ideal para seu próximo projeto.]]></description>
+            <content:encoded><![CDATA[Descubra os principais frameworks de desenvolvimento web, suas vantagens e como escolher a tecnologia ideal para seu próximo projeto.]]></content:encoded>
+            <author>afgoulart.rj@gmail.com (André Goulart)</author>
+            <category>desenvolvimento-web</category>
+            <category>frameworks</category>
+            <category>frontend</category>
+            <category>backend</category>
+            <category>javascript</category>
+        </item>
         <item>
             <title><![CDATA[CVE-2024-50264: Análise Técnica da Vulnerabilidade Crítica no Kernel Linux e Estratégias de Mitigação]]></title>
             <link>https://afgoulart.github.io/portfolio/pt/blog/2025-09-03-kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel</link>
