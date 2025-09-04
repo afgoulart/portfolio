@@ -4,11 +4,25 @@
         <title>André Goulart - Tech Blog</title>
         <link>https://afgoulart.github.io/portfolio/en</link>
         <description>A tech blog with the most current content being discussed in the tech world.</description>
-        <lastBuildDate>Wed, 03 Sep 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 04 Sep 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
         <copyright>All rights reserved 2025, André Filipe Goulart</copyright>
+        <item>
+            <title><![CDATA[Web Development Frameworks in 2024: Complete Guide to Choosing the Right Technology]]></title>
+            <link>https://afgoulart.github.io/portfolio/en/blog/2025-09-04-desenvolvimento-web-e-frameworks</link>
+            <guid>https://afgoulart.github.io/portfolio/en/blog/2025-09-04-desenvolvimento-web-e-frameworks</guid>
+            <pubDate>Thu, 04 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover the main web development frameworks, their advantages and how to choose the ideal technology for your next project.]]></description>
+            <content:encoded><![CDATA[Discover the main web development frameworks, their advantages and how to choose the ideal technology for your next project.]]></content:encoded>
+            <author>afgoulart.rj@gmail.com (André Goulart)</author>
+            <category>web-development</category>
+            <category>frameworks</category>
+            <category>frontend</category>
+            <category>backend</category>
+            <category>javascript</category>
+        </item>
         <item>
             <title><![CDATA[CVE-2024-50264: Technical Analysis of Critical Linux Kernel Vulnerability and Mitigation Strategies]]></title>
             <link>https://afgoulart.github.io/portfolio/en/blog/2025-09-03-kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel</link>

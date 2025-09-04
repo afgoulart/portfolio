@@ -1,5 +1,5 @@
 {
-  "totalPosts": 15,
+  "totalPosts": 17,
   "locales": [
     "pt",
     "en"
@@ -303,15 +303,96 @@
                   "day": 3
                 }
               ]
+            },
+            "04": {
+              "count": 2,
+              "posts": [
+                {
+                  "slug": "desenvolvimento-web-e-frameworks",
+                  "title": "Frameworks de Desenvolvimento Web em 2024: Guia Completo para Escolher a Tecnologia Certa",
+                  "date": "2025-09-04",
+                  "author": "Tech Blog Bot",
+                  "tags": [
+                    "desenvolvimento-web",
+                    "frameworks",
+                    "frontend",
+                    "backend",
+                    "javascript"
+                  ],
+                  "excerpt": "Descubra os principais frameworks de desenvolvimento web, suas vantagens e como escolher a tecnologia ideal para seu próximo projeto.",
+                  "filename": "2025-09-04-desenvolvimento-web-e-frameworks.md",
+                  "locale": "pt",
+                  "year": 2025,
+                  "month": 9,
+                  "day": 4
+                },
+                {
+                  "slug": "desenvolvimento-web-e-frameworks",
+                  "title": "Web Development Frameworks in 2024: Complete Guide to Choosing the Right Technology",
+                  "date": "2025-09-04",
+                  "author": "Tech Blog Bot",
+                  "tags": [
+                    "web-development",
+                    "frameworks",
+                    "frontend",
+                    "backend",
+                    "javascript"
+                  ],
+                  "excerpt": "Discover the main web development frameworks, their advantages and how to choose the ideal technology for your next project.",
+                  "filename": "2025-09-04-desenvolvimento-web-e-frameworks.md",
+                  "locale": "en",
+                  "year": 2025,
+                  "month": 9,
+                  "day": 4
+                }
+              ]
             }
           },
-          "count": 15
+          "count": 17
         }
       },
-      "count": 15
+      "count": 17
     }
   },
   "posts": [
+    {
+      "slug": "desenvolvimento-web-e-frameworks",
+      "title": "Frameworks de Desenvolvimento Web em 2024: Guia Completo para Escolher a Tecnologia Certa",
+      "date": "2025-09-04",
+      "author": "Tech Blog Bot",
+      "tags": [
+        "desenvolvimento-web",
+        "frameworks",
+        "frontend",
+        "backend",
+        "javascript"
+      ],
+      "excerpt": "Descubra os principais frameworks de desenvolvimento web, suas vantagens e como escolher a tecnologia ideal para seu próximo projeto.",
+      "filename": "2025-09-04-desenvolvimento-web-e-frameworks.md",
+      "locale": "pt",
+      "year": 2025,
+      "month": 9,
+      "day": 4
+    },
+    {
+      "slug": "desenvolvimento-web-e-frameworks",
+      "title": "Web Development Frameworks in 2024: Complete Guide to Choosing the Right Technology",
+      "date": "2025-09-04",
+      "author": "Tech Blog Bot",
+      "tags": [
+        "web-development",
+        "frameworks",
+        "frontend",
+        "backend",
+        "javascript"
+      ],
+      "excerpt": "Discover the main web development frameworks, their advantages and how to choose the ideal technology for your next project.",
+      "filename": "2025-09-04-desenvolvimento-web-e-frameworks.md",
+      "locale": "en",
+      "year": 2025,
+      "month": 9,
+      "day": 4
+    },
     {
       "slug": "construindo-um-blog-portfolio-multilingue-com-nextjs-15-licoes-aprendidas-sobre-arquitetura-estatica-server-actions-typescript-e-cicd",
       "title": "Next.js 15 na Prática: Construindo um Blog Portfolio Multilíngue com Arquitetura Moderna e CI/CD",
@@ -809,6 +890,36 @@
         "kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel"
       ]
     },
+    "desenvolvimento-web": {
+      "count": 1,
+      "posts": [
+        "desenvolvimento-web-e-frameworks"
+      ]
+    },
+    "frameworks": {
+      "count": 1,
+      "posts": [
+        "desenvolvimento-web-e-frameworks"
+      ]
+    },
+    "frontend": {
+      "count": 1,
+      "posts": [
+        "desenvolvimento-web-e-frameworks"
+      ]
+    },
+    "backend": {
+      "count": 1,
+      "posts": [
+        "desenvolvimento-web-e-frameworks"
+      ]
+    },
+    "javascript": {
+      "count": 1,
+      "posts": [
+        "desenvolvimento-web-e-frameworks"
+      ]
+    },
     "artificial-intelligence": {
       "count": 2,
       "posts": [
@@ -864,6 +975,12 @@
       "count": 1,
       "posts": [
         "design-patterns-guide"
+      ]
+    },
+    "web-development": {
+      "count": 1,
+      "posts": [
+        "desenvolvimento-web-e-frameworks"
       ]
     }
   }

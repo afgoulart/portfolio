@@ -1,5 +1,20 @@
 [
   {
+    "slug": "desenvolvimento-web-e-frameworks",
+    "title": "Web Development Frameworks in 2024: Complete Guide to Choosing the Right Technology",
+    "date": "2025-09-04",
+    "author": "Tech Blog Bot",
+    "tags": [
+      "web-development",
+      "frameworks",
+      "frontend",
+      "backend",
+      "javascript"
+    ],
+    "excerpt": "Discover the main web development frameworks, their advantages and how to choose the ideal technology for your next project.",
+    "filename": "2025-09-04-desenvolvimento-web-e-frameworks.md"
+  },
+  {
     "slug": "construindo-um-blog-portfolio-multilingue-com-nextjs-15-licoes-aprendidas-sobre-arquitetura-estatica-server-actions-typescript-e-cicd",
     "title": "Next.js 15 in Practice: Building a Multilingual Blog Portfolio with Modern Architecture and CI/CD",
     "date": "2025-09-03",
