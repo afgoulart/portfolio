@@ -4,11 +4,25 @@
         <title>André Goulart - Tech Blog</title>
         <link>https://afgoulart.github.io/portfolio/en</link>
         <description>A tech blog with the most current content being discussed in the tech world.</description>
-        <lastBuildDate>Thu, 04 Sep 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 05 Sep 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
         <copyright>All rights reserved 2025, André Filipe Goulart</copyright>
+        <item>
+            <title><![CDATA[Rasterizer: The GPU-Accelerated 2D Vector Graphics Engine in Just 4k Lines of Code]]></title>
+            <link>https://afgoulart.github.io/portfolio/en/blog/2025-09-05-rasterizer-a-gpu-accelerated-2d-vector-graphics-engine-in-4k-loc</link>
+            <guid>https://afgoulart.github.io/portfolio/en/blog/2025-09-05-rasterizer-a-gpu-accelerated-2d-vector-graphics-engine-in-4k-loc</guid>
+            <pubDate>Fri, 05 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover how Rasterizer revolutionizes 2D vector graphics processing with GPU acceleration in a surprisingly compact implementation of just 4 thousand lines of code.]]></description>
+            <content:encoded><![CDATA[Discover how Rasterizer revolutionizes 2D vector graphics processing with GPU acceleration in a surprisingly compact implementation of just 4 thousand lines of code.]]></content:encoded>
+            <author>afgoulart.rj@gmail.com (André Goulart)</author>
+            <category>GPU</category>
+            <category>vector-graphics</category>
+            <category>WebGL</category>
+            <category>performance</category>
+            <category>rasterization</category>
+        </item>
         <item>
             <title><![CDATA[Web Development Frameworks in 2024: Complete Guide to Choosing the Right Technology]]></title>
             <link>https://afgoulart.github.io/portfolio/en/blog/2025-09-04-desenvolvimento-web-e-frameworks</link>
