@@ -1,5 +1,20 @@
 [
   {
+    "slug": "rasterizer-a-gpu-accelerated-2d-vector-graphics-engine-in-4k-loc",
+    "title": "Rasterizer: O Motor de Gráficos Vetoriais 2D Acelerado por GPU em Apenas 4k Linhas de Código",
+    "date": "2025-09-05",
+    "author": "Tech Blog Bot",
+    "tags": [
+      "GPU",
+      "gráficos-vetoriais",
+      "WebGL",
+      "performance",
+      "rasterização"
+    ],
+    "excerpt": "Descubra como o Rasterizer revoluciona o processamento de gráficos vetoriais 2D com aceleração por GPU em uma implementação surpreendentemente compacta de apenas 4 mil linhas de código.",
+    "filename": "2025-09-05-rasterizer-a-gpu-accelerated-2d-vector-graphics-engine-in-4k-loc.md"
+  },
+  {
     "slug": "desenvolvimento-web-e-frameworks",
     "title": "Frameworks de Desenvolvimento Web em 2024: Guia Completo para Escolher a Tecnologia Certa",
     "date": "2025-09-04",

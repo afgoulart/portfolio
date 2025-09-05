@@ -4,11 +4,25 @@
         <title>André Goulart - Tech Blog</title>
         <link>https://afgoulart.github.io/portfolio/pt</link>
         <description>Um blog de tecnologia com conteúdo mais atual que está sendo discutido no meio tech.</description>
-        <lastBuildDate>Thu, 04 Sep 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 05 Sep 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
         <copyright>Todos os direitos reservados 2025, André Filipe Goulart</copyright>
+        <item>
+            <title><![CDATA[Rasterizer: O Motor de Gráficos Vetoriais 2D Acelerado por GPU em Apenas 4k Linhas de Código]]></title>
+            <link>https://afgoulart.github.io/portfolio/pt/blog/2025-09-05-rasterizer-a-gpu-accelerated-2d-vector-graphics-engine-in-4k-loc</link>
+            <guid>https://afgoulart.github.io/portfolio/pt/blog/2025-09-05-rasterizer-a-gpu-accelerated-2d-vector-graphics-engine-in-4k-loc</guid>
+            <pubDate>Fri, 05 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Descubra como o Rasterizer revoluciona o processamento de gráficos vetoriais 2D com aceleração por GPU em uma implementação surpreendentemente compacta de apenas 4 mil linhas de código.]]></description>
+            <content:encoded><![CDATA[Descubra como o Rasterizer revoluciona o processamento de gráficos vetoriais 2D com aceleração por GPU em uma implementação surpreendentemente compacta de apenas 4 mil linhas de código.]]></content:encoded>
+            <author>afgoulart.rj@gmail.com (André Goulart)</author>
+            <category>GPU</category>
+            <category>gráficos-vetoriais</category>
+            <category>WebGL</category>
+            <category>performance</category>
+            <category>rasterização</category>
+        </item>
         <item>
             <title><![CDATA[Frameworks de Desenvolvimento Web em 2024: Guia Completo para Escolher a Tecnologia Certa]]></title>
             <link>https://afgoulart.github.io/portfolio/pt/blog/2025-09-04-desenvolvimento-web-e-frameworks</link>
