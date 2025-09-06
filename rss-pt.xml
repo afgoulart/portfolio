@@ -4,11 +4,25 @@
         <title>André Goulart - Tech Blog</title>
         <link>https://afgoulart.github.io/portfolio/pt</link>
         <description>Um blog de tecnologia com conteúdo mais atual que está sendo discutido no meio tech.</description>
-        <lastBuildDate>Fri, 05 Sep 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 06 Sep 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
         <copyright>Todos os direitos reservados 2025, André Filipe Goulart</copyright>
+        <item>
+            <title><![CDATA[Segurança no Desenvolvimento: Como Proteger Suas Aplicações Desde o Código]]></title>
+            <link>https://afgoulart.github.io/portfolio/pt/blog/2025-09-06-seguranca-em-desenvolvimento</link>
+            <guid>https://afgoulart.github.io/portfolio/pt/blog/2025-09-06-seguranca-em-desenvolvimento</guid>
+            <pubDate>Sat, 06 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Descubra as melhores práticas de segurança no desenvolvimento de software e como implementar um ciclo de vida seguro para suas aplicações]]></description>
+            <content:encoded><![CDATA[Descubra as melhores práticas de segurança no desenvolvimento de software e como implementar um ciclo de vida seguro para suas aplicações]]></content:encoded>
+            <author>afgoulart.rj@gmail.com (André Goulart)</author>
+            <category>segurança</category>
+            <category>desenvolvimento</category>
+            <category>devops</category>
+            <category>cybersecurity</category>
+            <category>secure-coding</category>
+        </item>
         <item>
             <title><![CDATA[Rasterizer: O Motor de Gráficos Vetoriais 2D Acelerado por GPU em Apenas 4k Linhas de Código]]></title>
             <link>https://afgoulart.github.io/portfolio/pt/blog/2025-09-05-rasterizer-a-gpu-accelerated-2d-vector-graphics-engine-in-4k-loc</link>
