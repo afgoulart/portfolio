@@ -1,5 +1,20 @@
 [
   {
+    "slug": "seguranca-em-desenvolvimento",
+    "title": "Segurança no Desenvolvimento: Como Proteger Suas Aplicações Desde o Código",
+    "date": "2025-09-06",
+    "author": "Tech Blog Bot",
+    "tags": [
+      "segurança",
+      "desenvolvimento",
+      "devops",
+      "cybersecurity",
+      "secure-coding"
+    ],
+    "excerpt": "Descubra as melhores práticas de segurança no desenvolvimento de software e como implementar um ciclo de vida seguro para suas aplicações",
+    "filename": "2025-09-06-seguranca-em-desenvolvimento.md"
+  },
+  {
     "slug": "rasterizer-a-gpu-accelerated-2d-vector-graphics-engine-in-4k-loc",
     "title": "Rasterizer: O Motor de Gráficos Vetoriais 2D Acelerado por GPU em Apenas 4k Linhas de Código",
     "date": "2025-09-05",

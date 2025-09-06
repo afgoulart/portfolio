@@ -1,5 +1,5 @@
 {
-  "totalPosts": 19,
+  "totalPosts": 21,
   "locales": [
     "pt",
     "en"
@@ -389,15 +389,96 @@
                   "day": 5
                 }
               ]
+            },
+            "06": {
+              "count": 2,
+              "posts": [
+                {
+                  "slug": "seguranca-em-desenvolvimento",
+                  "title": "Segurança no Desenvolvimento: Como Proteger Suas Aplicações Desde o Código",
+                  "date": "2025-09-06",
+                  "author": "Tech Blog Bot",
+                  "tags": [
+                    "segurança",
+                    "desenvolvimento",
+                    "devops",
+                    "cybersecurity",
+                    "secure-coding"
+                  ],
+                  "excerpt": "Descubra as melhores práticas de segurança no desenvolvimento de software e como implementar um ciclo de vida seguro para suas aplicações",
+                  "filename": "2025-09-06-seguranca-em-desenvolvimento.md",
+                  "locale": "pt",
+                  "year": 2025,
+                  "month": 9,
+                  "day": 6
+                },
+                {
+                  "slug": "seguranca-em-desenvolvimento",
+                  "title": "Security in Development: How to Protect Your Applications from the Code",
+                  "date": "2025-09-06",
+                  "author": "Tech Blog Bot",
+                  "tags": [
+                    "security",
+                    "development",
+                    "devops",
+                    "cybersecurity",
+                    "secure-coding"
+                  ],
+                  "excerpt": "Discover the best practices for security in software development and how to implement a secure lifecycle for your applications",
+                  "filename": "2025-09-06-seguranca-em-desenvolvimento.md",
+                  "locale": "en",
+                  "year": 2025,
+                  "month": 9,
+                  "day": 6
+                }
+              ]
             }
           },
-          "count": 19
+          "count": 21
         }
       },
-      "count": 19
+      "count": 21
     }
   },
   "posts": [
+    {
+      "slug": "seguranca-em-desenvolvimento",
+      "title": "Segurança no Desenvolvimento: Como Proteger Suas Aplicações Desde o Código",
+      "date": "2025-09-06",
+      "author": "Tech Blog Bot",
+      "tags": [
+        "segurança",
+        "desenvolvimento",
+        "devops",
+        "cybersecurity",
+        "secure-coding"
+      ],
+      "excerpt": "Descubra as melhores práticas de segurança no desenvolvimento de software e como implementar um ciclo de vida seguro para suas aplicações",
+      "filename": "2025-09-06-seguranca-em-desenvolvimento.md",
+      "locale": "pt",
+      "year": 2025,
+      "month": 9,
+      "day": 6
+    },
+    {
+      "slug": "seguranca-em-desenvolvimento",
+      "title": "Security in Development: How to Protect Your Applications from the Code",
+      "date": "2025-09-06",
+      "author": "Tech Blog Bot",
+      "tags": [
+        "security",
+        "development",
+        "devops",
+        "cybersecurity",
+        "secure-coding"
+      ],
+      "excerpt": "Discover the best practices for security in software development and how to implement a secure lifecycle for your applications",
+      "filename": "2025-09-06-seguranca-em-desenvolvimento.md",
+      "locale": "en",
+      "year": 2025,
+      "month": 9,
+      "day": 6
+    },
     {
       "slug": "rasterizer-a-gpu-accelerated-2d-vector-graphics-engine-in-4k-loc",
       "title": "Rasterizer: O Motor de Gráficos Vetoriais 2D Acelerado por GPU em Apenas 4k Linhas de Código",
@@ -863,9 +944,10 @@
       ]
     },
     "desenvolvimento": {
-      "count": 2,
+      "count": 3,
       "posts": [
         "claude-code-revolucionando-o-desenvolvimento-com-ia-guia-completo-dos-ai-assistants",
+        "seguranca-em-desenvolvimento",
         "design-patterns-guide"
       ]
     },
@@ -900,9 +982,10 @@
       ]
     },
     "devops": {
-      "count": 1,
+      "count": 2,
       "posts": [
-        "automated-testing-guide"
+        "automated-testing-guide",
+        "seguranca-em-desenvolvimento"
       ]
     },
     "frameworks-teste": {
@@ -942,9 +1025,10 @@
       ]
     },
     "cybersecurity": {
-      "count": 1,
+      "count": 2,
       "posts": [
-        "kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel"
+        "kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel",
+        "seguranca-em-desenvolvimento"
       ]
     },
     "linux-kernel": {
@@ -1031,6 +1115,18 @@
         "rasterizer-a-gpu-accelerated-2d-vector-graphics-engine-in-4k-loc"
       ]
     },
+    "segurança": {
+      "count": 1,
+      "posts": [
+        "seguranca-em-desenvolvimento"
+      ]
+    },
+    "secure-coding": {
+      "count": 1,
+      "posts": [
+        "seguranca-em-desenvolvimento"
+      ]
+    },
     "artificial-intelligence": {
       "count": 2,
       "posts": [
@@ -1077,9 +1173,10 @@
       ]
     },
     "development": {
-      "count": 1,
+      "count": 2,
       "posts": [
-        "claude-code-revolutionizing-development-with-ai-complete-guide-to-ai-assistants"
+        "claude-code-revolutionizing-development-with-ai-complete-guide-to-ai-assistants",
+        "seguranca-em-desenvolvimento"
       ]
     },
     "arquitetura-software": {
@@ -1104,6 +1201,12 @@
       "count": 1,
       "posts": [
         "rasterizer-a-gpu-accelerated-2d-vector-graphics-engine-in-4k-loc"
+      ]
+    },
+    "security": {
+      "count": 1,
+      "posts": [
+        "seguranca-em-desenvolvimento"
       ]
     }
   }
