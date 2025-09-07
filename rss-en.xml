@@ -4,11 +4,25 @@
         <title>André Goulart - Tech Blog</title>
         <link>https://afgoulart.github.io/portfolio/en</link>
         <description>A tech blog with the most current content being discussed in the tech world.</description>
-        <lastBuildDate>Sat, 06 Sep 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 07 Sep 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
         <copyright>All rights reserved 2025, André Filipe Goulart</copyright>
+        <item>
+            <title><![CDATA[AI Innovations 2024: The Technologies That Are Transforming the Digital World]]></title>
+            <link>https://afgoulart.github.io/portfolio/en/blog/2025-09-07-inovacoes-em-ia</link>
+            <guid>https://afgoulart.github.io/portfolio/en/blog/2025-09-07-inovacoes-em-ia</guid>
+            <pubDate>Sun, 07 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover the main Artificial Intelligence innovations that are redefining entire sectors and creating new possibilities for the digital future]]></description>
+            <content:encoded><![CDATA[Discover the main Artificial Intelligence innovations that are redefining entire sectors and creating new possibilities for the digital future]]></content:encoded>
+            <author>afgoulart.rj@gmail.com (André Goulart)</author>
+            <category>artificial-intelligence</category>
+            <category>innovation</category>
+            <category>technology</category>
+            <category>machine-learning</category>
+            <category>generative-ai</category>
+        </item>
         <item>
             <title><![CDATA[Security in Development: How to Protect Your Applications from the Code]]></title>
             <link>https://afgoulart.github.io/portfolio/en/blog/2025-09-06-seguranca-em-desenvolvimento</link>

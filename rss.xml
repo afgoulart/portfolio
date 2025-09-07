@@ -4,11 +4,25 @@
         <title>André Goulart - Tech Blog</title>
         <link>https://afgoulart.github.io/portfolio/pt</link>
         <description>Um blog de tecnologia com conteúdo mais atual que está sendo discutido no meio tech.</description>
-        <lastBuildDate>Sat, 06 Sep 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 07 Sep 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
         <copyright>Todos os direitos reservados 2025, André Filipe Goulart</copyright>
+        <item>
+            <title><![CDATA[Inovações em IA 2024: As Tecnologias que Estão Transformando o Mundo Digital]]></title>
+            <link>https://afgoulart.github.io/portfolio/pt/blog/2025-09-07-inovacoes-em-ia</link>
+            <guid>https://afgoulart.github.io/portfolio/pt/blog/2025-09-07-inovacoes-em-ia</guid>
+            <pubDate>Sun, 07 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Descubra as principais inovações em Inteligência Artificial que estão redefinindo setores inteiros e criando novas possibilidades para o futuro digital]]></description>
+            <content:encoded><![CDATA[Descubra as principais inovações em Inteligência Artificial que estão redefinindo setores inteiros e criando novas possibilidades para o futuro digital]]></content:encoded>
+            <author>afgoulart.rj@gmail.com (André Goulart)</author>
+            <category>inteligencia-artificial</category>
+            <category>inovacao</category>
+            <category>tecnologia</category>
+            <category>machine-learning</category>
+            <category>ia-generativa</category>
+        </item>
         <item>
             <title><![CDATA[Segurança no Desenvolvimento: Como Proteger Suas Aplicações Desde o Código]]></title>
             <link>https://afgoulart.github.io/portfolio/pt/blog/2025-09-06-seguranca-em-desenvolvimento</link>
