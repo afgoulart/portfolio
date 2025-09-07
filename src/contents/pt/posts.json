@@ -1,5 +1,20 @@
 [
   {
+    "slug": "inovacoes-em-ia",
+    "title": "Inovações em IA 2024: As Tecnologias que Estão Transformando o Mundo Digital",
+    "date": "2025-09-07",
+    "author": "Tech Blog Bot",
+    "tags": [
+      "inteligencia-artificial",
+      "inovacao",
+      "tecnologia",
+      "machine-learning",
+      "ia-generativa"
+    ],
+    "excerpt": "Descubra as principais inovações em Inteligência Artificial que estão redefinindo setores inteiros e criando novas possibilidades para o futuro digital",
+    "filename": "2025-09-07-inovacoes-em-ia.md"
+  },
+  {
     "slug": "seguranca-em-desenvolvimento",
     "title": "Segurança no Desenvolvimento: Como Proteger Suas Aplicações Desde o Código",
     "date": "2025-09-06",

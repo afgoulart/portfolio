@@ -1,5 +1,5 @@
 {
-  "totalPosts": 21,
+  "totalPosts": 23,
   "locales": [
     "pt",
     "en"
@@ -432,15 +432,96 @@
                   "day": 6
                 }
               ]
+            },
+            "07": {
+              "count": 2,
+              "posts": [
+                {
+                  "slug": "inovacoes-em-ia",
+                  "title": "Inovações em IA 2024: As Tecnologias que Estão Transformando o Mundo Digital",
+                  "date": "2025-09-07",
+                  "author": "Tech Blog Bot",
+                  "tags": [
+                    "inteligencia-artificial",
+                    "inovacao",
+                    "tecnologia",
+                    "machine-learning",
+                    "ia-generativa"
+                  ],
+                  "excerpt": "Descubra as principais inovações em Inteligência Artificial que estão redefinindo setores inteiros e criando novas possibilidades para o futuro digital",
+                  "filename": "2025-09-07-inovacoes-em-ia.md",
+                  "locale": "pt",
+                  "year": 2025,
+                  "month": 9,
+                  "day": 7
+                },
+                {
+                  "slug": "inovacoes-em-ia",
+                  "title": "AI Innovations 2024: The Technologies That Are Transforming the Digital World",
+                  "date": "2025-09-07",
+                  "author": "Tech Blog Bot",
+                  "tags": [
+                    "artificial-intelligence",
+                    "innovation",
+                    "technology",
+                    "machine-learning",
+                    "generative-ai"
+                  ],
+                  "excerpt": "Discover the main Artificial Intelligence innovations that are redefining entire sectors and creating new possibilities for the digital future",
+                  "filename": "2025-09-07-inovacoes-em-ia.md",
+                  "locale": "en",
+                  "year": 2025,
+                  "month": 9,
+                  "day": 7
+                }
+              ]
             }
           },
-          "count": 21
+          "count": 23
         }
       },
-      "count": 21
+      "count": 23
     }
   },
   "posts": [
+    {
+      "slug": "inovacoes-em-ia",
+      "title": "Inovações em IA 2024: As Tecnologias que Estão Transformando o Mundo Digital",
+      "date": "2025-09-07",
+      "author": "Tech Blog Bot",
+      "tags": [
+        "inteligencia-artificial",
+        "inovacao",
+        "tecnologia",
+        "machine-learning",
+        "ia-generativa"
+      ],
+      "excerpt": "Descubra as principais inovações em Inteligência Artificial que estão redefinindo setores inteiros e criando novas possibilidades para o futuro digital",
+      "filename": "2025-09-07-inovacoes-em-ia.md",
+      "locale": "pt",
+      "year": 2025,
+      "month": 9,
+      "day": 7
+    },
+    {
+      "slug": "inovacoes-em-ia",
+      "title": "AI Innovations 2024: The Technologies That Are Transforming the Digital World",
+      "date": "2025-09-07",
+      "author": "Tech Blog Bot",
+      "tags": [
+        "artificial-intelligence",
+        "innovation",
+        "technology",
+        "machine-learning",
+        "generative-ai"
+      ],
+      "excerpt": "Discover the main Artificial Intelligence innovations that are redefining entire sectors and creating new possibilities for the digital future",
+      "filename": "2025-09-07-inovacoes-em-ia.md",
+      "locale": "en",
+      "year": 2025,
+      "month": 9,
+      "day": 7
+    },
     {
       "slug": "seguranca-em-desenvolvimento",
       "title": "Segurança no Desenvolvimento: Como Proteger Suas Aplicações Desde o Código",
@@ -843,10 +924,11 @@
   ],
   "tags": {
     "inteligencia-artificial": {
-      "count": 2,
+      "count": 3,
       "posts": [
         "ai-coders-como-github-copilot-chatgpt-claude-e-amazon-q-estao-revolucionando-o-desenvolvimento-de-software",
-        "claude-code-revolucionando-o-desenvolvimento-com-ia-guia-completo-dos-ai-assistants"
+        "claude-code-revolucionando-o-desenvolvimento-com-ia-guia-completo-dos-ai-assistants",
+        "inovacoes-em-ia"
       ]
     },
     "desenvolvimento-software": {
@@ -1127,11 +1209,36 @@
         "seguranca-em-desenvolvimento"
       ]
     },
+    "inovacao": {
+      "count": 1,
+      "posts": [
+        "inovacoes-em-ia"
+      ]
+    },
+    "tecnologia": {
+      "count": 1,
+      "posts": [
+        "inovacoes-em-ia"
+      ]
+    },
+    "machine-learning": {
+      "count": 1,
+      "posts": [
+        "inovacoes-em-ia"
+      ]
+    },
+    "ia-generativa": {
+      "count": 1,
+      "posts": [
+        "inovacoes-em-ia"
+      ]
+    },
     "artificial-intelligence": {
-      "count": 2,
+      "count": 3,
       "posts": [
         "ai-coders-how-github-copilot-chatgpt-claude-and-amazon-q-are-revolutionizing-software-development",
-        "claude-code-revolutionizing-development-with-ai-complete-guide-to-ai-assistants"
+        "claude-code-revolutionizing-development-with-ai-complete-guide-to-ai-assistants",
+        "inovacoes-em-ia"
       ]
     },
     "software-development": {
@@ -1207,6 +1314,24 @@
       "count": 1,
       "posts": [
         "seguranca-em-desenvolvimento"
+      ]
+    },
+    "innovation": {
+      "count": 1,
+      "posts": [
+        "inovacoes-em-ia"
+      ]
+    },
+    "technology": {
+      "count": 1,
+      "posts": [
+        "inovacoes-em-ia"
+      ]
+    },
+    "generative-ai": {
+      "count": 1,
+      "posts": [
+        "inovacoes-em-ia"
       ]
     }
   }
