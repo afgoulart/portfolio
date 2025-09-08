@@ -1,5 +1,5 @@
 {
-  "totalPosts": 23,
+  "totalPosts": 25,
   "locales": [
     "pt",
     "en"
@@ -475,15 +475,96 @@
                   "day": 7
                 }
               ]
+            },
+            "08": {
+              "count": 2,
+              "posts": [
+                {
+                  "slug": "inovacoes-em-ia",
+                  "title": "Inovações em IA 2024: As 7 Tecnologias que Estão Revolucionando o Mundo",
+                  "date": "2025-09-08",
+                  "author": "Tech Blog Bot",
+                  "tags": [
+                    "inteligencia-artificial",
+                    "inovacao",
+                    "tecnologia",
+                    "machine-learning",
+                    "futuro"
+                  ],
+                  "excerpt": "Descubra as principais inovações em Inteligência Artificial que estão transformando indústrias e redefinindo o futuro da tecnologia em 2024.",
+                  "filename": "2025-09-08-inovacoes-em-ia.md",
+                  "locale": "pt",
+                  "year": 2025,
+                  "month": 9,
+                  "day": 8
+                },
+                {
+                  "slug": "inovacoes-em-ia",
+                  "title": "AI Innovations 2024: The 7 Technologies That Are Revolutionizing the World",
+                  "date": "2025-09-08",
+                  "author": "Tech Blog Bot",
+                  "tags": [
+                    "artificial-intelligence",
+                    "innovation",
+                    "technology",
+                    "machine-learning",
+                    "future"
+                  ],
+                  "excerpt": "Discover the main innovations in Artificial Intelligence that are transforming industries and redefining the future of technology in 2024.",
+                  "filename": "2025-09-08-inovacoes-em-ia.md",
+                  "locale": "en",
+                  "year": 2025,
+                  "month": 9,
+                  "day": 8
+                }
+              ]
             }
           },
-          "count": 23
+          "count": 25
         }
       },
-      "count": 23
+      "count": 25
     }
   },
   "posts": [
+    {
+      "slug": "inovacoes-em-ia",
+      "title": "Inovações em IA 2024: As 7 Tecnologias que Estão Revolucionando o Mundo",
+      "date": "2025-09-08",
+      "author": "Tech Blog Bot",
+      "tags": [
+        "inteligencia-artificial",
+        "inovacao",
+        "tecnologia",
+        "machine-learning",
+        "futuro"
+      ],
+      "excerpt": "Descubra as principais inovações em Inteligência Artificial que estão transformando indústrias e redefinindo o futuro da tecnologia em 2024.",
+      "filename": "2025-09-08-inovacoes-em-ia.md",
+      "locale": "pt",
+      "year": 2025,
+      "month": 9,
+      "day": 8
+    },
+    {
+      "slug": "inovacoes-em-ia",
+      "title": "AI Innovations 2024: The 7 Technologies That Are Revolutionizing the World",
+      "date": "2025-09-08",
+      "author": "Tech Blog Bot",
+      "tags": [
+        "artificial-intelligence",
+        "innovation",
+        "technology",
+        "machine-learning",
+        "future"
+      ],
+      "excerpt": "Discover the main innovations in Artificial Intelligence that are transforming industries and redefining the future of technology in 2024.",
+      "filename": "2025-09-08-inovacoes-em-ia.md",
+      "locale": "en",
+      "year": 2025,
+      "month": 9,
+      "day": 8
+    },
     {
       "slug": "inovacoes-em-ia",
       "title": "Inovações em IA 2024: As Tecnologias que Estão Transformando o Mundo Digital",
@@ -1233,6 +1314,12 @@
         "inovacoes-em-ia"
       ]
     },
+    "futuro": {
+      "count": 1,
+      "posts": [
+        "inovacoes-em-ia"
+      ]
+    },
     "artificial-intelligence": {
       "count": 3,
       "posts": [
@@ -1329,6 +1416,12 @@
       ]
     },
     "generative-ai": {
+      "count": 1,
+      "posts": [
+        "inovacoes-em-ia"
+      ]
+    },
+    "future": {
       "count": 1,
       "posts": [
         "inovacoes-em-ia"
