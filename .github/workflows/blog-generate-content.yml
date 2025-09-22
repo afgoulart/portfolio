@@ -41,6 +41,8 @@ jobs:
 
       - name: Install dependencies
         run: |
+          # Backup do package.json original
+          cp package.json package.json.backup
           # Criar package.json temporário para o workflow
           cat > package.json << 'EOF'
           {
@@ -58,6 +60,8 @@ jobs:
           }
           EOF
           npm install --no-package-lock
+          # Restaurar package.json original
+          mv package.json.backup package.json
 
       - name: Generate blog content
         run: node .github/scripts/generate-content.mjs
