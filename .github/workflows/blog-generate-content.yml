@@ -2,8 +2,8 @@ name: Tech Blog Content Generator
 
 on:
   schedule:
-    # Executa todo dia às 09:00 UTC (06:00 Brasília)
-    - cron: "0 9 * * *"
+    # Executa todo segunda às 09:00 UTC (06:00 Brasília)
+    - cron: "0 9 * * 1"
   workflow_dispatch: # Permite execução manual
     inputs:
       topic:
@@ -18,7 +18,7 @@ on:
         default: "tech-article"
         options:
           - "tech-article"
-          - "tutorial" 
+          - "tutorial"
           - "review"
           - "news-analysis"
 
@@ -38,7 +38,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          
+
       - name: Install dependencies
         run: |
           # Criar package.json temporário para o workflow
@@ -80,4 +80,3 @@ jobs:
             git commit -m "🤖 Auto-generated blog content - $(date +'%Y-%m-%d %H:%M')"
             git push
           fi
-
