@@ -21,7 +21,11 @@ export const skills: Skill[] = [
   { name: "CI/CD", level: 85, category: 'tools' },
   { name: "Storybook", level: 80, category: 'tools' },
   { name: "Nx", level: 75, category: 'tools' },
-  { name: "Testes Automatizados", level: 85, category: 'tools' }
+  { name: "Testes Automatizados", level: 85, category: 'tools' },
+  { name: "Claude Code", level: 80, category: 'other' },
+  { name: "Amazon Q", level: 80, category: 'other' },
+  { name: "GitHub Copilot", level: 80, category: 'other' },
+  { name: "ML & AI Programming", level: 80, category: 'other' }
 ];
 
 export const projects: Project[] = [
