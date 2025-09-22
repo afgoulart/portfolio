@@ -1,5 +1,5 @@
 {
-  "totalPosts": 25,
+  "totalPosts": 27,
   "locales": [
     "pt",
     "en"
@@ -9,7 +9,50 @@
       "months": {
         "09": {
           "days": {
-            "01": {
+            "22": {
+              "count": 2,
+              "posts": [
+                {
+                  "slug": "privacy-and-security-risks-in-the-esim-ecosystem-pdf",
+                  "title": "eSIM: Riscos de Privacidade e Segurança que Você Precisa Conhecer em 2024",
+                  "date": "2025-09-22",
+                  "author": "Tech Blog Bot",
+                  "tags": [
+                    "eSIM",
+                    "segurança digital",
+                    "privacidade",
+                    "telecomunicações",
+                    "cibersegurança"
+                  ],
+                  "excerpt": "Descubra os principais riscos de privacidade e segurança no ecossistema eSIM e como se proteger das vulnerabilidades desta tecnologia emergente.",
+                  "filename": "2025-09-22-privacy-and-security-risks-in-the-esim-ecosystem-pdf.md",
+                  "locale": "pt",
+                  "year": 2025,
+                  "month": 9,
+                  "day": 22
+                },
+                {
+                  "slug": "privacy-and-security-risks-in-the-esim-ecosystem-pdf",
+                  "title": "eSIM: Privacy and Security Risks You Need to Know in 2024",
+                  "date": "2025-09-22",
+                  "author": "Tech Blog Bot",
+                  "tags": [
+                    "eSIM",
+                    "digital security",
+                    "privacy",
+                    "telecommunications",
+                    "cybersecurity"
+                  ],
+                  "excerpt": "Discover the main privacy and security risks in the eSIM ecosystem and how to protect yourself from vulnerabilities in this emerging technology.",
+                  "filename": "2025-09-22-privacy-and-security-risks-in-the-esim-ecosystem-pdf.md",
+                  "locale": "en",
+                  "year": 2025,
+                  "month": 9,
+                  "day": 22
+                }
+              ]
+            },
+            "02": {
               "count": 11,
               "posts": [
                 {
@@ -29,7 +72,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "ai-coding-assistants",
@@ -48,7 +91,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "big-data-analytics-business",
@@ -67,7 +110,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "claude-code-revolucionando-o-desenvolvimento-com-ia-guia-completo-dos-ai-assistants",
@@ -86,7 +129,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "design-patterns-guide",
@@ -105,7 +148,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "automated-testing-guide",
@@ -124,7 +167,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "ai-coders-how-github-copilot-chatgpt-claude-and-amazon-q-are-revolutionizing-software-development",
@@ -143,7 +186,7 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "ai-coding-assistants",
@@ -162,7 +205,7 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "automated-testing-guide",
@@ -181,7 +224,7 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "claude-code-revolutionizing-development-with-ai-complete-guide-to-ai-assistants",
@@ -200,7 +243,7 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "design-patterns-guide",
@@ -219,11 +262,11 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 }
               ]
             },
-            "02": {
+            "03": {
               "count": 4,
               "posts": [
                 {
@@ -243,7 +286,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 2
+                  "day": 3
                 },
                 {
                   "slug": "kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel",
@@ -262,7 +305,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 2
+                  "day": 3
                 },
                 {
                   "slug": "construindo-um-blog-portfolio-multilingue-com-nextjs-15-licoes-aprendidas-sobre-arquitetura-estatica-server-actions-typescript-e-cicd",
@@ -281,7 +324,7 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 2
+                  "day": 3
                 },
                 {
                   "slug": "kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel",
@@ -300,11 +343,11 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 2
+                  "day": 3
                 }
               ]
             },
-            "03": {
+            "04": {
               "count": 2,
               "posts": [
                 {
@@ -324,7 +367,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 3
+                  "day": 4
                 },
                 {
                   "slug": "desenvolvimento-web-e-frameworks",
@@ -343,11 +386,11 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 3
+                  "day": 4
                 }
               ]
             },
-            "04": {
+            "05": {
               "count": 2,
               "posts": [
                 {
@@ -367,7 +410,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 4
+                  "day": 5
                 },
                 {
                   "slug": "rasterizer-a-gpu-accelerated-2d-vector-graphics-engine-in-4k-loc",
@@ -386,11 +429,11 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 4
+                  "day": 5
                 }
               ]
             },
-            "05": {
+            "06": {
               "count": 2,
               "posts": [
                 {
@@ -410,7 +453,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 5
+                  "day": 6
                 },
                 {
                   "slug": "seguranca-em-desenvolvimento",
@@ -429,11 +472,11 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 5
+                  "day": 6
                 }
               ]
             },
-            "06": {
+            "07": {
               "count": 2,
               "posts": [
                 {
@@ -453,7 +496,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 6
+                  "day": 7
                 },
                 {
                   "slug": "inovacoes-em-ia",
@@ -472,11 +515,11 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 6
+                  "day": 7
                 }
               ]
             },
-            "07": {
+            "08": {
               "count": 2,
               "posts": [
                 {
@@ -496,7 +539,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 7
+                  "day": 8
                 },
                 {
                   "slug": "inovacoes-em-ia",
@@ -515,18 +558,56 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 7
+                  "day": 8
                 }
               ]
             }
           },
-          "count": 25
+          "count": 27
         }
       },
-      "count": 25
+      "count": 27
     }
   },
   "posts": [
+    {
+      "slug": "privacy-and-security-risks-in-the-esim-ecosystem-pdf",
+      "title": "eSIM: Riscos de Privacidade e Segurança que Você Precisa Conhecer em 2024",
+      "date": "2025-09-22",
+      "author": "Tech Blog Bot",
+      "tags": [
+        "eSIM",
+        "segurança digital",
+        "privacidade",
+        "telecomunicações",
+        "cibersegurança"
+      ],
+      "excerpt": "Descubra os principais riscos de privacidade e segurança no ecossistema eSIM e como se proteger das vulnerabilidades desta tecnologia emergente.",
+      "filename": "2025-09-22-privacy-and-security-risks-in-the-esim-ecosystem-pdf.md",
+      "locale": "pt",
+      "year": 2025,
+      "month": 9,
+      "day": 22
+    },
+    {
+      "slug": "privacy-and-security-risks-in-the-esim-ecosystem-pdf",
+      "title": "eSIM: Privacy and Security Risks You Need to Know in 2024",
+      "date": "2025-09-22",
+      "author": "Tech Blog Bot",
+      "tags": [
+        "eSIM",
+        "digital security",
+        "privacy",
+        "telecommunications",
+        "cybersecurity"
+      ],
+      "excerpt": "Discover the main privacy and security risks in the eSIM ecosystem and how to protect yourself from vulnerabilities in this emerging technology.",
+      "filename": "2025-09-22-privacy-and-security-risks-in-the-esim-ecosystem-pdf.md",
+      "locale": "en",
+      "year": 2025,
+      "month": 9,
+      "day": 22
+    },
     {
       "slug": "inovacoes-em-ia",
       "title": "Inovações em IA 2024: As 7 Tecnologias que Estão Revolucionando o Mundo",
@@ -544,7 +625,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 7
+      "day": 8
     },
     {
       "slug": "inovacoes-em-ia",
@@ -563,7 +644,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 7
+      "day": 8
     },
     {
       "slug": "inovacoes-em-ia",
@@ -582,7 +663,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 6
+      "day": 7
     },
     {
       "slug": "inovacoes-em-ia",
@@ -601,7 +682,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 6
+      "day": 7
     },
     {
       "slug": "seguranca-em-desenvolvimento",
@@ -620,7 +701,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 5
+      "day": 6
     },
     {
       "slug": "seguranca-em-desenvolvimento",
@@ -639,7 +720,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 5
+      "day": 6
     },
     {
       "slug": "rasterizer-a-gpu-accelerated-2d-vector-graphics-engine-in-4k-loc",
@@ -658,7 +739,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 4
+      "day": 5
     },
     {
       "slug": "rasterizer-a-gpu-accelerated-2d-vector-graphics-engine-in-4k-loc",
@@ -677,7 +758,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 4
+      "day": 5
     },
     {
       "slug": "desenvolvimento-web-e-frameworks",
@@ -696,7 +777,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 3
+      "day": 4
     },
     {
       "slug": "desenvolvimento-web-e-frameworks",
@@ -715,7 +796,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 3
+      "day": 4
     },
     {
       "slug": "construindo-um-blog-portfolio-multilingue-com-nextjs-15-licoes-aprendidas-sobre-arquitetura-estatica-server-actions-typescript-e-cicd",
@@ -734,7 +815,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 2
+      "day": 3
     },
     {
       "slug": "kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel",
@@ -753,7 +834,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 2
+      "day": 3
     },
     {
       "slug": "construindo-um-blog-portfolio-multilingue-com-nextjs-15-licoes-aprendidas-sobre-arquitetura-estatica-server-actions-typescript-e-cicd",
@@ -772,7 +853,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 2
+      "day": 3
     },
     {
       "slug": "kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel",
@@ -791,7 +872,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 2
+      "day": 3
     },
     {
       "slug": "ai-coders-como-github-copilot-chatgpt-claude-e-amazon-q-estao-revolucionando-o-desenvolvimento-de-software",
@@ -810,7 +891,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "ai-coding-assistants",
@@ -829,7 +910,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "big-data-analytics-business",
@@ -848,7 +929,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "claude-code-revolucionando-o-desenvolvimento-com-ia-guia-completo-dos-ai-assistants",
@@ -867,7 +948,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "design-patterns-guide",
@@ -886,7 +967,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "automated-testing-guide",
@@ -905,7 +986,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "ai-coders-how-github-copilot-chatgpt-claude-and-amazon-q-are-revolutionizing-software-development",
@@ -924,7 +1005,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "ai-coding-assistants",
@@ -943,7 +1024,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "automated-testing-guide",
@@ -962,7 +1043,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "claude-code-revolutionizing-development-with-ai-complete-guide-to-ai-assistants",
@@ -981,7 +1062,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "design-patterns-guide",
@@ -1000,7 +1081,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     }
   ],
   "tags": {
@@ -1188,10 +1269,11 @@
       ]
     },
     "cybersecurity": {
-      "count": 2,
+      "count": 3,
       "posts": [
         "kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel",
-        "seguranca-em-desenvolvimento"
+        "seguranca-em-desenvolvimento",
+        "privacy-and-security-risks-in-the-esim-ecosystem-pdf"
       ]
     },
     "linux-kernel": {
@@ -1320,6 +1402,36 @@
         "inovacoes-em-ia"
       ]
     },
+    "eSIM": {
+      "count": 1,
+      "posts": [
+        "privacy-and-security-risks-in-the-esim-ecosystem-pdf"
+      ]
+    },
+    "segurança digital": {
+      "count": 1,
+      "posts": [
+        "privacy-and-security-risks-in-the-esim-ecosystem-pdf"
+      ]
+    },
+    "privacidade": {
+      "count": 1,
+      "posts": [
+        "privacy-and-security-risks-in-the-esim-ecosystem-pdf"
+      ]
+    },
+    "telecomunicações": {
+      "count": 1,
+      "posts": [
+        "privacy-and-security-risks-in-the-esim-ecosystem-pdf"
+      ]
+    },
+    "cibersegurança": {
+      "count": 1,
+      "posts": [
+        "privacy-and-security-risks-in-the-esim-ecosystem-pdf"
+      ]
+    },
     "artificial-intelligence": {
       "count": 3,
       "posts": [
@@ -1425,6 +1537,24 @@
       "count": 1,
       "posts": [
         "inovacoes-em-ia"
+      ]
+    },
+    "digital security": {
+      "count": 1,
+      "posts": [
+        "privacy-and-security-risks-in-the-esim-ecosystem-pdf"
+      ]
+    },
+    "privacy": {
+      "count": 1,
+      "posts": [
+        "privacy-and-security-risks-in-the-esim-ecosystem-pdf"
+      ]
+    },
+    "telecommunications": {
+      "count": 1,
+      "posts": [
+        "privacy-and-security-risks-in-the-esim-ecosystem-pdf"
       ]
     }
   }

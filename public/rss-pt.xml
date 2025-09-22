@@ -4,11 +4,25 @@
         <title>André Goulart - Tech Blog</title>
         <link>https://afgoulart.github.io/portfolio/pt</link>
         <description>Um blog de tecnologia com conteúdo mais atual que está sendo discutido no meio tech.</description>
-        <lastBuildDate>Mon, 08 Sep 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 22 Sep 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
         <copyright>Todos os direitos reservados 2025, André Filipe Goulart</copyright>
+        <item>
+            <title><![CDATA[eSIM: Riscos de Privacidade e Segurança que Você Precisa Conhecer em 2024]]></title>
+            <link>https://afgoulart.github.io/portfolio/pt/blog/2025-09-22-privacy-and-security-risks-in-the-esim-ecosystem-pdf</link>
+            <guid>https://afgoulart.github.io/portfolio/pt/blog/2025-09-22-privacy-and-security-risks-in-the-esim-ecosystem-pdf</guid>
+            <pubDate>Mon, 22 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Descubra os principais riscos de privacidade e segurança no ecossistema eSIM e como se proteger das vulnerabilidades desta tecnologia emergente.]]></description>
+            <content:encoded><![CDATA[Descubra os principais riscos de privacidade e segurança no ecossistema eSIM e como se proteger das vulnerabilidades desta tecnologia emergente.]]></content:encoded>
+            <author>afgoulart.rj@gmail.com (André Goulart)</author>
+            <category>eSIM</category>
+            <category>segurança digital</category>
+            <category>privacidade</category>
+            <category>telecomunicações</category>
+            <category>cibersegurança</category>
+        </item>
         <item>
             <title><![CDATA[Inovações em IA 2024: As 7 Tecnologias que Estão Revolucionando o Mundo]]></title>
             <link>https://afgoulart.github.io/portfolio/pt/blog/2025-09-08-inovacoes-em-ia</link>
