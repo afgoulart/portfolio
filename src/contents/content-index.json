@@ -9,7 +9,7 @@
       "months": {
         "09": {
           "days": {
-            "02": {
+            "01": {
               "count": 11,
               "posts": [
                 {
@@ -29,7 +29,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 2
+                  "day": 1
                 },
                 {
                   "slug": "ai-coding-assistants",
@@ -48,7 +48,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 2
+                  "day": 1
                 },
                 {
                   "slug": "big-data-analytics-business",
@@ -67,7 +67,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 2
+                  "day": 1
                 },
                 {
                   "slug": "claude-code-revolucionando-o-desenvolvimento-com-ia-guia-completo-dos-ai-assistants",
@@ -86,7 +86,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 2
+                  "day": 1
                 },
                 {
                   "slug": "design-patterns-guide",
@@ -105,7 +105,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 2
+                  "day": 1
                 },
                 {
                   "slug": "automated-testing-guide",
@@ -124,7 +124,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 2
+                  "day": 1
                 },
                 {
                   "slug": "ai-coders-how-github-copilot-chatgpt-claude-and-amazon-q-are-revolutionizing-software-development",
@@ -143,7 +143,7 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 2
+                  "day": 1
                 },
                 {
                   "slug": "ai-coding-assistants",
@@ -162,7 +162,7 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 2
+                  "day": 1
                 },
                 {
                   "slug": "automated-testing-guide",
@@ -181,7 +181,7 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 2
+                  "day": 1
                 },
                 {
                   "slug": "claude-code-revolutionizing-development-with-ai-complete-guide-to-ai-assistants",
@@ -200,7 +200,7 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 2
+                  "day": 1
                 },
                 {
                   "slug": "design-patterns-guide",
@@ -219,11 +219,11 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 2
+                  "day": 1
                 }
               ]
             },
-            "03": {
+            "02": {
               "count": 4,
               "posts": [
                 {
@@ -243,7 +243,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 3
+                  "day": 2
                 },
                 {
                   "slug": "kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel",
@@ -262,7 +262,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 3
+                  "day": 2
                 },
                 {
                   "slug": "construindo-um-blog-portfolio-multilingue-com-nextjs-15-licoes-aprendidas-sobre-arquitetura-estatica-server-actions-typescript-e-cicd",
@@ -281,7 +281,7 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 3
+                  "day": 2
                 },
                 {
                   "slug": "kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel",
@@ -300,11 +300,11 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 3
+                  "day": 2
                 }
               ]
             },
-            "04": {
+            "03": {
               "count": 2,
               "posts": [
                 {
@@ -324,7 +324,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 4
+                  "day": 3
                 },
                 {
                   "slug": "desenvolvimento-web-e-frameworks",
@@ -343,11 +343,11 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 4
+                  "day": 3
                 }
               ]
             },
-            "05": {
+            "04": {
               "count": 2,
               "posts": [
                 {
@@ -367,7 +367,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 5
+                  "day": 4
                 },
                 {
                   "slug": "rasterizer-a-gpu-accelerated-2d-vector-graphics-engine-in-4k-loc",
@@ -386,11 +386,11 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 5
+                  "day": 4
                 }
               ]
             },
-            "06": {
+            "05": {
               "count": 2,
               "posts": [
                 {
@@ -410,7 +410,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 6
+                  "day": 5
                 },
                 {
                   "slug": "seguranca-em-desenvolvimento",
@@ -429,11 +429,11 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 6
+                  "day": 5
                 }
               ]
             },
-            "07": {
+            "06": {
               "count": 2,
               "posts": [
                 {
@@ -453,7 +453,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 7
+                  "day": 6
                 },
                 {
                   "slug": "inovacoes-em-ia",
@@ -472,11 +472,11 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 7
+                  "day": 6
                 }
               ]
             },
-            "08": {
+            "07": {
               "count": 2,
               "posts": [
                 {
@@ -496,7 +496,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 8
+                  "day": 7
                 },
                 {
                   "slug": "inovacoes-em-ia",
@@ -515,7 +515,7 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 8
+                  "day": 7
                 }
               ]
             }
@@ -544,7 +544,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 8
+      "day": 7
     },
     {
       "slug": "inovacoes-em-ia",
@@ -563,7 +563,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 8
+      "day": 7
     },
     {
       "slug": "inovacoes-em-ia",
@@ -582,7 +582,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 7
+      "day": 6
     },
     {
       "slug": "inovacoes-em-ia",
@@ -601,7 +601,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 7
+      "day": 6
     },
     {
       "slug": "seguranca-em-desenvolvimento",
@@ -620,7 +620,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 6
+      "day": 5
     },
     {
       "slug": "seguranca-em-desenvolvimento",
@@ -639,7 +639,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 6
+      "day": 5
     },
     {
       "slug": "rasterizer-a-gpu-accelerated-2d-vector-graphics-engine-in-4k-loc",
@@ -658,7 +658,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 5
+      "day": 4
     },
     {
       "slug": "rasterizer-a-gpu-accelerated-2d-vector-graphics-engine-in-4k-loc",
@@ -677,7 +677,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 5
+      "day": 4
     },
     {
       "slug": "desenvolvimento-web-e-frameworks",
@@ -696,7 +696,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 4
+      "day": 3
     },
     {
       "slug": "desenvolvimento-web-e-frameworks",
@@ -715,7 +715,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 4
+      "day": 3
     },
     {
       "slug": "construindo-um-blog-portfolio-multilingue-com-nextjs-15-licoes-aprendidas-sobre-arquitetura-estatica-server-actions-typescript-e-cicd",
@@ -734,7 +734,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 3
+      "day": 2
     },
     {
       "slug": "kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel",
@@ -753,7 +753,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 3
+      "day": 2
     },
     {
       "slug": "construindo-um-blog-portfolio-multilingue-com-nextjs-15-licoes-aprendidas-sobre-arquitetura-estatica-server-actions-typescript-e-cicd",
@@ -772,7 +772,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 3
+      "day": 2
     },
     {
       "slug": "kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel",
@@ -791,7 +791,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 3
+      "day": 2
     },
     {
       "slug": "ai-coders-como-github-copilot-chatgpt-claude-e-amazon-q-estao-revolucionando-o-desenvolvimento-de-software",
@@ -810,7 +810,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 2
+      "day": 1
     },
     {
       "slug": "ai-coding-assistants",
@@ -829,7 +829,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 2
+      "day": 1
     },
     {
       "slug": "big-data-analytics-business",
@@ -848,7 +848,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 2
+      "day": 1
     },
     {
       "slug": "claude-code-revolucionando-o-desenvolvimento-com-ia-guia-completo-dos-ai-assistants",
@@ -867,7 +867,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 2
+      "day": 1
     },
     {
       "slug": "design-patterns-guide",
@@ -886,7 +886,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 2
+      "day": 1
     },
     {
       "slug": "automated-testing-guide",
@@ -905,7 +905,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 2
+      "day": 1
     },
     {
       "slug": "ai-coders-how-github-copilot-chatgpt-claude-and-amazon-q-are-revolutionizing-software-development",
@@ -924,7 +924,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 2
+      "day": 1
     },
     {
       "slug": "ai-coding-assistants",
@@ -943,7 +943,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 2
+      "day": 1
     },
     {
       "slug": "automated-testing-guide",
@@ -962,7 +962,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 2
+      "day": 1
     },
     {
       "slug": "claude-code-revolutionizing-development-with-ai-complete-guide-to-ai-assistants",
@@ -981,7 +981,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 2
+      "day": 1
     },
     {
       "slug": "design-patterns-guide",
@@ -1000,7 +1000,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 2
+      "day": 1
     }
   ],
   "tags": {
