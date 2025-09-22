@@ -3,7 +3,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import { useTranslations } from "@/lib/i18n-context";
-import { Button } from "@/components/atoms";
+import { Button, AnimatedScrollIndicator } from "@/components/atoms";
 
 export default function Hero() {
   const t = useTranslations("hero");
@@ -15,6 +15,7 @@ export default function Hero() {
 
   const y = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
   const opacity = useTransform(scrollYProgress, [0, 1], [1, 0]);
+  const opacityMouse = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
 
   return (
     <section ref={ref} className="relative flex justify-center items-center min-h-screen overflow-hidden">
@@ -86,18 +87,10 @@ export default function Hero() {
         />
       </div>
 
-      <motion.div
-        animate={{ y: [0, 10, 0] }}
-        transition={{ duration: 2, repeat: Infinity }}
-        className="bottom-8 left-1/2 absolute -translate-x-1/2 transform"
-      >
-        <div className="flex justify-center border-2 border-white/30 rounded-full w-6 h-10">
-          <motion.div
-            animate={{ y: [0, 12, 0] }}
-            transition={{ duration: 2, repeat: Infinity }}
-            className="bg-white/60 mt-2 rounded-full w-1 h-3"
-          />
-        </div>
+      <motion.div style={{ opacity, y }} className="bottom-8 left-1/2 absolute -translate-x-1/2 transform">
+        <motion.div animate={{ y: [0, 10, 0] }} transition={{ duration: 2, repeat: Infinity }}>
+          <AnimatedScrollIndicator />
+        </motion.div>
       </motion.div>
     </section>
   );

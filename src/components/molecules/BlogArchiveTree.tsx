@@ -2,12 +2,13 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
-import { 
-  CalendarIcon, 
-  ChevronRightIcon, 
+import { useRouter, useSearchParams } from 'next/navigation';
+import {
+  CalendarIcon,
+  ChevronRightIcon,
   ChevronDownIcon,
   FolderIcon,
-  DocumentIcon 
+  DocumentIcon
 } from '@heroicons/react/24/outline';
 import { ContentIndex } from '@/lib/content-client';
 
@@ -43,6 +44,8 @@ interface TreeNode {
 }
 
 export default function BlogArchiveTree({ contentIndex, locale, currentFilters }: BlogArchiveTreeProps) {
+  const router = useRouter();
+  const searchParams = useSearchParams();
   const [expandedYears, setExpandedYears] = useState<Set<number>>(new Set());
   const [expandedMonths, setExpandedMonths] = useState<Set<string>>(new Set()); // "year-month"
   const [expandedDays, setExpandedDays] = useState<Set<string>>(new Set()); // "year-month-day"
@@ -104,6 +107,43 @@ export default function BlogArchiveTree({ contentIndex, locale, currentFilters }
     .filter(node => node.count > 0)
     .sort((a, b) => b.year - a.year);
 
+
+  const handleYearFilter = (year: number) => {
+    const params = new URLSearchParams(searchParams);
+
+    // If year is already selected, remove it
+    if (currentFilters.year === year && !currentFilters.month) {
+      params.delete('year');
+    } else {
+      params.set('year', year.toString());
+      params.delete('month'); // Clear month when selecting year only
+    }
+
+    // Reset to first page when filtering
+    params.delete('page');
+
+    const newUrl = `/${locale}/blog${params.toString() ? `?${params.toString()}` : ''}`;
+    router.push(newUrl, { scroll: false });
+  };
+
+  const handleMonthFilter = (year: number, month: number) => {
+    const params = new URLSearchParams(searchParams);
+
+    // If month is already selected, remove it
+    if (currentFilters.year === year && currentFilters.month === month) {
+      params.delete('month');
+      params.set('year', year.toString()); // Keep year filter
+    } else {
+      params.set('year', year.toString());
+      params.set('month', month.toString());
+    }
+
+    // Reset to first page when filtering
+    params.delete('page');
+
+    const newUrl = `/${locale}/blog${params.toString() ? `?${params.toString()}` : ''}`;
+    router.push(newUrl, { scroll: false });
+  };
 
   const toggleYear = (year: number) => {
     const newExpanded = new Set(expandedYears);
@@ -167,11 +207,13 @@ export default function BlogArchiveTree({ contentIndex, locale, currentFilters }
             <div className="flex items-center">
               <button
                 onClick={() => toggleYear(yearNode.year)}
+                onDoubleClick={() => handleYearFilter(yearNode.year)}
                 className={`flex items-center w-full text-left py-2 px-2 rounded hover:bg-slate-700 transition-colors ${
-                  currentFilters.year === yearNode.year && !currentFilters.month 
-                    ? 'bg-blue-600 text-white' 
+                  currentFilters.year === yearNode.year && !currentFilters.month
+                    ? 'bg-blue-600 text-white'
                     : 'text-gray-300'
                 }`}
+                title={locale === 'pt' ? 'Duplo clique para filtrar por ano' : 'Double click to filter by year'}
               >
                 {expandedYears.has(yearNode.year) ? (
                   <ChevronDownIcon className="h-4 w-4 mr-1 flex-shrink-0" />
@@ -195,11 +237,13 @@ export default function BlogArchiveTree({ contentIndex, locale, currentFilters }
                       <div className="flex items-center">
                         <button
                           onClick={() => toggleMonth(yearNode.year, month)}
+                          onDoubleClick={() => handleMonthFilter(yearNode.year, month)}
                           className={`flex items-center w-full text-left py-1 px-2 rounded hover:bg-slate-700 transition-colors ${
                             currentFilters.year === yearNode.year && currentFilters.month === month
-                              ? 'bg-blue-600 text-white' 
+                              ? 'bg-blue-600 text-white'
                               : 'text-gray-300'
                           }`}
+                          title={locale === 'pt' ? 'Duplo clique para filtrar por mês' : 'Double click to filter by month'}
                         >
                           {expandedMonths.has(`${yearNode.year}-${month}`) ? (
                             <ChevronDownIcon className="h-3 w-3 mr-1 flex-shrink-0" />

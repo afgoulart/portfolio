@@ -1,3 +1,4 @@
+export { default as AnimatedScrollIndicator } from './AnimatedScrollIndicator';
 export { default as Badge } from './Badge';
 export { default as Button } from './Button';
 export { default as Card } from './Card';

@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
-import { getPostBySlug, getPostSlugs } from '@/lib/blog';
+import { getPostBySlug, getPostSlugs, getAdjacentPosts } from '@/lib/blog';
 import BlogPost from '@/components/organisms/BlogPost';
+import BlogPostFloatingNavigation from '@/components/molecules/BlogPostFloatingNavigation';
 import { Navbar, AnalyticsProvider } from "@/components";
 import type { Metadata } from 'next';
 
@@ -63,11 +64,19 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     notFound();
   }
 
+  // Get adjacent posts for navigation
+  const { prev, next } = getAdjacentPosts(slug, locale);
+
   return (
     <AnalyticsProvider>
       <Navbar />
       <main className="overflow-x-hidden">
         <BlogPost post={post} />
+        <BlogPostFloatingNavigation
+          locale={locale}
+          prevPost={prev}
+          nextPost={next}
+        />
       </main>
     </AnalyticsProvider>
   );

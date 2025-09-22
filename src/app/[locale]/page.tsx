@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <AnalyticsProvider>
       <Navbar />
-      <main className="overflow-x-hidden">
+      <main className="overflow-hidden">
         <Hero />
         <About />
         <Skills />

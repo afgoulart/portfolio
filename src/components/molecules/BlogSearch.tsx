@@ -28,7 +28,7 @@ export default function BlogSearch({ locale, initialSearch = '', className = '' 
     params.delete('page');
     
     const newUrl = `/${locale}/blog${params.toString() ? `?${params.toString()}` : ''}`;
-    router.push(newUrl);
+    router.push(newUrl, { scroll: false });
   };
 
   const handleKeyPress = (e: React.KeyboardEvent) => {

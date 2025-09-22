@@ -147,3 +147,17 @@ export function getPostSlugs(locale: string = 'pt'): string[] {
   const metadata = getPostsMetadata(locale);
   return metadata.map(post => post.slug);
 }
+
+export function getAdjacentPosts(currentSlug: string, locale: string = 'pt'): { prev: PostMetadata | null; next: PostMetadata | null } {
+  const metadata = getPostsMetadata(locale);
+  const currentIndex = metadata.findIndex(post => post.slug === currentSlug);
+
+  if (currentIndex === -1) {
+    return { prev: null, next: null };
+  }
+
+  return {
+    prev: currentIndex > 0 ? metadata[currentIndex - 1] : null,
+    next: currentIndex < metadata.length - 1 ? metadata[currentIndex + 1] : null,
+  };
+}

@@ -1,6 +1,6 @@
 'use client';
 
-import Link from 'next/link';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { TagIcon } from '@heroicons/react/24/outline';
 import BlogArchiveTree from './BlogArchiveTree';
 import { ContentIndex } from '@/lib/content-client';
@@ -18,12 +18,29 @@ interface BlogSidebarProps {
   };
 }
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export default function BlogSidebar({ tags, archive, contentIndex, locale, currentFilters }: BlogSidebarProps) {
-  const buildTagUrl = (tag: string) => {
-    const params = new URLSearchParams();
-    params.set('tag', tag);
-    return `/${locale}/blog?${params.toString()}`;
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
+  const handleTagClick = (tag: string) => {
+    const params = new URLSearchParams(searchParams);
+
+    // If tag is already selected, remove it (toggle behavior)
+    if (currentFilters.tag === tag) {
+      params.delete('tag');
+    } else {
+      params.set('tag', tag);
+    }
+
+    // Reset to first page when filtering
+    params.delete('page');
+
+    const newUrl = `/${locale}/blog${params.toString() ? `?${params.toString()}` : ''}`;
+    router.push(newUrl, { scroll: false });
+  };
+
+  const handleClearFilters = () => {
+    router.push(`/${locale}/blog`, { scroll: false });
   };
 
 
@@ -39,9 +56,9 @@ export default function BlogSidebar({ tags, archive, contentIndex, locale, curre
           </h3>
           <div className="flex flex-wrap gap-2">
             {tags.slice(0, 20).map(({ tag, count }) => (
-              <Link
+              <button
                 key={tag}
-                href={buildTagUrl(tag)}
+                onClick={() => handleTagClick(tag)}
                 className={`inline-flex items-center px-3 py-1 rounded-full text-sm transition-colors ${
                   currentFilters.tag === tag
                     ? 'bg-blue-600 text-white'
@@ -50,7 +67,7 @@ export default function BlogSidebar({ tags, archive, contentIndex, locale, curre
               >
                 {tag}
                 <span className="ml-1 text-xs opacity-75">({count})</span>
-              </Link>
+              </button>
             ))}
           </div>
           {tags.length > 20 && (
@@ -77,12 +94,12 @@ export default function BlogSidebar({ tags, archive, contentIndex, locale, curre
           <h3 className="text-lg font-semibold text-white mb-4">
             {locale === 'pt' ? 'Filtros' : 'Filters'}
           </h3>
-          <Link
-            href={`/${locale}/blog`}
+          <button
+            onClick={handleClearFilters}
             className="inline-flex items-center px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors"
           >
             {locale === 'pt' ? 'Limpar Filtros' : 'Clear Filters'}
-          </Link>
+          </button>
         </div>
       )}
 

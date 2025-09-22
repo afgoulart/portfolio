@@ -63,11 +63,13 @@
   "experiences": {
     "skopia": {
       "title": "Especialista Fullstack Engineer | AWS Architect",
-      "company": "Skopia (EclipseWork/NScreen)",
+      "company": "Skopia Digital (EclipseWork/NScreen)",
       "period": "Dezembro 2024 - presente",
-      "description": "Faço parte de uma consultoria, alocado no cliente Aviva Incasa Residencial clube, onde proponho ideias e crio soluções para melhorar o site de reservas para o clube residencial da empresa. Manutenção e sustentação nos projetos de front e back relacionados ao Cliente.",
+      "description": "Consultoria especializada em desenvolvimento fullstack e arquitetura AWS. Trabalhei em dois projetos principais: no Banco Master desenvolvendo uma aplicação bancária moderna com Angular para gestão de contas e transações; e na Aviva (Incasa Residencial Clube) criando soluções com React e NestJS para otimizar o sistema de reservas e melhorar a experiência dos usuários do clube residencial.",
       "technologies": [
         "React",
+        "Angular",
+        "NestJS",
         "Node.js",
         "AWS",
         "TypeScript",
