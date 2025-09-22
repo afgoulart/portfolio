@@ -10,14 +10,19 @@ export default function LanguageSwitcher() {
   const { locale, slug } = useParams();
   const pathname = usePathname();
 
-  const languages = useMemo(() => [
-    { code: "pt", name: "Português", flag: "🇧🇷" },
-    { code: "en", name: "English", flag: "🇺🇸" },
-  ], []);
+  const languages = useMemo(
+    () => [
+      { code: "pt", name: "Português", flag: "🇧🇷" },
+      { code: "en", name: "English", flag: "🇺🇸" },
+    ],
+    [],
+  );
 
   const alternativeLanguage = useMemo(() => {
     return languages.find((lang) => lang.code !== locale) || languages[1];
   }, [locale, languages]);
+
+  const title = useMemo(() => (locale === "pt" ? "Mudar para Inglês" : "Switch to Portuguese"), [locale]);
 
   const getLanguageUrl = (langCode: string) => {
     let newPath = pathname.replace(/^\/(pt|en)/, `/${langCode}`);
@@ -40,17 +45,16 @@ export default function LanguageSwitcher() {
 
       return newPath + (searchString ? `?${searchString}` : "") + hash;
     }
-
     return newPath;
   };
 
   return (
-    <Link href={getLanguageUrl(alternativeLanguage?.code || 'en')}>
+    <Link href={getLanguageUrl(alternativeLanguage?.code || "en")}>
       <motion.button
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         className="flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm px-3 py-2 border border-white/20 rounded-lg transition-all duration-300"
-        title={`Trocar para ${alternativeLanguage?.name}`}
+        title={title}
       >
         <span className="text-xl">{alternativeLanguage?.flag}</span>
         <span className="hidden sm:inline font-medium text-sm">{alternativeLanguage?.name}</span>
