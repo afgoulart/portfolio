@@ -1,5 +1,5 @@
 {
-  "totalPosts": 27,
+  "totalPosts": 29,
   "locales": [
     "pt",
     "en"
@@ -10,7 +10,7 @@
         "09": {
           "days": {
             "22": {
-              "count": 2,
+              "count": 4,
               "posts": [
                 {
                   "slug": "privacy-and-security-risks-in-the-esim-ecosystem-pdf",
@@ -32,6 +32,25 @@
                   "day": 22
                 },
                 {
+                  "slug": "react-e-javascript",
+                  "title": "React e JavaScript: O Guia Completo para Dominar o Desenvolvimento Frontend Moderno",
+                  "date": "2025-09-22",
+                  "author": "Tech Blog Bot",
+                  "tags": [
+                    "React",
+                    "JavaScript",
+                    "Frontend",
+                    "Desenvolvimento Web",
+                    "UI/UX"
+                  ],
+                  "excerpt": "Descubra como React revolucionou o desenvolvimento web e por que a combinação React + JavaScript é essencial para desenvolvedores modernos. Guia completo com exemplos práticos.",
+                  "filename": "2025-09-22-react-e-javascript.md",
+                  "locale": "pt",
+                  "year": 2025,
+                  "month": 9,
+                  "day": 22
+                },
+                {
                   "slug": "privacy-and-security-risks-in-the-esim-ecosystem-pdf",
                   "title": "eSIM: Privacy and Security Risks You Need to Know in 2024",
                   "date": "2025-09-22",
@@ -45,6 +64,25 @@
                   ],
                   "excerpt": "Discover the main privacy and security risks in the eSIM ecosystem and how to protect yourself from vulnerabilities in this emerging technology.",
                   "filename": "2025-09-22-privacy-and-security-risks-in-the-esim-ecosystem-pdf.md",
+                  "locale": "en",
+                  "year": 2025,
+                  "month": 9,
+                  "day": 22
+                },
+                {
+                  "slug": "react-e-javascript",
+                  "title": "React and JavaScript: The Complete Guide to Mastering Modern Frontend Development",
+                  "date": "2025-09-22",
+                  "author": "Tech Blog Bot",
+                  "tags": [
+                    "React",
+                    "JavaScript",
+                    "Frontend",
+                    "Web Development",
+                    "UI/UX"
+                  ],
+                  "excerpt": "Discover how React revolutionized web development and why the React + JavaScript combination is essential for modern developers. Complete guide with practical examples.",
+                  "filename": "2025-09-22-react-e-javascript.md",
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
@@ -563,10 +601,10 @@
               ]
             }
           },
-          "count": 27
+          "count": 29
         }
       },
-      "count": 27
+      "count": 29
     }
   },
   "posts": [
@@ -590,6 +628,25 @@
       "day": 22
     },
     {
+      "slug": "react-e-javascript",
+      "title": "React e JavaScript: O Guia Completo para Dominar o Desenvolvimento Frontend Moderno",
+      "date": "2025-09-22",
+      "author": "Tech Blog Bot",
+      "tags": [
+        "React",
+        "JavaScript",
+        "Frontend",
+        "Desenvolvimento Web",
+        "UI/UX"
+      ],
+      "excerpt": "Descubra como React revolucionou o desenvolvimento web e por que a combinação React + JavaScript é essencial para desenvolvedores modernos. Guia completo com exemplos práticos.",
+      "filename": "2025-09-22-react-e-javascript.md",
+      "locale": "pt",
+      "year": 2025,
+      "month": 9,
+      "day": 22
+    },
+    {
       "slug": "privacy-and-security-risks-in-the-esim-ecosystem-pdf",
       "title": "eSIM: Privacy and Security Risks You Need to Know in 2024",
       "date": "2025-09-22",
@@ -603,6 +660,25 @@
       ],
       "excerpt": "Discover the main privacy and security risks in the eSIM ecosystem and how to protect yourself from vulnerabilities in this emerging technology.",
       "filename": "2025-09-22-privacy-and-security-risks-in-the-esim-ecosystem-pdf.md",
+      "locale": "en",
+      "year": 2025,
+      "month": 9,
+      "day": 22
+    },
+    {
+      "slug": "react-e-javascript",
+      "title": "React and JavaScript: The Complete Guide to Mastering Modern Frontend Development",
+      "date": "2025-09-22",
+      "author": "Tech Blog Bot",
+      "tags": [
+        "React",
+        "JavaScript",
+        "Frontend",
+        "Web Development",
+        "UI/UX"
+      ],
+      "excerpt": "Discover how React revolutionized web development and why the React + JavaScript combination is essential for modern developers. Complete guide with practical examples.",
+      "filename": "2025-09-22-react-e-javascript.md",
       "locale": "en",
       "year": 2025,
       "month": 9,
@@ -1432,6 +1508,36 @@
         "privacy-and-security-risks-in-the-esim-ecosystem-pdf"
       ]
     },
+    "React": {
+      "count": 1,
+      "posts": [
+        "react-e-javascript"
+      ]
+    },
+    "JavaScript": {
+      "count": 1,
+      "posts": [
+        "react-e-javascript"
+      ]
+    },
+    "Frontend": {
+      "count": 1,
+      "posts": [
+        "react-e-javascript"
+      ]
+    },
+    "Desenvolvimento Web": {
+      "count": 1,
+      "posts": [
+        "react-e-javascript"
+      ]
+    },
+    "UI/UX": {
+      "count": 1,
+      "posts": [
+        "react-e-javascript"
+      ]
+    },
     "artificial-intelligence": {
       "count": 3,
       "posts": [
@@ -1555,6 +1661,12 @@
       "count": 1,
       "posts": [
         "privacy-and-security-risks-in-the-esim-ecosystem-pdf"
+      ]
+    },
+    "Web Development": {
+      "count": 1,
+      "posts": [
+        "react-e-javascript"
       ]
     }
   }
