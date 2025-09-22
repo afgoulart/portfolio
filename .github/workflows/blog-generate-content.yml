@@ -22,9 +22,6 @@ on:
           - "review"
           - "news-analysis"
 
-env:
-  ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-
 jobs:
   generate-content:
     runs-on: ubuntu-latest
@@ -65,7 +62,7 @@ jobs:
       - name: Generate blog content
         run: node .github/scripts/generate-content.mjs
         env:
-          ANTHROPIC_API_KEY: ${{ env.ANTHROPIC_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CUSTOM_TOPIC: ${{ github.event.inputs.topic }}
           CONTENT_TYPE: ${{ github.event.inputs.content_type }}
 
@@ -84,9 +81,3 @@ jobs:
             git push
           fi
 
-      - name: Deploy to GitHub Pages (opcional)
-        if: github.ref == 'refs/heads/main'
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
