@@ -15,6 +15,21 @@
     "filename": "2025-09-29-inteligencia-artificial-e-machine-learning.md"
   },
   {
+    "slug": "construindo-um-blog-portfolio-multilingue-com-nextjs-15-licoes-aprendidas-sobre-arquitetura-estatica-server-actions-typescript-e-cicd",
+    "title": "Next.js 15: How to Build a Multilingual Blog Portfolio with Modern Architecture and Automated Deployment",
+    "date": "2025-09-27",
+    "author": "Tech Blog Bot",
+    "tags": [
+      "nextjs",
+      "typescript",
+      "portfolio",
+      "multilingual",
+      "cicd"
+    ],
+    "excerpt": "Discover how to create a modern multilingual blog portfolio using Next.js 15, with optimized static architecture, Server Actions, TypeScript and complete CI/CD pipeline.",
+    "filename": "2025-09-27-construindo-um-blog-portfolio-multilingue-com-nextjs-15-licoes-aprendidas-sobre-arquitetura-estatica-server-actions-typescript-e-cicd.md"
+  },
+  {
     "slug": "privacy-and-security-risks-in-the-esim-ecosystem-pdf",
     "title": "eSIM: Privacy and Security Risks You Need to Know in 2024",
     "date": "2025-09-22",
