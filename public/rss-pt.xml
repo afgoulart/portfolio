@@ -4,11 +4,25 @@
         <title>André Goulart - Tech Blog</title>
         <link>https://afgoulart.github.io/portfolio/pt</link>
         <description>Um blog de tecnologia com conteúdo mais atual que está sendo discutido no meio tech.</description>
-        <lastBuildDate>Mon, 22 Sep 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 29 Sep 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
         <copyright>Todos os direitos reservados 2025, André Filipe Goulart</copyright>
+        <item>
+            <title><![CDATA[Inteligência Artificial e Machine Learning: O Futuro da Tecnologia em Nossas Mãos]]></title>
+            <link>https://afgoulart.github.io/portfolio/pt/blog/2025-09-29-inteligencia-artificial-e-machine-learning</link>
+            <guid>https://afgoulart.github.io/portfolio/pt/blog/2025-09-29-inteligencia-artificial-e-machine-learning</guid>
+            <pubDate>Mon, 29 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Descubra como a Inteligência Artificial e Machine Learning estão revolucionando nosso mundo, desde aplicações práticas até o impacto transformador nas indústrias modernas.]]></description>
+            <content:encoded><![CDATA[Descubra como a Inteligência Artificial e Machine Learning estão revolucionando nosso mundo, desde aplicações práticas até o impacto transformador nas indústrias modernas.]]></content:encoded>
+            <author>afgoulart.rj@gmail.com (André Goulart)</author>
+            <category>inteligencia-artificial</category>
+            <category>machine-learning</category>
+            <category>tecnologia</category>
+            <category>inovacao</category>
+            <category>automacao</category>
+        </item>
         <item>
             <title><![CDATA[React e JavaScript: O Guia Completo para Dominar o Desenvolvimento Frontend Moderno]]></title>
             <link>https://afgoulart.github.io/portfolio/pt/blog/2025-09-22-react-e-javascript</link>

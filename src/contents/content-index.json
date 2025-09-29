@@ -1,5 +1,5 @@
 {
-  "totalPosts": 29,
+  "totalPosts": 31,
   "locales": [
     "pt",
     "en"
@@ -9,7 +9,7 @@
       "months": {
         "09": {
           "days": {
-            "21": {
+            "22": {
               "count": 4,
               "posts": [
                 {
@@ -29,7 +29,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 21
+                  "day": 22
                 },
                 {
                   "slug": "react-e-javascript",
@@ -48,7 +48,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 21
+                  "day": 22
                 },
                 {
                   "slug": "privacy-and-security-risks-in-the-esim-ecosystem-pdf",
@@ -67,7 +67,7 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 21
+                  "day": 22
                 },
                 {
                   "slug": "react-e-javascript",
@@ -86,11 +86,54 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 21
+                  "day": 22
                 }
               ]
             },
-            "01": {
+            "29": {
+              "count": 2,
+              "posts": [
+                {
+                  "slug": "inteligencia-artificial-e-machine-learning",
+                  "title": "Inteligência Artificial e Machine Learning: O Futuro da Tecnologia em Nossas Mãos",
+                  "date": "2025-09-29",
+                  "author": "Tech Blog Bot",
+                  "tags": [
+                    "inteligencia-artificial",
+                    "machine-learning",
+                    "tecnologia",
+                    "inovacao",
+                    "automacao"
+                  ],
+                  "excerpt": "Descubra como a Inteligência Artificial e Machine Learning estão revolucionando nosso mundo, desde aplicações práticas até o impacto transformador nas indústrias modernas.",
+                  "filename": "2025-09-29-inteligencia-artificial-e-machine-learning.md",
+                  "locale": "pt",
+                  "year": 2025,
+                  "month": 9,
+                  "day": 29
+                },
+                {
+                  "slug": "inteligencia-artificial-e-machine-learning",
+                  "title": "Artificial Intelligence and Machine Learning: The Future of Technology in Our Hands",
+                  "date": "2025-09-29",
+                  "author": "Tech Blog Bot",
+                  "tags": [
+                    "artificial-intelligence",
+                    "machine-learning",
+                    "technology",
+                    "innovation",
+                    "automation"
+                  ],
+                  "excerpt": "Discover how Artificial Intelligence and Machine Learning are revolutionizing our world, from practical applications to the transformative impact on modern industries.",
+                  "filename": "2025-09-29-inteligencia-artificial-e-machine-learning.md",
+                  "locale": "en",
+                  "year": 2025,
+                  "month": 9,
+                  "day": 29
+                }
+              ]
+            },
+            "02": {
               "count": 11,
               "posts": [
                 {
@@ -110,7 +153,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "ai-coding-assistants",
@@ -129,7 +172,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "big-data-analytics-business",
@@ -148,7 +191,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "claude-code-revolucionando-o-desenvolvimento-com-ia-guia-completo-dos-ai-assistants",
@@ -167,7 +210,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "design-patterns-guide",
@@ -186,7 +229,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "automated-testing-guide",
@@ -205,7 +248,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "ai-coders-how-github-copilot-chatgpt-claude-and-amazon-q-are-revolutionizing-software-development",
@@ -224,7 +267,7 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "ai-coding-assistants",
@@ -243,7 +286,7 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "automated-testing-guide",
@@ -262,7 +305,7 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "claude-code-revolutionizing-development-with-ai-complete-guide-to-ai-assistants",
@@ -281,7 +324,7 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 },
                 {
                   "slug": "design-patterns-guide",
@@ -300,11 +343,11 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 1
+                  "day": 2
                 }
               ]
             },
-            "02": {
+            "03": {
               "count": 4,
               "posts": [
                 {
@@ -324,7 +367,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 2
+                  "day": 3
                 },
                 {
                   "slug": "kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel",
@@ -343,7 +386,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 2
+                  "day": 3
                 },
                 {
                   "slug": "construindo-um-blog-portfolio-multilingue-com-nextjs-15-licoes-aprendidas-sobre-arquitetura-estatica-server-actions-typescript-e-cicd",
@@ -362,7 +405,7 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 2
+                  "day": 3
                 },
                 {
                   "slug": "kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel",
@@ -381,11 +424,11 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 2
+                  "day": 3
                 }
               ]
             },
-            "03": {
+            "04": {
               "count": 2,
               "posts": [
                 {
@@ -405,7 +448,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 3
+                  "day": 4
                 },
                 {
                   "slug": "desenvolvimento-web-e-frameworks",
@@ -424,11 +467,11 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 3
+                  "day": 4
                 }
               ]
             },
-            "04": {
+            "05": {
               "count": 2,
               "posts": [
                 {
@@ -448,7 +491,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 4
+                  "day": 5
                 },
                 {
                   "slug": "rasterizer-a-gpu-accelerated-2d-vector-graphics-engine-in-4k-loc",
@@ -467,11 +510,11 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 4
+                  "day": 5
                 }
               ]
             },
-            "05": {
+            "06": {
               "count": 2,
               "posts": [
                 {
@@ -491,7 +534,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 5
+                  "day": 6
                 },
                 {
                   "slug": "seguranca-em-desenvolvimento",
@@ -510,11 +553,11 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 5
+                  "day": 6
                 }
               ]
             },
-            "06": {
+            "07": {
               "count": 2,
               "posts": [
                 {
@@ -534,7 +577,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 6
+                  "day": 7
                 },
                 {
                   "slug": "inovacoes-em-ia",
@@ -553,11 +596,11 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 6
+                  "day": 7
                 }
               ]
             },
-            "07": {
+            "08": {
               "count": 2,
               "posts": [
                 {
@@ -577,7 +620,7 @@
                   "locale": "pt",
                   "year": 2025,
                   "month": 9,
-                  "day": 7
+                  "day": 8
                 },
                 {
                   "slug": "inovacoes-em-ia",
@@ -596,18 +639,56 @@
                   "locale": "en",
                   "year": 2025,
                   "month": 9,
-                  "day": 7
+                  "day": 8
                 }
               ]
             }
           },
-          "count": 29
+          "count": 31
         }
       },
-      "count": 29
+      "count": 31
     }
   },
   "posts": [
+    {
+      "slug": "inteligencia-artificial-e-machine-learning",
+      "title": "Inteligência Artificial e Machine Learning: O Futuro da Tecnologia em Nossas Mãos",
+      "date": "2025-09-29",
+      "author": "Tech Blog Bot",
+      "tags": [
+        "inteligencia-artificial",
+        "machine-learning",
+        "tecnologia",
+        "inovacao",
+        "automacao"
+      ],
+      "excerpt": "Descubra como a Inteligência Artificial e Machine Learning estão revolucionando nosso mundo, desde aplicações práticas até o impacto transformador nas indústrias modernas.",
+      "filename": "2025-09-29-inteligencia-artificial-e-machine-learning.md",
+      "locale": "pt",
+      "year": 2025,
+      "month": 9,
+      "day": 29
+    },
+    {
+      "slug": "inteligencia-artificial-e-machine-learning",
+      "title": "Artificial Intelligence and Machine Learning: The Future of Technology in Our Hands",
+      "date": "2025-09-29",
+      "author": "Tech Blog Bot",
+      "tags": [
+        "artificial-intelligence",
+        "machine-learning",
+        "technology",
+        "innovation",
+        "automation"
+      ],
+      "excerpt": "Discover how Artificial Intelligence and Machine Learning are revolutionizing our world, from practical applications to the transformative impact on modern industries.",
+      "filename": "2025-09-29-inteligencia-artificial-e-machine-learning.md",
+      "locale": "en",
+      "year": 2025,
+      "month": 9,
+      "day": 29
+    },
     {
       "slug": "privacy-and-security-risks-in-the-esim-ecosystem-pdf",
       "title": "eSIM: Riscos de Privacidade e Segurança que Você Precisa Conhecer em 2024",
@@ -625,7 +706,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 21
+      "day": 22
     },
     {
       "slug": "react-e-javascript",
@@ -644,7 +725,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 21
+      "day": 22
     },
     {
       "slug": "privacy-and-security-risks-in-the-esim-ecosystem-pdf",
@@ -663,7 +744,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 21
+      "day": 22
     },
     {
       "slug": "react-e-javascript",
@@ -682,7 +763,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 21
+      "day": 22
     },
     {
       "slug": "inovacoes-em-ia",
@@ -701,7 +782,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 7
+      "day": 8
     },
     {
       "slug": "inovacoes-em-ia",
@@ -720,7 +801,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 7
+      "day": 8
     },
     {
       "slug": "inovacoes-em-ia",
@@ -739,7 +820,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 6
+      "day": 7
     },
     {
       "slug": "inovacoes-em-ia",
@@ -758,7 +839,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 6
+      "day": 7
     },
     {
       "slug": "seguranca-em-desenvolvimento",
@@ -777,7 +858,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 5
+      "day": 6
     },
     {
       "slug": "seguranca-em-desenvolvimento",
@@ -796,7 +877,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 5
+      "day": 6
     },
     {
       "slug": "rasterizer-a-gpu-accelerated-2d-vector-graphics-engine-in-4k-loc",
@@ -815,7 +896,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 4
+      "day": 5
     },
     {
       "slug": "rasterizer-a-gpu-accelerated-2d-vector-graphics-engine-in-4k-loc",
@@ -834,7 +915,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 4
+      "day": 5
     },
     {
       "slug": "desenvolvimento-web-e-frameworks",
@@ -853,7 +934,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 3
+      "day": 4
     },
     {
       "slug": "desenvolvimento-web-e-frameworks",
@@ -872,7 +953,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 3
+      "day": 4
     },
     {
       "slug": "construindo-um-blog-portfolio-multilingue-com-nextjs-15-licoes-aprendidas-sobre-arquitetura-estatica-server-actions-typescript-e-cicd",
@@ -891,7 +972,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 2
+      "day": 3
     },
     {
       "slug": "kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel",
@@ -910,7 +991,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 2
+      "day": 3
     },
     {
       "slug": "construindo-um-blog-portfolio-multilingue-com-nextjs-15-licoes-aprendidas-sobre-arquitetura-estatica-server-actions-typescript-e-cicd",
@@ -929,7 +1010,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 2
+      "day": 3
     },
     {
       "slug": "kernel-hack-drill-and-exploiting-cve-2024-50264-in-the-linux-kernel",
@@ -948,7 +1029,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 2
+      "day": 3
     },
     {
       "slug": "ai-coders-como-github-copilot-chatgpt-claude-e-amazon-q-estao-revolucionando-o-desenvolvimento-de-software",
@@ -967,7 +1048,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "ai-coding-assistants",
@@ -986,7 +1067,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "big-data-analytics-business",
@@ -1005,7 +1086,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "claude-code-revolucionando-o-desenvolvimento-com-ia-guia-completo-dos-ai-assistants",
@@ -1024,7 +1105,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "design-patterns-guide",
@@ -1043,7 +1124,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "automated-testing-guide",
@@ -1062,7 +1143,7 @@
       "locale": "pt",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "ai-coders-how-github-copilot-chatgpt-claude-and-amazon-q-are-revolutionizing-software-development",
@@ -1081,7 +1162,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "ai-coding-assistants",
@@ -1100,7 +1181,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "automated-testing-guide",
@@ -1119,7 +1200,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "claude-code-revolutionizing-development-with-ai-complete-guide-to-ai-assistants",
@@ -1138,7 +1219,7 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     },
     {
       "slug": "design-patterns-guide",
@@ -1157,16 +1238,17 @@
       "locale": "en",
       "year": 2025,
       "month": 9,
-      "day": 1
+      "day": 2
     }
   ],
   "tags": {
     "inteligencia-artificial": {
-      "count": 3,
+      "count": 4,
       "posts": [
         "ai-coders-como-github-copilot-chatgpt-claude-e-amazon-q-estao-revolucionando-o-desenvolvimento-de-software",
         "claude-code-revolucionando-o-desenvolvimento-com-ia-guia-completo-dos-ai-assistants",
-        "inovacoes-em-ia"
+        "inovacoes-em-ia",
+        "inteligencia-artificial-e-machine-learning"
       ]
     },
     "desenvolvimento-software": {
@@ -1449,21 +1531,24 @@
       ]
     },
     "inovacao": {
-      "count": 1,
+      "count": 2,
       "posts": [
-        "inovacoes-em-ia"
+        "inovacoes-em-ia",
+        "inteligencia-artificial-e-machine-learning"
       ]
     },
     "tecnologia": {
-      "count": 1,
+      "count": 2,
       "posts": [
-        "inovacoes-em-ia"
+        "inovacoes-em-ia",
+        "inteligencia-artificial-e-machine-learning"
       ]
     },
     "machine-learning": {
-      "count": 1,
+      "count": 2,
       "posts": [
-        "inovacoes-em-ia"
+        "inovacoes-em-ia",
+        "inteligencia-artificial-e-machine-learning"
       ]
     },
     "ia-generativa": {
@@ -1538,12 +1623,19 @@
         "react-e-javascript"
       ]
     },
+    "automacao": {
+      "count": 1,
+      "posts": [
+        "inteligencia-artificial-e-machine-learning"
+      ]
+    },
     "artificial-intelligence": {
-      "count": 3,
+      "count": 4,
       "posts": [
         "ai-coders-how-github-copilot-chatgpt-claude-and-amazon-q-are-revolutionizing-software-development",
         "claude-code-revolutionizing-development-with-ai-complete-guide-to-ai-assistants",
-        "inovacoes-em-ia"
+        "inovacoes-em-ia",
+        "inteligencia-artificial-e-machine-learning"
       ]
     },
     "software-development": {
@@ -1622,15 +1714,17 @@
       ]
     },
     "innovation": {
-      "count": 1,
+      "count": 2,
       "posts": [
-        "inovacoes-em-ia"
+        "inovacoes-em-ia",
+        "inteligencia-artificial-e-machine-learning"
       ]
     },
     "technology": {
-      "count": 1,
+      "count": 2,
       "posts": [
-        "inovacoes-em-ia"
+        "inovacoes-em-ia",
+        "inteligencia-artificial-e-machine-learning"
       ]
     },
     "generative-ai": {
@@ -1667,6 +1761,12 @@
       "count": 1,
       "posts": [
         "react-e-javascript"
+      ]
+    },
+    "automation": {
+      "count": 1,
+      "posts": [
+        "inteligencia-artificial-e-machine-learning"
       ]
     }
   }

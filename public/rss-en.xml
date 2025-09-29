@@ -4,11 +4,25 @@
         <title>André Goulart - Tech Blog</title>
         <link>https://afgoulart.github.io/portfolio/en</link>
         <description>A tech blog with the most current content being discussed in the tech world.</description>
-        <lastBuildDate>Mon, 22 Sep 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 29 Sep 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
         <copyright>All rights reserved 2025, André Filipe Goulart</copyright>
+        <item>
+            <title><![CDATA[Artificial Intelligence and Machine Learning: The Future of Technology in Our Hands]]></title>
+            <link>https://afgoulart.github.io/portfolio/en/blog/2025-09-29-inteligencia-artificial-e-machine-learning</link>
+            <guid>https://afgoulart.github.io/portfolio/en/blog/2025-09-29-inteligencia-artificial-e-machine-learning</guid>
+            <pubDate>Mon, 29 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover how Artificial Intelligence and Machine Learning are revolutionizing our world, from practical applications to the transformative impact on modern industries.]]></description>
+            <content:encoded><![CDATA[Discover how Artificial Intelligence and Machine Learning are revolutionizing our world, from practical applications to the transformative impact on modern industries.]]></content:encoded>
+            <author>afgoulart.rj@gmail.com (André Goulart)</author>
+            <category>artificial-intelligence</category>
+            <category>machine-learning</category>
+            <category>technology</category>
+            <category>innovation</category>
+            <category>automation</category>
+        </item>
         <item>
             <title><![CDATA[React and JavaScript: The Complete Guide to Mastering Modern Frontend Development]]></title>
             <link>https://afgoulart.github.io/portfolio/en/blog/2025-09-22-react-e-javascript</link>
