@@ -1,5 +1,7 @@
 # André Filipe de Moraes Goulart - Portfolio
 
+[![Tech Blog Content Generator](https://github.com/afgoulart/portfolio/actions/workflows/blog-generate-content.yml/badge.svg?branch=main)](https://github.com/afgoulart/portfolio/actions/workflows/blog-generate-content.yml) | [![Deploy to GitHub Pages](https://github.com/afgoulart/portfolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/afgoulart/portfolio/actions/workflows/deploy.yml)
+
 A modern, responsive portfolio website for André Filipe de Moraes Goulart, Senior Software Engineer, built with Next.js, TypeScript, Tailwind CSS, and Framer Motion.
 
 ## 🚀 Features
