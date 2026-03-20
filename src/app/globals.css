@@ -171,3 +171,199 @@ body {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
 }
+
+/* Print styles */
+@media print {
+  /* Hide elements that shouldn't print */
+  .no-print,
+  nav,
+  .navbar,
+  .floating-button,
+  button,
+  .rss-button,
+  .social-links {
+    display: none !important;
+  }
+
+  /* Page setup */
+  html,
+  body {
+    background: white;
+    color: black;
+  }
+
+  body {
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  /* Main content */
+  main {
+    background: white !important;
+    color: black !important;
+  }
+
+  /* Typography */
+  h1, h2, h3, h4, h5, h6 {
+    color: black !important;
+    page-break-after: avoid;
+    margin-top: 12pt;
+    margin-bottom: 6pt;
+  }
+
+  h1 {
+    font-size: 24pt;
+    margin-top: 24pt;
+  }
+
+  h2 {
+    font-size: 18pt;
+    border-bottom: 1px solid #333 !important;
+  }
+
+  h3 {
+    font-size: 14pt;
+  }
+
+  p {
+    margin-bottom: 12pt;
+    orphans: 2;
+    widows: 2;
+  }
+
+  /* Links */
+  a {
+    color: #0066cc !important;
+    text-decoration: underline !important;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 9pt;
+    color: #666;
+  }
+
+  /* Lists */
+  ul, ol {
+    margin-bottom: 12pt;
+    padding-left: 24pt;
+  }
+
+  li {
+    margin-bottom: 6pt;
+    page-break-inside: avoid;
+  }
+
+  /* Code blocks */
+  code, pre {
+    background: #f5f5f5 !important;
+    border: 1px solid #ccc !important;
+    color: #333 !important;
+    page-break-inside: avoid;
+  }
+
+  /* Tables */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 12pt;
+  }
+
+  td, th {
+    border: 1px solid #999;
+    padding: 6pt;
+    text-align: left;
+  }
+
+  th {
+    background: #f0f0f0;
+    font-weight: bold;
+  }
+
+  /* Cards and sections */
+  .card,
+  section {
+    page-break-inside: avoid;
+    background: white !important;
+    border: 1px solid #ddd !important;
+    margin-bottom: 12pt;
+    padding: 12pt;
+  }
+
+  /* Skill badges */
+  .badge {
+    border: 1px solid #333 !important;
+    background: white !important;
+    color: black !important;
+    margin-right: 6pt;
+    margin-bottom: 6pt;
+    display: inline-block;
+  }
+
+  /* Project cards */
+  .project-card {
+    page-break-inside: avoid;
+    border: 1px solid #ccc !important;
+    padding: 12pt;
+    margin-bottom: 12pt;
+  }
+
+  .project-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 6pt;
+  }
+
+  /* Images */
+  img {
+    max-width: 100%;
+    height: auto;
+    page-break-inside: avoid;
+  }
+
+  /* Gradients and backgrounds - convert to print-friendly colors */
+  .bg-gradient-to-br,
+  .bg-gradient-to-r {
+    background: white !important;
+  }
+
+  /* Remove all background colors except white */
+  [class*="bg-"] {
+    background: white !important;
+  }
+
+  /* Border and spacing */
+  .border {
+    border-color: #999 !important;
+  }
+
+  /* Hero section adjustments */
+  .hero-section {
+    margin-bottom: 18pt;
+    page-break-after: avoid;
+  }
+
+  /* Contact info */
+  .contact-info {
+    margin-top: 18pt;
+    padding-top: 12pt;
+    border-top: 2px solid #333;
+  }
+
+  .contact-info p {
+    margin-bottom: 6pt;
+  }
+
+  /* Skills category */
+  .skills-category {
+    page-break-inside: avoid;
+  }
+
+  /* Certifications and companies */
+  .certification-item,
+  .company-item,
+  .experience-item {
+    page-break-inside: avoid;
+    margin-bottom: 12pt;
+  }
+}

@@ -5,6 +5,7 @@ import { useState } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import { LanguageSwitcher } from "@/components/molecules";
+import PrintButton from "@/components/atoms/PrintButton";
 
 export default function Navbar() {
   const [isVisible, setIsVisible] = useState(true);
@@ -93,6 +94,7 @@ export default function Navbar() {
                 {blogLabel}
               </motion.div>
             </Link>
+            <PrintButton />
             <LanguageSwitcher />
           </div>
 

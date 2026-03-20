@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { I18nProvider } from '@/lib/i18n-context';
+import { PrintProvider } from '@/lib/print-context';
 
 export const metadata: Metadata = {
   title: "My Portfolio",
@@ -34,8 +35,10 @@ export default async function RootLayout({
   const messages = await getMessages(locale);
 
   return (
-    <I18nProvider locale={locale} messages={messages}>
-      {children}
-    </I18nProvider>
+    <PrintProvider>
+      <I18nProvider locale={locale} messages={messages}>
+        {children}
+      </I18nProvider>
+    </PrintProvider>
   );
 }
