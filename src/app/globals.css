@@ -322,13 +322,11 @@ body {
   }
 
   /* Gradients and backgrounds - convert to print-friendly colors */
-  .bg-gradient-to-br,
-  .bg-gradient-to-r {
+  .bg-gradient-to-br {
     background: white !important;
   }
 
-  /* Remove all background colors except white */
-  [class*="bg-"] {
+  .bg-gradient-to-r {
     background: white !important;
   }
 
