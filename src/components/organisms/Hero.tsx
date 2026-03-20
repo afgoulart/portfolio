@@ -18,7 +18,7 @@ export default function Hero() {
   const opacityMouse = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
 
   return (
-    <section ref={ref} className="relative flex justify-center items-center min-h-screen overflow-hidden">
+    <section ref={ref} className="relative flex justify-center items-center min-h-screen overflow-hidden print:min-h-auto print:py-6">
       <motion.div style={{ y, opacity }} className="z-10 mx-auto px-4 max-w-4xl text-center">
         <motion.h1
           initial={{ opacity: 0, y: 50 }}
