@@ -11,6 +11,8 @@ export default function About() {
   const t = useTranslations("about");
   const tExperiences = useTranslations("experiences");
   const experiences = [
+    "a1_viagens",
+    "nttdata",
     "skopia",
     "calindra",
     "desygner",

@@ -10,6 +10,20 @@ const basePath = process.env.NODE_ENV === "production" ? "/portfolio" : "";
 
 const companies = [
   {
+    name: "A1 Viagens",
+    description: "Travel Platform",
+    projects: "Travel Solutions • Booking System",
+    logo: `${basePath}/companies/a1viagens.svg`,
+    website: "https://www.a1viagens.com.br",
+  },
+  {
+    name: "NTTData",
+    description: "Consultoria em Tecnologia",
+    projects: "Transformação Digital • Modernização de Sistemas",
+    logo: `${basePath}/companies/nttdata.svg`,
+    website: "https://www.nttdata.com/br",
+  },
+  {
     name: "Skopia Digital",
     description: "EclipseWorks • NScreen",
     projects: "Aviva • Incasa • Banco Master",
@@ -168,7 +182,7 @@ export default function Companies() {
           </div>
 
           <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-4">
-            <div className="text-2xl md:text-3xl font-bold text-purple-400 mb-1">6</div>
+            <div className="text-2xl md:text-3xl font-bold text-purple-400 mb-1">8</div>
             <div className="text-gray-400 text-sm">{t.companies}</div>
           </div>
 
