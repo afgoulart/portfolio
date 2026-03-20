@@ -61,6 +61,35 @@
     "viewCertificate": "View Certificate"
   },
   "experiences": {
+    "a1_viagens": {
+      "title": "Consultant Contract Senior Frontend Engineer",
+      "company": "A1 Viagens",
+      "period": "February 2026 - present",
+      "description": "Acting as a senior frontend engineer on a consultancy basis, developing innovative and scalable solutions for the travel platform. Responsible for optimizing user experience, implementing new features, and leading technical initiatives to improve code quality and performance.",
+      "technologies": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Node.js",
+        "REST API"
+      ]
+    },
+    "nttdata": {
+      "title": "Consultant Developer",
+      "company": "NTTData",
+      "period": "December 2025 - present",
+      "description": "Development of fullstack solutions for corporate clients, focusing on software architecture, performance optimization, and implementation of development best practices. Working on digital transformation projects, legacy system modernization, and cloud technology implementation.",
+      "technologies": [
+        "React",
+        "Node.js",
+        "TypeScript",
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "Microservices"
+      ]
+    },
     "skopia": {
       "title": "Fullstack Specialist Engineer | AWS Architect",
       "company": "Skopia Digital (EclipseWork/NScreen)",
@@ -185,6 +214,10 @@
     }
   },
   "projectsList": [
+    {
+      "title": "Kioto Manager - Student Access Control",
+      "description": "Academy management and student access control system. A responsive web platform for authentication, class scheduling, and attendance tracking."
+    },
     {
       "title": "Reservation System - Aviva Incasa",
       "description": "Development of solutions for residential club reservation system, focusing on UX improvements and performance."

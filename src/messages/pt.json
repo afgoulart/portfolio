@@ -61,6 +61,35 @@
     "viewCertificate": "Ver Certificado"
   },
   "experiences": {
+    "a1_viagens": {
+      "title": "Consultant Contract Senior Frontend Engineer",
+      "company": "A1 Viagens",
+      "period": "Fevereiro 2026 - presente",
+      "description": "Atuo como engenheiro senior de frontend em regime de consultoria, desenvolvendo soluções inovadoras e escaláveis para a plataforma de viagens. Responsável por otimizar a experiência do usuário, implementar novas funcionalidades e liderar iniciativas técnicas para melhorar a performance e qualidade do código.",
+      "technologies": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Node.js",
+        "API REST"
+      ]
+    },
+    "nttdata": {
+      "title": "Consultant Developer",
+      "company": "NTTData",
+      "period": "Dezembro 2025 - presente",
+      "description": "Desenvolvimento de soluções fullstack para clientes corporativos, com foco em arquitetura de software, otimização de performance e implementação de melhores práticas de desenvolvimento. Trabalho em projetos de transformação digital, modernização de sistemas legados e implementação de tecnologias cloud.",
+      "technologies": [
+        "React",
+        "Node.js",
+        "TypeScript",
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "Microserviços"
+      ]
+    },
     "skopia": {
       "title": "Especialista Fullstack Engineer | AWS Architect",
       "company": "Skopia Digital (EclipseWork/NScreen)",
@@ -200,6 +229,10 @@
     }
   },
   "projectsList": [
+    {
+      "title": "Kioto Manager - Controle de Acesso de Alunos",
+      "description": "Sistema de gerenciamento e controle de acesso para alunos da academia Kioto. Plataforma web responsiva para autenticação, agendamento de aulas e acompanhamento de frequência."
+    },
     {
       "title": "Sistema de Reservas - Aviva Incasa",
       "description": "Desenvolvimento de soluções para sistema de reservas de clube residencial, com foco em melhorias de UX e performance."

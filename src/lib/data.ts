@@ -32,6 +32,14 @@ export const skills: Skill[] = [
 
 export const projects: Project[] = [
   {
+    title: "Kioto Manager - Controle de Acesso de Alunos",
+    description: "Sistema de gerenciamento e controle de acesso para alunos da academia Kioto. Plataforma web responsiva para autenticação, agendamento de aulas e acompanhamento de frequência com dashboard administrativo.",
+    image: "/projects/kioto.jpg",
+    technologies: ["React", "Next.js", "TypeScript", "Node.js", "Tailwind CSS"],
+    liveUrl: "https://kioto-academia.vercel.app",
+    githubUrl: "https://github.com/afgoulart/kioto-manager"
+  },
+  {
     title: "Sistema de Reservas - Aviva Incasa",
     description: "Desenvolvimento de soluções para sistema de reservas de clube residencial, com foco em melhorias de UX e performance.",
     image: "/projects/aviva.jpg",

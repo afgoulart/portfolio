@@ -5,3 +5,4 @@ export { default as Card } from './Card';
 export { default as Icon } from './Icon';
 export { default as ProgressBar } from './ProgressBar';
 export { default as StarRating } from './StarRating';
+export { default as PrintButton } from './PrintButton';
