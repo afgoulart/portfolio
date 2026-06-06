@@ -2,13 +2,13 @@
   "hero": {
     "greeting": "Hello, I'm",
     "name": "André Filipe de Moraes Goulart",
-    "subtitle": "Senior Software Engineer with over 10 years of experience in web development, specializing in cutting-edge technologies such as NodeJS, React, Vue, and TypeScript",
+    "subtitle": "Staff Software Engineer with over 10 years of experience in web development, specializing in cutting-edge technologies such as NodeJS, React, Vue, and TypeScript",
     "viewProjects": "View Projects",
     "contact": "Get in Touch"
   },
   "about": {
     "title": "About Me",
-    "subtitle": "Senior Software Engineer",
+    "subtitle": "Staff Software Engineer",
     "description1": "With over 10 years of experience in web development, I have dedicated my career to creating innovative digital solutions and modern, responsive interfaces.",
     "description2": "I specialize in cutting-edge technologies such as NodeJS, React, Vue, and TypeScript. I am passionate about continuous learning and delivering efficient, sustainable solutions that make a tangible impact.",
     "description3": "My family is my greatest inspiration outside of work, driving me to push my boundaries and strive for excellence in everything I do.",
@@ -62,24 +62,27 @@
   },
   "experiences": {
     "a1_viagens": {
-      "title": "Consultant Contract Senior Frontend Engineer",
+      "title": "Specialist Frontend Engineer",
       "company": "A1 Viagens",
-      "period": "February 2026 - present",
-      "description": "Acting as a senior frontend engineer on a consultancy basis, developing innovative and scalable solutions for the travel platform. Responsible for optimizing user experience, implementing new features, and leading technical initiatives to improve code quality and performance.",
+      "period": "February 2026 - May 2025",
+      "description": "Acted as a specialist frontend engineer, leading AI automation initiatives, implementing automated tests, and continuous improvements for the platform. Responsible for Stripe payment processing integration, test development with Cypress and Playwright, and workflow automation with GitHub Actions.",
       "technologies": [
         "React",
         "Next.js",
         "TypeScript",
         "Tailwind CSS",
         "Node.js",
-        "REST API"
+        "Stripe",
+        "Cypress",
+        "Playwright",
+        "GitHub Actions"
       ]
     },
     "nttdata": {
-      "title": "Consultant Developer",
+      "title": "Tech Lead",
       "company": "NTTData",
-      "period": "December 2025 - present",
-      "description": "Development of fullstack solutions for corporate clients, focusing on software architecture, performance optimization, and implementation of development best practices. Working on digital transformation projects, legacy system modernization, and cloud technology implementation.",
+      "period": "December 2025 - Present",
+      "description": "Technical leadership of frontend and backend squads at Itau. Responsible for architecture, development standards definition, and team mentoring. Working on system modernization projects, implementing scalable architectures, and development best practices.",
       "technologies": [
         "React",
         "Node.js",
@@ -93,7 +96,7 @@
     "skopia": {
       "title": "Fullstack Specialist Engineer | AWS Architect",
       "company": "Skopia Digital (EclipseWork/NScreen)",
-      "period": "December 2024 - present",
+      "period": "December 2024 - November 2025",
       "description": "Specialized consultancy in fullstack development and AWS architecture. Worked on two main projects: at Banco Master developing a modern banking application with Angular for account management and transactions; and at Aviva (Incasa Residencial Clube) creating solutions with React and NestJS to optimize the reservation system and improve the user experience for the residential club members.",
       "technologies": [
         "React",
@@ -109,12 +112,13 @@
       "title": "Senior Frontend Engineer",
       "company": "Calindra",
       "period": "July 2024 - November 2024",
-      "description": "As part of Calindra, a consultancy firm, I am allocated to a client (Tania Bulhões), where I propose ideas and create solutions to improve their e-commerce website. I collaborate with clients to understand their needs, delivering impactful technical solutions to enhance user experience and streamline site performance.",
+      "description": "As part of Calindra, a consultancy firm, I was allocated to a client (Tania Bulhões), where I proposed ideas and created solutions to improve their e-commerce website. Implemented Stripe payment processing integration, optimized performance, and enhanced user experience.",
       "technologies": [
         "React",
         "Vue.js",
         "TypeScript",
         "E-commerce",
+        "Stripe",
         "UX/UI"
       ]
     },
@@ -143,6 +147,19 @@
         "Next.js",
         "React",
         "Tailwind CSS"
+      ]
+    },
+    "mosaico_specialist": {
+      "title": "Specialist Fullstack Engineer",
+      "company": "Mosaico",
+      "period": "January 2023 - June 2023",
+      "description": "Led the restructuring of the authentication system, implementing new login strategies to improve security and user experience.",
+      "technologies": [
+        "React",
+        "Node.js",
+        "TypeScript",
+        "Authentication",
+        "Technical Specialist"
       ]
     },
     "mosaico_tech_lead": {
@@ -189,7 +206,7 @@
     "b2w_frontend": {
       "title": "Front-end Developer Junior",
       "company": "B2W Digital",
-      "period": "August 2014 - July 2017",
+      "period": "February 2015 - October 2017",
       "description": "Worked on the Submarino Project using JAVA, HTML, CSS, JavaScript, and jQuery. Later, joined a team to create a new application using React and NodeJS.",
       "technologies": [
         "Java",

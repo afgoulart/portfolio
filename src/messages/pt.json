@@ -2,13 +2,13 @@
   "hero": {
     "greeting": "Olá, eu sou",
     "name": "André Filipe de Moraes Goulart",
-    "subtitle": "Engenheiro de Software Sênior com mais de 10 anos de experiência em desenvolvimento web, especialista em tecnologias modernas como NodeJS, React, Vue e TypeScript",
+    "subtitle": "Staff Software Engineer com mais de 10 anos de experiência em desenvolvimento web, especialista em tecnologias modernas como NodeJS, React, Vue e TypeScript",
     "viewProjects": "Ver Projetos",
     "contact": "Entre em Contato"
   },
   "about": {
     "title": "Sobre Mim",
-    "subtitle": "Engenheiro de Software Sênior",
+    "subtitle": "Staff Software Engineer",
     "description1": "Com mais de 10 anos de experiência em desenvolvimento web, tenho me dedicado a criar soluções digitais inovadoras e interfaces modernas e responsivas.",
     "description2": "Especializado em tecnologias modernas como NodeJS, React, Vue e TypeScript, busco sempre aprender continuamente e entregar soluções eficientes e sustentáveis que causem impacto positivo.",
     "description3": "Minha maior inspiração é minha família, que me motiva a superar desafios e buscar a excelência em tudo o que faço.",
@@ -62,24 +62,27 @@
   },
   "experiences": {
     "a1_viagens": {
-      "title": "Consultant Contract Senior Frontend Engineer",
+      "title": "Specialist Frontend Engineer",
       "company": "A1 Viagens",
-      "period": "Fevereiro 2026 - presente",
-      "description": "Atuo como engenheiro senior de frontend em regime de consultoria, desenvolvendo soluções inovadoras e escaláveis para a plataforma de viagens. Responsável por otimizar a experiência do usuário, implementar novas funcionalidades e liderar iniciativas técnicas para melhorar a performance e qualidade do código.",
+      "period": "Fevereiro 2026 - Maio 2025",
+      "description": "Atuei como engenheiro especialista em frontend, liderando iniciativas de automação com IA, implementação de testes automatizados e melhorias contínuas na plataforma. Responsável pela integração do Stripe para processamento de pagamentos, desenvolvimento de testes com Cypress e Playwright, e automação de fluxos com GitHub Actions.",
       "technologies": [
         "React",
         "Next.js",
         "TypeScript",
         "Tailwind CSS",
         "Node.js",
-        "API REST"
+        "Stripe",
+        "Cypress",
+        "Playwright",
+        "GitHub Actions"
       ]
     },
     "nttdata": {
-      "title": "Consultant Developer",
+      "title": "Tech Lead",
       "company": "NTTData",
-      "period": "Dezembro 2025 - presente",
-      "description": "Desenvolvimento de soluções fullstack para clientes corporativos, com foco em arquitetura de software, otimização de performance e implementação de melhores práticas de desenvolvimento. Trabalho em projetos de transformação digital, modernização de sistemas legados e implementação de tecnologias cloud.",
+      "period": "Dezembro 2025 - Presente",
+      "description": "Liderança técnica de squads frontend e backend no Itaú. Responsável pela arquitetura, definição de padrões de desenvolvimento e mentoria de times. Trabalho em projetos de modernização de sistemas, implementação de arquiteturas escaláveis e best practices de desenvolvimento.",
       "technologies": [
         "React",
         "Node.js",
@@ -93,7 +96,7 @@
     "skopia": {
       "title": "Especialista Fullstack Engineer | AWS Architect",
       "company": "Skopia Digital (EclipseWork/NScreen)",
-      "period": "Dezembro 2024 - presente",
+      "period": "Dezembro 2024 - Novembro 2025",
       "description": "Consultoria especializada em desenvolvimento fullstack e arquitetura AWS. Trabalhei em dois projetos principais: no Banco Master desenvolvendo uma aplicação bancária moderna com Angular para gestão de contas e transações; e na Aviva (Incasa Residencial Clube) criando soluções com React e NestJS para otimizar o sistema de reservas e melhorar a experiência dos usuários do clube residencial.",
       "technologies": [
         "React",
@@ -109,12 +112,13 @@
       "title": "Senior Frontend Engineer",
       "company": "Calindra",
       "period": "Julho 2024 - Novembro 2024",
-      "description": "Atuei como parte de uma consultoria, alocado no cliente Tania Bulhões, onde propus ideias e criei soluções para melhorar o site de e-commerce da empresa. Colaborei diretamente com o cliente para entender suas necessidades e entregar soluções técnicas impactantes para otimizar a experiência do usuário e o desempenho do site.",
+      "description": "Atuei como parte de uma consultoria, alocado no cliente Tania Bulhões, onde propus ideias e criei soluções para melhorar o site de e-commerce da empresa. Implementação de integração com Stripe para processamento de pagamentos, otimização de performance e melhorias na experiência do usuário.",
       "technologies": [
         "React",
         "Vue.js",
         "TypeScript",
         "E-commerce",
+        "Stripe",
         "UX/UI"
       ]
     },
@@ -148,7 +152,7 @@
     "mosaico_specialist": {
       "title": "Especialista Fullstack Engineer",
       "company": "Mosaico",
-      "period": "Janeiro 2023 - Maio 2023",
+      "period": "Janeiro 2023 - Junho 2023",
       "description": "Liderei a reestruturação do sistema de autenticação, implementando novas estratégias de login para melhorar a segurança e a experiência do usuário.",
       "technologies": [
         "React",
@@ -161,7 +165,7 @@
     "mosaico_tech_lead": {
       "title": "Tech Lead",
       "company": "Mosaico",
-      "period": "Janeiro 2022 - Dezembro 2022",
+      "period": "Janeiro 2022 - Janeiro 2023",
       "description": "Liderei a equipe responsável pelo desenvolvimento de sistemas de autenticação e áreas logadas. Promovi melhorias nos processos e funcionalidades por meio da colaboração interdepartamental. Fui referência técnica para duas equipes, oferecendo suporte e orientação para aprimorar as habilidades técnicas dos desenvolvedores.",
       "technologies": [
         "React",
@@ -202,7 +206,7 @@
     "b2w_frontend": {
       "title": "Frontend Developer Pleno",
       "company": "B2W Digital",
-      "period": "Agosto 2014 - Setembro 2017",
+      "period": "Fevereiro 2015 - Outubro 2017",
       "description": "Assumi à liderança técnica de três projetos, Spacey (CMS para publicações do marketing) e gerenciador de promoções. Trabalhei no projeto Submarino usando JAVA, HTML, CSS, JavaScript e jQuery.",
       "technologies": [
         "React",
