@@ -100,7 +100,7 @@ export default function Companies() {
   const t = texts[locale as keyof typeof texts] || texts.pt;
 
   return (
-    <section id="companies" className="py-20 px-4 max-w-7xl mx-auto bg-gradient-to-b from-transparent to-gray-900/20">
+    <section id="companies" className="py-20 px-4 max-w-7xl mx-auto bg-gradient-to-b from-transparent to-gray-900/20 print:py-4 print:px-0 print:bg-white">
       <motion.div
         ref={ref}
         initial={{ opacity: 0, y: 50 }}

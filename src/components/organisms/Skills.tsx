@@ -29,7 +29,7 @@ export default function Skills() {
     : skills.filter(skill => skill.category === selectedCategory);
 
   return (
-    <section id="skills" className="py-20 px-4 max-w-7xl mx-auto">
+    <section id="skills" className="py-20 px-4 max-w-7xl mx-auto print:py-4 print:px-0">
       <motion.div
         ref={ref}
         initial={{ opacity: 0, y: 50 }}
