@@ -64,7 +64,7 @@
     "a1_viagens": {
       "title": "Specialist Frontend Engineer",
       "company": "A1 Viagens",
-      "period": "February 2026 - May 2025",
+      "period": "February 2026 - May 2026",
       "description": "Acted as a specialist frontend engineer, leading AI automation initiatives, implementing automated tests, and continuous improvements for the platform. Responsible for Stripe payment processing integration, test development with Cypress and Playwright, and workflow automation with GitHub Actions.",
       "technologies": [
         "React",
@@ -81,7 +81,7 @@
     "nttdata": {
       "title": "Tech Lead",
       "company": "NTTData",
-      "period": "December 2025 - Present",
+      "period": "December 2025 - June 2026",
       "description": "Technical leadership of frontend and backend squads at Itau. Responsible for architecture, development standards definition, and team mentoring. Working on system modernization projects, implementing scalable architectures, and development best practices.",
       "technologies": [
         "React",
@@ -231,6 +231,10 @@
     }
   },
   "projectsList": [
+    {
+      "title": "Vagas Lume",
+      "description": "Job board platform for developers, featuring LLM-powered job attribute extraction, SEO-optimized search, and a secure authentication system."
+    },
     {
       "title": "Kioto Manager - Student Access Control",
       "description": "Academy management and student access control system. A responsive web platform for authentication, class scheduling, and attendance tracking."

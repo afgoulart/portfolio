@@ -38,6 +38,13 @@ export const skills: Skill[] = [
 
 export const projects: Project[] = [
   {
+    title: "Vagas Lume",
+    description: "Plataforma de vagas de emprego para desenvolvedores, com extração de atributos de vagas via LLM, busca otimizada para SEO e sistema de autenticação seguro. Desenvolvida com automações e IA (Claude Code) para acelerar o processo de curadoria e publicação de vagas.",
+    image: "/projects/vagaslume.jpg",
+    technologies: ["React", "Next.js", "TypeScript", "Python", "Supabase", "Vercel", "Claude Code", "SEO"],
+    liveUrl: "https://vagaslume.tech"
+  },
+  {
     title: "Kioto Manager - Controle de Acesso de Alunos",
     description: "Sistema de gerenciamento e controle de acesso para alunos da academia Kioto. Plataforma web responsiva para autenticação, agendamento de aulas e acompanhamento de frequência com dashboard administrativo.",
     image: "/projects/kioto.jpg",
