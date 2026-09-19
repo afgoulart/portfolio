@@ -12,18 +12,23 @@ export const skills: Skill[] = [
   { name: "Tailwind CSS", level: 85, category: 'frontend' },
   { name: "HTML", level: 95, category: 'frontend' },
   { name: "CSS", level: 95, category: 'frontend' },
-  { name: "Angular", level: 75, category: 'frontend' },
+  { name: "Angular", level: 80, category: 'frontend' },
   { name: "Styled-components", level: 85, category: 'frontend' },
+  { name: "Cypress", level: 85, category: 'frontend' },
+  { name: "Playwright", level: 85, category: 'frontend' },
   { name: "Node.js", level: 88, category: 'backend' },
   { name: "Express", level: 90, category: 'backend' },
   { name: "Python", level: 75, category: 'backend' },
   { name: "Java", level: 55, category: 'backend' },
   { name: "AWS", level: 80, category: 'backend' },
   { name: "Stripe", level: 85, category: 'backend' },
+  { name: "Kubernetes", level: 80, category: 'backend' },
   { name: "Git", level: 90, category: 'tools' },
   { name: "CI/CD", level: 85, category: 'tools' },
+  { name: "GitHub Actions", level: 85, category: 'tools' },
   { name: "Storybook", level: 80, category: 'tools' },
   { name: "Nx", level: 75, category: 'tools' },
+  { name: "Vercel", level: 85, category: 'tools' },
   { name: "Testes Automatizados", level: 85, category: 'tools' },
   { name: "Claude Code", level: 80, category: 'other' },
   { name: "Amazon Q", level: 80, category: 'other' },
@@ -32,6 +37,13 @@ export const skills: Skill[] = [
 ];
 
 export const projects: Project[] = [
+  {
+    title: "Vagas Lume",
+    description: "Plataforma de vagas de emprego para desenvolvedores, com extração de atributos de vagas via LLM, busca otimizada para SEO e sistema de autenticação seguro. Desenvolvida com automações e IA (Claude Code) para acelerar o processo de curadoria e publicação de vagas.",
+    image: "/projects/vagaslume.jpg",
+    technologies: ["React", "Next.js", "TypeScript", "Python", "Supabase", "Vercel", "Claude Code", "SEO"],
+    liveUrl: "https://vagaslume.tech"
+  },
   {
     title: "Kioto Manager - Controle de Acesso de Alunos",
     description: "Sistema de gerenciamento e controle de acesso para alunos da academia Kioto. Plataforma web responsiva para autenticação, agendamento de aulas e acompanhamento de frequência com dashboard administrativo.",

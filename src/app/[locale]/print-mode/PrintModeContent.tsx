@@ -11,75 +11,71 @@ import {
 
 export default function PrintModeContent() {
   return (
-    <main className="overflow-hidden bg-white text-black print:bg-white">
-      <style>{`
-        @media print {
-          body { background: white; color: black; }
-          main { background: white; color: black; }
-        }
-      `}</style>
+    <main className="bg-white text-gray-900 print:bg-white">
+      {/* Document-style background */}
+      <div className="min-h-screen bg-white">
+        {/* Resume Header */}
+        <ResumeHeader />
 
-      {/* Resume Header */}
-      <ResumeHeader />
+        {/* Main Content - Document Style */}
+        <div className="max-w-4xl mx-auto px-8 py-12 print:py-8 print:px-6">
+          {/* Professional Summary */}
+          <section className="mb-8 pb-8 border-b border-gray-300">
+            <h2 className="text-xl font-bold text-gray-900 mb-4 uppercase tracking-wide">
+              Professional Summary
+            </h2>
+            <p className="text-gray-800 leading-relaxed text-justify">
+              Experienced Full Stack Developer and Tech Lead with extensive experience building scalable web applications.
+              Specialized in React, Node.js, TypeScript, and cloud technologies. Proven track record of leading technical teams
+              and delivering high-impact projects for startups and enterprises across multiple industries.
+            </p>
+          </section>
 
-      {/* Main Content - Compact */}
-      <div className="max-w-4xl mx-auto px-4 py-8 print:py-4 print:px-4">
-        {/* Professional Summary */}
-        <section className="mb-8 print:mb-4">
-          <h2 className="text-lg font-bold text-black border-b-2 border-gray-400 pb-2 mb-4">
-            PROFESSIONAL SUMMARY
-          </h2>
-          <p className="text-sm text-gray-800 leading-relaxed">
-            Experienced Full Stack Developer and Tech Lead with extensive experience building scalable web applications.
-            Specialized in React, Node.js, TypeScript, and cloud technologies. Proven track record of leading technical teams
-            and delivering high-impact projects for startups and enterprises across multiple industries.
-          </p>
-        </section>
+          {/* Experience */}
+          <section className="mb-8 pb-8 border-b border-gray-300">
+            <h2 className="text-xl font-bold text-gray-900 mb-6 uppercase tracking-wide">
+              Professional Experience
+            </h2>
+            <About />
+          </section>
 
-        {/* Experience */}
-        <section className="mb-8 print:mb-4">
-          <h2 className="text-lg font-bold text-black border-b-2 border-gray-400 pb-2 mb-4">
-            PROFESSIONAL EXPERIENCE
-          </h2>
-          <About />
-        </section>
+          {/* Skills */}
+          <section className="mb-8 pb-8 border-b border-gray-300">
+            <h2 className="text-xl font-bold text-gray-900 mb-6 uppercase tracking-wide">
+              Technical Skills
+            </h2>
+            <Skills />
+          </section>
 
-        {/* Skills */}
-        <section className="mb-8 print:mb-4">
-          <h2 className="text-lg font-bold text-black border-b-2 border-gray-400 pb-2 mb-4">
-            TECHNICAL SKILLS
-          </h2>
-          <Skills />
-        </section>
+          {/* Companies */}
+          <section className="mb-8 pb-8 border-b border-gray-300">
+            <h2 className="text-xl font-bold text-gray-900 mb-6 uppercase tracking-wide">
+              Companies & Projects
+            </h2>
+            <Companies />
+          </section>
 
-        {/* Companies */}
-        <section className="mb-8 print:mb-4">
-          <h2 className="text-lg font-bold text-black border-b-2 border-gray-400 pb-2 mb-4">
-            COMPANIES & PROJECTS
-          </h2>
-          <Companies />
-        </section>
+          {/* Certifications */}
+          <section className="mb-8 pb-8 border-b border-gray-300">
+            <h2 className="text-xl font-bold text-gray-900 mb-6 uppercase tracking-wide">
+              Certifications & Training
+            </h2>
+            <Certifications />
+          </section>
 
-        {/* Certifications */}
-        <section className="mb-8 print:mb-4">
-          <h2 className="text-lg font-bold text-black border-b-2 border-gray-400 pb-2 mb-4">
-            CERTIFICATIONS & TRAINING
-          </h2>
-          <Certifications />
-        </section>
+          {/* Contact */}
+          <section className="mb-0">
+            <h2 className="text-xl font-bold text-gray-900 mb-6 uppercase tracking-wide">
+              Contact
+            </h2>
+            <Contact />
+          </section>
+        </div>
 
-        {/* Contact */}
-        <section className="mb-8 print:mb-4">
-          <h2 className="text-lg font-bold text-black border-b-2 border-gray-400 pb-2 mb-4">
-            GET IN TOUCH
-          </h2>
-          <Contact />
-        </section>
-      </div>
-
-      {/* Footer */}
-      <div className="w-full py-4 px-4 border-t border-gray-300 text-center text-xs text-gray-500 print:py-2">
-        <p>Generated from portfolio • {new Date().getFullYear()}</p>
+        {/* Footer */}
+        <div className="bg-gray-100 py-4 px-8 text-center text-xs text-gray-600 print:py-2">
+          <p>Professional Resume • Generated from Portfolio</p>
+        </div>
       </div>
     </main>
   );
