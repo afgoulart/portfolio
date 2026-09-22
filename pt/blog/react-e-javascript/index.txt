@@ -1,0 +1,221 @@
+1:"$Sreact.fragment"
+2:I[26817,["/portfolio/_next/static/chunks/b01d8231a23ddbc2.js","/portfolio/_next/static/chunks/ba7fd018c64ec117.js","/portfolio/_next/static/chunks/c6aefc19dd72e5a4.js","/portfolio/_next/static/chunks/12cfb141aee9bf3f.js","/portfolio/_next/static/chunks/e923f2f936f03890.js"],"default"]
+3:I[54289,["/portfolio/_next/static/chunks/504003311425f84c.js","/portfolio/_next/static/chunks/db40686d3c8a0b66.js"],"default"]
+4:I[26237,["/portfolio/_next/static/chunks/504003311425f84c.js","/portfolio/_next/static/chunks/db40686d3c8a0b66.js"],"default"]
+7:I[17625,["/portfolio/_next/static/chunks/504003311425f84c.js","/portfolio/_next/static/chunks/db40686d3c8a0b66.js"],"OutletBoundary"]
+9:I[14287,["/portfolio/_next/static/chunks/504003311425f84c.js","/portfolio/_next/static/chunks/db40686d3c8a0b66.js"],"AsyncMetadataOutlet"]
+b:I[17625,["/portfolio/_next/static/chunks/504003311425f84c.js","/portfolio/_next/static/chunks/db40686d3c8a0b66.js"],"ViewportBoundary"]
+d:I[17625,["/portfolio/_next/static/chunks/504003311425f84c.js","/portfolio/_next/static/chunks/db40686d3c8a0b66.js"],"MetadataBoundary"]
+e:"$Sreact.suspense"
+10:I[53973,["/portfolio/_next/static/chunks/b01d8231a23ddbc2.js"],"default"]
+:HL["/portfolio/_next/static/chunks/30e919345c87b1df.css","style"]
+:HL["/portfolio/_next/static/media/GeistMono_Variable.p.2f937313.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/portfolio/_next/static/media/Geist_Variable-s.p.92592eb2.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"sZqRf0LtnDB4Pmg2xlAF5","p":"/portfolio","c":["","pt","blog","react-e-javascript",""],"i":false,"f":[[["",{"children":[["locale","pt","d"],{"children":["blog",{"children":[["slug","react-e-javascript","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/chunks/30e919345c87b1df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/portfolio/_next/static/chunks/b01d8231a23ddbc2.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"pt","children":["$","body",null,{"className":"geistsans_d5a4f12f-module__l7m1TG__variable geistmono_157ca88a-module__cYDrWG__variable antialiased bg-gray-900 text-white","children":[["$","$L2",null,{}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":[["locale","pt","d"],["$","$1","c",{"children":[[["$","script","script-0",{"src":"/portfolio/_next/static/chunks/ba7fd018c64ec117.js","async":true,"nonce":"$undefined"}]],"$L5"]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","react-e-javascript","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/portfolio/_next/static/chunks/c6aefc19dd72e5a4.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/portfolio/_next/static/chunks/12cfb141aee9bf3f.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/portfolio/_next/static/chunks/e923f2f936f03890.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$L8",["$","$L9",null,{"promise":"$@a"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$Ld",null,{"children":["$","div",null,{"hidden":true,"children":["$","$e",null,{"fallback":null,"children":"$Lf"}]}]}]]}],false]],"m":"$undefined","G":["$10",[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/chunks/30e919345c87b1df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"s":false,"S":true}
+11:I[5431,["/portfolio/_next/static/chunks/b01d8231a23ddbc2.js","/portfolio/_next/static/chunks/ba7fd018c64ec117.js","/portfolio/_next/static/chunks/c6aefc19dd72e5a4.js","/portfolio/_next/static/chunks/12cfb141aee9bf3f.js","/portfolio/_next/static/chunks/e923f2f936f03890.js"],"default"]
+12:I[42607,["/portfolio/_next/static/chunks/b01d8231a23ddbc2.js","/portfolio/_next/static/chunks/ba7fd018c64ec117.js","/portfolio/_next/static/chunks/c6aefc19dd72e5a4.js","/portfolio/_next/static/chunks/12cfb141aee9bf3f.js","/portfolio/_next/static/chunks/e923f2f936f03890.js"],"default"]
+13:I[97181,["/portfolio/_next/static/chunks/b01d8231a23ddbc2.js","/portfolio/_next/static/chunks/ba7fd018c64ec117.js","/portfolio/_next/static/chunks/c6aefc19dd72e5a4.js","/portfolio/_next/static/chunks/12cfb141aee9bf3f.js","/portfolio/_next/static/chunks/e923f2f936f03890.js"],"default"]
+14:T2312,<h1>React e JavaScript: O Guia Completo para Dominar o Desenvolvimento Frontend Moderno</h1>
+<p>O desenvolvimento web frontend passou por uma verdadeira revolução nas últimas décadas, e no centro dessa transformação está a poderosa combinação entre <strong>React</strong> e <strong>JavaScript</strong>. Se você é desenvolvedor ou está começando na área, entender essa dupla dinâmica é fundamental para se destacar no mercado atual.</p>
+<p>React, criado pelo Facebook (atual Meta) em 2013, não é apenas mais uma biblioteca JavaScript – é uma mudança de paradigma que redefiniu como pensamos sobre interfaces de usuário. Combinado com a versatilidade e evolução constante do JavaScript, React se tornou a escolha preferida de gigantes como Netflix, Airbnb, Instagram e milhares de outras empresas ao redor do mundo.</p>
+<p>Neste artigo, vamos explorar profundamente essa relação simbiótica, desde os conceitos fundamentais até aplicações práticas que você pode implementar hoje mesmo em seus projetos.</p>
+<h2>O que é React e Como Se Relaciona com JavaScript</h2>
+<p>React é uma <strong>biblioteca JavaScript</strong> focada na construção de interfaces de usuário, especialmente para aplicações web de página única (SPAs). Mas o que torna React especial não é apenas o que ele faz, mas <em>como</em> ele faz.</p>
+<h3>A Filosofia Component-Based</h3>
+<p>O React introduziu o conceito de <strong>componentes reutilizáveis</strong> de forma mainstream no desenvolvimento web. Em vez de pensar em páginas monolíticas, você constrói pequenos blocos independentes que podem ser combinados para criar interfaces complexas.</p>
+<pre><code class="language-javascript">// Exemplo de componente React simples
+function WelcomeMessage({ name }) {
+  return (
+    &#x3C;div className="welcome">
+      &#x3C;h1>Olá, {name}!&#x3C;/h1>
+      &#x3C;p>Bem-vindo ao mundo do React!&#x3C;/p>
+    &#x3C;/div>
+  );
+}
+
+// Uso do componente
+function App() {
+  return (
+    &#x3C;div>
+      &#x3C;WelcomeMessage name="Maria" />
+      &#x3C;WelcomeMessage name="João" />
+    &#x3C;/div>
+  );
+}
+</code></pre>
+<h3>JavaScript Moderno no React</h3>
+<p>React aproveitou e impulsionou a adoção de recursos modernos do JavaScript, como:</p>
+<ul>
+<li><strong>ES6+ Features</strong>: Arrow functions, destructuring, template literals</li>
+<li><strong>Modules</strong>: Import/export para organização do código</li>
+<li><strong>Promises e Async/Await</strong>: Para gerenciamento de operações assíncronas</li>
+<li><strong>Spread Operator</strong>: Para manipulação eficiente de arrays e objetos</li>
+</ul>
+<h2>Vantagens da Combinação React + JavaScript</h2>
+<h3>1. Virtual DOM: Performance Revolucionária</h3>
+<p>Uma das maiores inovações do React é o <strong>Virtual DOM</strong> – uma representação em memória do DOM real. Isso permite que React:</p>
+<ul>
+<li>Compare eficientemente o estado atual com o anterior (processo chamado "diffing")</li>
+<li>Atualize apenas os elementos que realmente mudaram</li>
+<li>Ofereça performance superior mesmo em aplicações complexas</li>
+</ul>
+<pre><code class="language-javascript">// O React otimiza automaticamente estas atualizações
+function Counter() {
+  const [count, setCount] = useState(0);
+  
+  return (
+    &#x3C;div>
+      &#x3C;p>Você clicou {count} vezes&#x3C;/p>
+      &#x3C;button onClick={() => setCount(count + 1)}>
+        Clique aqui
+      &#x3C;/button>
+    &#x3C;/div>
+  );
+}
+</code></pre>
+<h3>2. Ecosystem Robusto</h3>
+<p>O ecossistema JavaScript oferece ao React:</p>
+<ul>
+<li><strong>NPM</strong>: Maior repositório de pacotes do mundo</li>
+<li><strong>Webpack/Vite</strong>: Bundlers avançados para otimização</li>
+<li><strong>Testing Libraries</strong>: Jest, React Testing Library</li>
+<li><strong>State Management</strong>: Redux, Zustand, Context API</li>
+</ul>
+<h3>3. Flexibilidade e Escalabilidade</h3>
+<p>React não é um framework opinativo como Angular. Isso significa que você pode:</p>
+<ul>
+<li>Integrar gradualmente em projetos existentes</li>
+<li>Escolher suas próprias bibliotecas auxiliares</li>
+<li>Escalar desde pequenos componentes até aplicações enterprise</li>
+</ul>
+<h2>Casos de Uso Práticos e Exemplos Reais</h2>
+<h3>Dashboard Administrativo</h3>
+<p>Imagine que você precisa criar um dashboard para gerenciar vendas. Com React + JavaScript, você pode:</p>
+<pre><code class="language-javascript">import React, { useState, useEffect } from 'react';
+
+function SalesDashboard() {
+  const [salesData, setSalesData] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulando uma API call
+    fetch('/api/sales')
+      .then(response => response.json())
+      .then(data => {
+        setSalesData(data);
+        setLoading(false);
+      });
+  }, []);
+
+  if (loading) return &#x3C;div>Carregando...&#x3C;/div>;
+
+  return (
+    &#x3C;div className="dashboard">
+      &#x3C;h2>Dashboard de Vendas&#x3C;/h2>
+      {salesData.map(sale => (
+        &#x3C;SaleCard key={sale.id} sale={sale} />
+      ))}
+    &#x3C;/div>
+  );
+}
+</code></pre>
+<h3>E-commerce com Carrinho de Compras</h3>
+<p>React brilha em aplicações que requerem gerenciamento de estado complexo:</p>
+<pre><code class="language-javascript">function ShoppingCart() {
+  const [items, setItems] = useState([]);
+  
+  const addItem = (product) => {
+    setItems(prevItems => [...prevItems, product]);
+  };
+  
+  const total = items.reduce((sum, item) => sum + item.price, 0);
+  
+  return (
+    &#x3C;div>
+      &#x3C;h3>Carrinho: {items.length} itens&#x3C;/h3>
+      &#x3C;p>Total: R$ {total.toFixed(2)}&#x3C;/p>
+    &#x3C;/div>
+  );
+}
+</code></pre>
+<h3>Aplicações Real-time</h3>
+<p>Com JavaScript moderno e React, criar aplicações em tempo real ficou mais simples:</p>
+<pre><code class="language-javascript">function ChatApp() {
+  const [messages, setMessages] = useState([]);
+  
+  useEffect(() => {
+    const socket = new WebSocket('ws://localhost:8080');
+    
+    socket.onmessage = (event) => {
+      const newMessage = JSON.parse(event.data);
+      setMessages(prev => [...prev, newMessage]);
+    };
+    
+    return () => socket.close();
+  }, []);
+  
+  return (
+    &#x3C;div>
+      {messages.map(msg => (
+        &#x3C;div key={msg.id}>{msg.text}&#x3C;/div>
+      ))}
+    &#x3C;/div>
+  );
+}
+</code></pre>
+<h2>Tendências e Futuro do React com JavaScript</h2>
+<p>O ecossistema React continua evoluindo rapidamente:</p>
+<h3>Server-Side Rendering (SSR)</h3>
+<p>Frameworks como <strong>Next.js</strong> combinam React com renderização no servidor, oferecendo:</p>
+<ul>
+<li>Melhor SEO</li>
+<li>Performance inicial superior</li>
+<li>Experiência de usuário aprimorada</li>
+</ul>
+<h3>React Hooks</h3>
+<p>Os Hooks revolucionaram como escrevemos componentes React, permitindo:</p>
+<ul>
+<li>Reutilização de lógica entre componentes</li>
+<li>Código mais limpo e funcional</li>
+<li>Melhor separação de responsabilidades</li>
+</ul>
+<h3>Concurrent Features</h3>
+<p>React 18 introduziu recursos como:</p>
+<ul>
+<li>Suspense para carregamento de dados</li>
+<li>Automatic Batching</li>
+<li>Concurrent Rendering</li>
+</ul>
+<h2>Conclusão</h2>
+<p>A combinação entre React e JavaScript representa muito mais do que apenas tecnologias complementares – é uma sinergia que redefiniu o desenvolvimento frontend moderno. React aproveitou o melhor do JavaScript para criar uma biblioteca poderosa, enquanto JavaScript evoluiu para suportar melhor as necessidades do desenvolvimento de interfaces modernas.</p>
+<p>Para desenvolvedores, dominar essa dupla significa:</p>
+<ul>
+<li><strong>Oportunidades de carreira abundantes</strong>: React está entre as tecnologias mais demandadas</li>
+<li><strong>Versatilidade</strong>: Da web mobile ao desktop com React Native</li>
+<li><strong>Comunidade ativa</strong>: Suporte constante e recursos de aprendizado</li>
+<li><strong>Evolução contínua</strong>: Tecnologias que se mantêm relevantes</li>
+</ul>
+<p>Seja você um iniciante ou um desenvolvedor experiente, investir tempo em aprender React e JavaScript moderno é uma das melhores decisões que você pode tomar para sua carreira em tecnologia. A curva de aprendizado pode parecer íngreme inicialmente, mas os benefícios a longo prazo são incomparáveis.</p>
+<p>O futuro do desenvolvimento web está sendo construído sobre essas bases sólidas, e agora é o momento perfeito para fazer parte dessa revolução.</p>
+<hr>
+<h2>Fontes e Links Úteis</h2>
+<ul>
+<li><a href="https://react.dev/">Documentação Oficial do React</a></li>
+<li><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">MDN Web Docs - JavaScript</a></li>
+<li><a href="https://2023.stateofjs.com/">State of JS Survey 2023</a></li>
+<li><a href="https://github.com/facebook/react">React GitHub Repository</a></li>
+<li><a href="https://nextjs.org/docs">Next.js Documentation</a></li>
+<li><a href="https://javascript.info/">JavaScript Info - Tutorial Moderno</a></li>
+</ul>
+6:["$","$L11",null,{"children":[["$","$L12",null,{}],["$","main",null,{"className":"overflow-x-hidden","children":[["$","$L13",null,{"post":{"slug":"react-e-javascript","locale":"pt","title":"React e JavaScript: O Guia Completo para Dominar o Desenvolvimento Frontend Moderno","date":"2025-09-22","author":"Tech Blog Bot","tags":["React","JavaScript","Frontend","Desenvolvimento Web","UI/UX"],"excerpt":"Descubra como React revolucionou o desenvolvimento web e por que a combinação React + JavaScript é essencial para desenvolvedores modernos. Guia completo com exemplos práticos.","content":"$14"}}],"$L15"]}]]}]
+16:I[19924,["/portfolio/_next/static/chunks/b01d8231a23ddbc2.js","/portfolio/_next/static/chunks/ba7fd018c64ec117.js","/portfolio/_next/static/chunks/c6aefc19dd72e5a4.js","/portfolio/_next/static/chunks/12cfb141aee9bf3f.js","/portfolio/_next/static/chunks/e923f2f936f03890.js"],"default"]
+15:["$","$L16",null,{"locale":"pt","prevPost":{"slug":"privacy-and-security-risks-in-the-esim-ecosystem-pdf","title":"eSIM: Riscos de Privacidade e Segurança que Você Precisa Conhecer em 2024","date":"2025-09-22","author":"Tech Blog Bot","tags":["eSIM","segurança digital","privacidade","telecomunicações","cibersegurança"],"excerpt":"Descubra os principais riscos de privacidade e segurança no ecossistema eSIM e como se proteger das vulnerabilidades desta tecnologia emergente.","filename":"2025-09-22-privacy-and-security-risks-in-the-esim-ecosystem-pdf.md"},"nextPost":{"slug":"inovacoes-em-ia","title":"Inovações em IA 2024: As 7 Tecnologias que Estão Revolucionando o Mundo","date":"2025-09-08","author":"Tech Blog Bot","tags":["inteligencia-artificial","inovacao","tecnologia","machine-learning","futuro"],"excerpt":"Descubra as principais inovações em Inteligência Artificial que estão transformando indústrias e redefinindo o futuro da tecnologia em 2024.","filename":"2025-09-08-inovacoes-em-ia.md"}}]
+17:I[28711,["/portfolio/_next/static/chunks/b01d8231a23ddbc2.js","/portfolio/_next/static/chunks/ba7fd018c64ec117.js"],"PrintProvider"]
+18:I[64434,["/portfolio/_next/static/chunks/b01d8231a23ddbc2.js","/portfolio/_next/static/chunks/ba7fd018c64ec117.js"],"I18nProvider"]
+5:["$","$L17",null,{"children":["$","$L18",null,{"locale":"pt","messages":{"hero":{"greeting":"Olá, eu sou","name":"André Filipe de Moraes Goulart","subtitle":"Staff Software Engineer com mais de 10 anos de experiência em desenvolvimento web, especialista em tecnologias modernas como NodeJS, React, Vue e TypeScript","viewProjects":"Ver Projetos","contact":"Entre em Contato"},"about":{"title":"Sobre Mim","subtitle":"Staff Software Engineer","description1":"Com mais de 10 anos de experiência em desenvolvimento web, tenho me dedicado a criar soluções digitais inovadoras e interfaces modernas e responsivas.","description2":"Especializado em tecnologias modernas como NodeJS, React, Vue e TypeScript, busco sempre aprender continuamente e entregar soluções eficientes e sustentáveis que causem impacto positivo.","description3":"Minha maior inspiração é minha família, que me motiva a superar desafios e buscar a excelência em tudo o que faço.","experience":"Experiência Profissional"},"skills":{"title":"Habilidades","categories":{"all":"Todas","frontend":"Frontend","backend":"Backend","tools":"Ferramentas","other":"Outras"},"learning":"Aprendizado Contínuo","innovation":"Inovação","results":"Foco em Resultados","motto":"Sempre em busca de novas tecnologias e desafios"},"projects":{"title":"Projetos","viewDemo":"Ver Demo","github":"GitHub","description":"Estes são alguns dos meus projetos favoritos. Cada um representa um desafio único e uma oportunidade de crescimento.","viewMore":"Ver Mais no GitHub"},"contact":{"title":"Entre em Contato","subtitle":"Vamos trabalhar juntos","description":"Estou sempre aberto para discutir novas oportunidades, projetos interessantes, ou apenas bater um papo sobre tecnologia.","sendMessage":"Enviar uma Mensagem","whatsappDescription":"Preencha o formulário abaixo e clique em enviar para entrar em contato comigo via WhatsApp","name":"Nome","email":"Email","message":"Mensagem","namePlaceholder":"Seu nome","emailPlaceholder":"seu@email.com","messagePlaceholder":"Sua mensagem...","sendWhatsapp":"Enviar via WhatsApp","send":"Enviar Mensagem","success":"Mensagem enviada com sucesso!","error":"Erro ao enviar mensagem. Tente novamente."},"certifications":{"title":"Certificações","description":"Certificações e cursos que validam minha expertise técnica e compromisso com o aprendizado contínuo.","totalCerts":"Certificações","cloudFocus":"Especialização","latestYear":"Mais Recente","viewCertificate":"Ver Certificado"},"experiences":{"a1_viagens":{"title":"Specialist Frontend Engineer","company":"A1 Viagens","period":"Fevereiro 2026 - Maio 2026","description":"Atuei como engenheiro especialista em frontend, liderando iniciativas de automação com IA, implementação de testes automatizados e melhorias contínuas na plataforma. Responsável pela integração do Stripe para processamento de pagamentos, desenvolvimento de testes com Cypress e Playwright, e automação de fluxos com GitHub Actions.","technologies":["React","Next.js","TypeScript","Tailwind CSS","Node.js","Stripe","Cypress","Playwright","GitHub Actions"]},"nttdata":{"title":"Tech Lead","company":"NTTData","period":"Dezembro 2025 - Junho 2026","description":"Liderança técnica de squads frontend e backend no Itaú. Responsável pela arquitetura, definição de padrões de desenvolvimento e mentoria de times. Trabalho em projetos de modernização de sistemas, implementação de arquiteturas escaláveis e best practices de desenvolvimento.","technologies":["React","Node.js","TypeScript","AWS","Docker","Kubernetes","Microserviços"]},"skopia":{"title":"Especialista Fullstack Engineer | AWS Architect","company":"Skopia Digital (EclipseWork/NScreen)","period":"Dezembro 2024 - Novembro 2025","description":"Consultoria especializada em desenvolvimento fullstack e arquitetura AWS. Trabalhei em dois projetos principais: no Banco Master desenvolvendo uma aplicação bancária moderna com Angular para gestão de contas e transações; e na Aviva (Incasa Residencial Clube) criando soluções com React e NestJS para otimizar o sistema de reservas e melhorar a experiência dos usuários do clube residencial.","technologies":["React","Angular","NestJS","Node.js","AWS","TypeScript","Vue.js"]},"calindra":{"title":"Senior Frontend Engineer","company":"Calindra","period":"Julho 2024 - Novembro 2024","description":"Atuei como parte de uma consultoria, alocado no cliente Tania Bulhões, onde propus ideias e criei soluções para melhorar o site de e-commerce da empresa. Implementação de integração com Stripe para processamento de pagamentos, otimização de performance e melhorias na experiência do usuário.","technologies":["React","Vue.js","TypeScript","E-commerce","Stripe","UX/UI"]},"desygner":{"title":"Senior Frontend Engineer","company":"Desygner","period":"Dezembro 2023 - Maio 2024","description":"Desenvolvi interfaces modernas e responsivas usando React, Vue, Node.js, TypeScript, Styled-components, Storybook e Nx. Melhorei continuamente o código e criei componentes reutilizáveis, colaborando com designers e gerentes de produto para transformar conceitos em soluções funcionais.","technologies":["React","Vue.js","Node.js","TypeScript","Styled-components","Storybook","Nx"]},"stone":{"title":"Staff Software Engineer","company":"Stone","period":"Julho 2023 - Dezembro 2023","description":"Desenvolvi interfaces modernas e responsivas usando Vue.js, Next.js, React e Tailwind CSS.","technologies":["Vue.js","Next.js","React","Tailwind CSS"]},"mosaico_specialist":{"title":"Especialista Fullstack Engineer","company":"Mosaico","period":"Janeiro 2023 - Junho 2023","description":"Liderei a reestruturação do sistema de autenticação, implementando novas estratégias de login para melhorar a segurança e a experiência do usuário.","technologies":["React","Node.js","TypeScript","Autenticação","Especialista Tecnico"]},"mosaico_tech_lead":{"title":"Tech Lead","company":"Mosaico","period":"Janeiro 2022 - Janeiro 2023","description":"Liderei a equipe responsável pelo desenvolvimento de sistemas de autenticação e áreas logadas. Promovi melhorias nos processos e funcionalidades por meio da colaboração interdepartamental. Fui referência técnica para duas equipes, oferecendo suporte e orientação para aprimorar as habilidades técnicas dos desenvolvedores.","technologies":["React","Node.js","TypeScript","Autenticação","Liderança Técnica"]},"mosaico_fullstack":{"title":"Full Stack Engineer","company":"Mosaico","period":"Agosto 2019 - Janeiro 2022","description":"Participei da reengenharia do sistema de checkout do marketplace usando Next.js e React. Desenvolvi um painel financeiro para relatórios de lojas, utilizando NodeJS + Express em TypeScript para a API e React para o front-end.","technologies":["Next.js","React","Node.js","Express","TypeScript"]},"b2w_tech_lead":{"title":"Tech Lead / Full Stack Developer Senior","company":"B2W Digital","period":"Outubro 2017 - Julho 2019","description":"Assumi à liderança técnica de três projetos, Spacey (CMS para publicações do marketing) e gerenciador de promoções. Trabalhei no projeto Submarino usando JAVA, HTML, CSS, JavaScript e jQuery.","technologies":["React","Node.js","Java","JavaScript","jQuery","HTML","CSS"]},"b2w_frontend":{"title":"Frontend Developer Pleno","company":"B2W Digital","period":"Fevereiro 2015 - Outubro 2017","description":"Assumi à liderança técnica de três projetos, Spacey (CMS para publicações do marketing) e gerenciador de promoções. Trabalhei no projeto Submarino usando JAVA, HTML, CSS, JavaScript e jQuery.","technologies":["React","Node.js","Java","JavaScript","jQuery","HTML","CSS"]},"rrd_intern":{"title":"Desenvolvedor Web Estagiário","company":"RR Donnelley","period":"Janeiro 2013 - Julho 2014","description":"Auxiliei no desenvolvimento e manutenção de aplicações web internas usando ASP.NET e C#. Adquiri experiência prática em tecnologias web e colaborei com desenvolvedores seniores para aprimorar minhas habilidades.","technologies":["ASP.NET","HTML","CSS","JavaScript","AngularJS"]}},"projectsList":[{"title":"Vagas Lume","description":"Plataforma de vagas de emprego para desenvolvedores, com extração de atributos de vagas via LLM, busca otimizada para SEO e sistema de autenticação seguro."},{"title":"Kioto Manager - Controle de Acesso de Alunos","description":"Sistema de gerenciamento e controle de acesso para alunos da academia Kioto. Plataforma web responsiva para autenticação, agendamento de aulas e acompanhamento de frequência."},{"title":"Sistema de Reservas - Aviva Incasa","description":"Desenvolvimento de soluções para sistema de reservas de clube residencial, com foco em melhorias de UX e performance."},{"title":"E-commerce Tania Bulhões","description":"Otimização e melhorias em plataforma de e-commerce, focando na experiência do usuário e performance do site."},{"title":"Marketplace Checkout System","description":"Reengenharia completa do sistema de checkout de marketplace usando tecnologias modernas."},{"title":"CMS Spacey - B2W Digital","description":"Sistema de gerenciamento de conteúdo para publicações de marketing e gerenciador de promoções."}],"certificationsList":{"aws_cloud_practitioner":{"title":"AWS Certified Cloud Practitioner","instituicao":"Amazon Web Services (AWS)","data":"Agosto 2025","descricao":"Certificação fundamental da AWS que valida conhecimentos sobre conceitos de nuvem, serviços AWS, segurança e arquitetura. Credencial: 933a2d2e-ebd4-447b-9053-dbe33b094099","link":"https://www.credly.com/badges/933a2d2e-ebd4-447b-9053-dbe33b094099"},"javascript_intermediate":{"title":"JavaScript Intermediate Certificate","instituicao":"HackerRank","data":"Julho 2025","descricao":"Certificação intermediária em JavaScript validando conhecimentos em conceitos avançados de programação e desenvolvimento web. Credencial: cebe10e21cd6","link":"https://www.hackerrank.com/certificates/cebe10e21cd6"},"sql_advanced":{"title":"SQL (Advanced) Certificate","instituicao":"HackerRank","data":"Julho 2025","descricao":"Certificação avançada em SQL demonstrando expertise em consultas complexas, otimização de banco de dados e análise de dados. Credencial: 98a3110ebdc8","link":"https://www.hackerrank.com/certificates/98a3110ebdc8"},"software_engineer":{"title":"Software Engineer Certificate","instituicao":"HackerRank","data":"Julho 2025","descricao":"Certificação em Engenharia de Software validando competências em desenvolvimento de software e engenharia de computação. Credencial: 8f85af9249f3","link":"https://www.hackerrank.com/certificates/8f85af9249f3"},"frontend_react":{"title":"Frontend Developer (React) Certificate","instituicao":"HackerRank","data":"Novembro 2024","descricao":"Certificação especializada em desenvolvimento frontend com React e TypeScript, validando habilidades em criação de interfaces modernas. Credencial: 311e83c79289","link":"https://www.hackerrank.com/certificates/311e83c79289"},"ef_set_english":{"title":"Certificado EF SET 40/100 (A2 Elementary)","instituicao":"EF SET","data":"Maio 2024","descricao":"Certificação oficial de proficiência em inglês demonstrando nível A2 Elementary em compreensão e comunicação.","link":"https://www.efset.org/cert/"},"architecting_aws":{"title":"Architecting on AWS","instituicao":"Amazon Web Services (AWS)","data":"Outubro 2022","descricao":"Curso oficial AWS sobre arquitetura de soluções na nuvem, cobrindo design de sistemas distribuídos e boas práticas. Credencial: EjOywvZlM0OKqiPmflMfoQ2","link":"https://www.credly.com/badges/EjOywvZlM0OKqiPmflMfoQ2"},"angularjs_coursera":{"title":"Front-End JavaScript Frameworks: AngularJS","instituicao":"Coursera","data":"Agosto 2017","descricao":"Certificação em desenvolvimento frontend com AngularJS, abordando conceitos de Single Page Applications e frameworks JavaScript. Credencial: DLAM5TYS4SLH","link":"https://www.coursera.org/verify/DLAM5TYS4SLH"},"html_css_js_coursera":{"title":"HTML, CSS and JavaScript","instituicao":"Coursera","data":"Agosto 2017","descricao":"Certificação fundamental em tecnologias web, cobrindo HTML5, CSS3 e JavaScript para desenvolvimento frontend. Credencial: LDG97SGZTGYA","link":"https://www.coursera.org/verify/LDG97SGZTGYA"},"nodejs_coursera":{"title":"Server-side Development with NodeJS","instituicao":"Coursera","data":"Agosto 2017","descricao":"Certificação em desenvolvimento backend com Node.js, incluindo APIs REST, autenticação e integração com bancos de dados. Credencial: TTYWKBJKYX86","link":"https://www.coursera.org/verify/TTYWKBJKYX86"}}},"children":"$L19"}]}]
+19:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+1a:I[85654,["/portfolio/_next/static/chunks/504003311425f84c.js","/portfolio/_next/static/chunks/db40686d3c8a0b66.js"],"IconMark"]
+a:{"metadata":[["$","title","0",{"children":"React e JavaScript: O Guia Completo para Dominar o Desenvolvimento Frontend Moderno | Blog"}],["$","meta","1",{"name":"description","content":"Descubra como React revolucionou o desenvolvimento web e por que a combinação React + JavaScript é essencial para desenvolvedores modernos. Guia completo com exemplos práticos."}],["$","link","2",{"rel":"author","href":"https://www.linkedin.com/in/afgoulart"}],["$","meta","3",{"name":"author","content":"André Filipe de Moraes Goulart"}],["$","meta","4",{"name":"keywords","content":"software engineer, react, vue, nodejs, typescript, frontend, backend, fullstack developer"}],["$","link","5",{"rel":"alternate","type":"application/rss+xml","title":"RSS Feed (PT)","href":"/rss.xml"}],["$","link","6",{"rel":"alternate","type":"application/rss+xml","title":"RSS Feed (Português)","href":"/rss-pt.xml"}],["$","link","7",{"rel":"alternate","type":"application/rss+xml","title":"RSS Feed (English)","href":"/rss-en.xml"}],["$","meta","8",{"property":"og:title","content":"React e JavaScript: O Guia Completo para Dominar o Desenvolvimento Frontend Moderno"}],["$","meta","9",{"property":"og:description","content":"Descubra como React revolucionou o desenvolvimento web e por que a combinação React + JavaScript é essencial para desenvolvedores modernos. Guia completo com exemplos práticos."}],["$","meta","10",{"property":"og:type","content":"article"}],["$","meta","11",{"property":"article:published_time","content":"2025-09-22"}],["$","meta","12",{"property":"article:author","content":"Tech Blog Bot"}],["$","meta","13",{"property":"article:tag","content":"React"}],["$","meta","14",{"property":"article:tag","content":"JavaScript"}],["$","meta","15",{"property":"article:tag","content":"Frontend"}],["$","meta","16",{"property":"article:tag","content":"Desenvolvimento Web"}],["$","meta","17",{"property":"article:tag","content":"UI/UX"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"React e JavaScript: O Guia Completo para Dominar o Desenvolvimento Frontend Moderno"}],["$","meta","20",{"name":"twitter:description","content":"Descubra como React revolucionou o desenvolvimento web e por que a combinação React + JavaScript é essencial para desenvolvedores modernos. Guia completo com exemplos práticos."}],["$","link","21",{"rel":"icon","href":"/portfolio/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L1a","22",{}]],"error":null,"digest":"$undefined"}
+f:"$a:metadata"
