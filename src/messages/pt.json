@@ -29,10 +29,10 @@
     "motto": "Sempre em busca de novas tecnologias e desafios"
   },
   "projects": {
-    "title": "Projetos",
+    "title": "Projetos Pessoais",
     "viewDemo": "Ver Demo",
     "github": "GitHub",
-    "description": "Estes são alguns dos meus projetos favoritos. Cada um representa um desafio único e uma oportunidade de crescimento.",
+    "description": "Projetos pessoais em que coloco a mão na massa de ponta a ponta, da concepção ao deploy, aplicando as tecnologias e práticas que mais me empolgam.",
     "viewMore": "Ver Mais no GitHub"
   },
   "contact": {

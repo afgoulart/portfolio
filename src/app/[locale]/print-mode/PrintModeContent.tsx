@@ -3,6 +3,7 @@
 import {
   About,
   Skills,
+  Projects,
   Companies,
   Certifications,
   Contact,
@@ -47,10 +48,18 @@ export default function PrintModeContent() {
             <Skills />
           </section>
 
+          {/* Personal Projects */}
+          <section className="mb-8 pb-8 border-b border-gray-300">
+            <h2 className="text-xl font-bold text-gray-900 mb-6 uppercase tracking-wide">
+              Personal Projects
+            </h2>
+            <Projects />
+          </section>
+
           {/* Companies */}
           <section className="mb-8 pb-8 border-b border-gray-300">
             <h2 className="text-xl font-bold text-gray-900 mb-6 uppercase tracking-wide">
-              Companies & Projects
+              Companies
             </h2>
             <Companies />
           </section>

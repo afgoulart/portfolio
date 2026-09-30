@@ -24,7 +24,7 @@ export default function Navbar() {
   const navItems = [
     { href: `/${locale}#about`, label: locale === "pt" ? "Sobre" : "About" },
     { href: `/${locale}#skills`, label: locale === "pt" ? "Habilidades" : "Skills" },
-    // { href: `/${locale}#projects`, label: locale === "pt" ? "Projetos" : "Projects" },
+    { href: `/${locale}#projects`, label: locale === "pt" ? "Projetos" : "Projects" },
     { href: `/${locale}#companies`, label: locale === "pt" ? "Empresas" : "Companies" },
     { href: `/${locale}#contact`, label: locale === "pt" ? "Contato" : "Contact" },
   ];
