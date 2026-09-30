@@ -5,22 +5,14 @@ import { useInView } from 'react-intersection-observer';
 import { useTranslations } from '@/lib/i18n-context';
 import { ProjectCard } from '@/components/molecules';
 import { Button } from '@/components/atoms';
+import { projects } from '@/lib/data';
 
 export default function Projects() {
   const t = useTranslations('projects');
-  const tProjectsList = useTranslations('projectsList');
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1
   });
-
-  const projectsData = Array.from({length: 3}).map((_, index) => ({
-    title: tProjectsList(`${index}.title`),
-    description: tProjectsList(`${index}.description`),
-    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com/example'
-  }));
 
   return (
     <section id="projects" className="py-20 px-4 max-w-7xl mx-auto">
@@ -35,7 +27,7 @@ export default function Projects() {
         </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projectsData.map((project, index) => (
+          {projects.map((project, index) => (
             <ProjectCard
               key={index}
               {...project}
@@ -58,7 +50,7 @@ export default function Projects() {
           </p>
           <Button
             size="lg"
-            onClick={() => window.open('https://github.com/seuperfil', '_blank')}
+            onClick={() => window.open('https://github.com/afgoulart', '_blank')}
           >
             {t('viewMore')}
           </Button>

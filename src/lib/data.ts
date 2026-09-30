@@ -16,6 +16,7 @@ export const skills: Skill[] = [
   { name: "Styled-components", level: 85, category: 'frontend' },
   { name: "Cypress", level: 85, category: 'frontend' },
   { name: "Playwright", level: 85, category: 'frontend' },
+  { name: "Web Design", level: 80, category: 'frontend' },
   { name: "Node.js", level: 88, category: 'backend' },
   { name: "Express", level: 90, category: 'backend' },
   { name: "Python", level: 75, category: 'backend' },
@@ -23,17 +24,27 @@ export const skills: Skill[] = [
   { name: "AWS", level: 80, category: 'backend' },
   { name: "Stripe", level: 85, category: 'backend' },
   { name: "Kubernetes", level: 80, category: 'backend' },
+  { name: "Supabase", level: 85, category: 'backend' },
+  { name: "Postgres", level: 80, category: 'backend' },
+  { name: "Resend", level: 80, category: 'backend' },
+  { name: "Crawler", level: 80, category: 'backend' },
   { name: "Git", level: 90, category: 'tools' },
   { name: "CI/CD", level: 85, category: 'tools' },
   { name: "GitHub Actions", level: 85, category: 'tools' },
   { name: "Storybook", level: 80, category: 'tools' },
   { name: "Nx", level: 75, category: 'tools' },
   { name: "Vercel", level: 85, category: 'tools' },
+  { name: "SEO", level: 85, category: 'tools' },
   { name: "Testes Automatizados", level: 85, category: 'tools' },
+  { name: "Google Analytics", level: 80, category: 'tools' },
+  { name: "Agile Development", level: 90, category: 'tools' },
   { name: "Claude Code", level: 80, category: 'other' },
   { name: "Amazon Q", level: 80, category: 'other' },
   { name: "GitHub Copilot", level: 80, category: 'other' },
-  { name: "ML & AI Programming", level: 80, category: 'other' }
+  { name: "ML & AI Programming", level: 80, category: 'other' },
+  { name: "Desenvolvimento com AI", level: 90, category: 'other' },
+  { name: "Project Management", level: 85, category: 'other' },
+  { name: "Ownership", level: 90, category: 'other' }
 ];
 
 export const projects: Project[] = [

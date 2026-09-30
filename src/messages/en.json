@@ -29,10 +29,10 @@
     "motto": "Always looking for new technologies and challenges"
   },
   "projects": {
-    "title": "Projects",
+    "title": "Personal Projects",
     "viewDemo": "View Demo",
     "github": "GitHub",
-    "description": "These are some of my favorite projects. Each represents a unique challenge and a growth opportunity.",
+    "description": "Personal projects where I get hands-on end-to-end, from concept to deployment, applying the technologies and practices I'm most excited about.",
     "viewMore": "View More on GitHub"
   },
   "contact": {
@@ -61,6 +61,22 @@
     "viewCertificate": "View Certificate"
   },
   "experiences": {
+    "vagaslume_founder": {
+      "title": "Founder",
+      "company": "Vagas Lume",
+      "period": "2026 - Present",
+      "description": "Conceived and built a job board platform for developers from the ground up, featuring LLM-powered job attribute extraction, SEO-optimized search, and a secure authentication system. Responsible for the entire technical stack, AI-driven automations (Claude Code) for content curation, data architecture on Supabase, and end-to-end product management.",
+      "technologies": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Python",
+        "Supabase",
+        "Vercel",
+        "Claude Code",
+        "SEO"
+      ]
+    },
     "a1_viagens": {
       "title": "Specialist Frontend Engineer",
       "company": "A1 Viagens",
