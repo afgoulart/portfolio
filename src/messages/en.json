@@ -61,6 +61,22 @@
     "viewCertificate": "View Certificate"
   },
   "experiences": {
+    "vagaslume_founder": {
+      "title": "Founder",
+      "company": "Vagas Lume",
+      "period": "2026 - Present",
+      "description": "Conceived and built a job board platform for developers from the ground up, featuring LLM-powered job attribute extraction, SEO-optimized search, and a secure authentication system. Responsible for the entire technical stack, AI-driven automations (Claude Code) for content curation, data architecture on Supabase, and end-to-end product management.",
+      "technologies": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Python",
+        "Supabase",
+        "Vercel",
+        "Claude Code",
+        "SEO"
+      ]
+    },
     "a1_viagens": {
       "title": "Specialist Frontend Engineer",
       "company": "A1 Viagens",

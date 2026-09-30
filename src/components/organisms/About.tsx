@@ -11,6 +11,7 @@ export default function About() {
   const t = useTranslations("about");
   const tExperiences = useTranslations("experiences");
   const experiences = [
+    "vagaslume_founder",
     "a1_viagens",
     "nttdata",
     "skopia",
