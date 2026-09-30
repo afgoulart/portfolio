@@ -59,41 +59,31 @@ export const projects: Project[] = [
     title: "Kioto Manager - Controle de Acesso de Alunos",
     description: "Sistema de gerenciamento e controle de acesso para alunos da academia Kioto. Plataforma web responsiva para autenticação, agendamento de aulas e acompanhamento de frequência com dashboard administrativo.",
     image: "/projects/kioto.jpg",
-    technologies: ["React", "Next.js", "TypeScript", "Node.js", "Tailwind CSS"],
-    liveUrl: "https://kioto-academia.vercel.app",
-    githubUrl: "https://github.com/afgoulart/kioto-manager"
+    technologies: ["React", "Next.js", "TypeScript", "Node.js", "Tailwind CSS"]
   },
   {
     title: "Sistema de Reservas - Aviva Incasa",
     description: "Desenvolvimento de soluções para sistema de reservas de clube residencial, com foco em melhorias de UX e performance.",
     image: "/projects/aviva.jpg",
-    technologies: ["React", "Node.js", "AWS", "TypeScript"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/example"
+    technologies: ["React", "Node.js", "AWS", "TypeScript"]
   },
   {
     title: "E-commerce Tania Bulhões",
     description: "Otimização e melhorias em plataforma de e-commerce, focando na experiência do usuário e performance do site.",
     image: "/projects/ecommerce.jpg",
-    technologies: ["React", "Vue.js", "TypeScript", "E-commerce"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/example"
+    technologies: ["React", "Vue.js", "TypeScript", "E-commerce"]
   },
   {
     title: "Marketplace Checkout System",
     description: "Reengenharia completa do sistema de checkout de marketplace usando tecnologias modernas.",
     image: "/projects/checkout.jpg",
-    technologies: ["Next.js", "React", "Node.js", "Express", "TypeScript"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/example"
+    technologies: ["Next.js", "React", "Node.js", "Express", "TypeScript"]
   },
   {
     title: "CMS Spacey - B2W Digital",
     description: "Sistema de gerenciamento de conteúdo para publicações de marketing e gerenciador de promoções.",
     image: "/projects/cms.jpg",
-    technologies: ["React", "Node.js", "Java", "JavaScript"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/example"
+    technologies: ["React", "Node.js", "Java", "JavaScript"]
   }
 ];
 
